@@ -1,0 +1,20 @@
+paths:
+  input_json: data/cot-1/llava-cot-11b/node.json
+  database: data/cot-1/llava-cot-11b/node_eval.sqlite3
+  output_json: data/cot-1/llava-cot-11b/node_eval.json
+  system_prompt: docs/prompt/node_evaluation_system.md
+
+model:
+  litellm_model: openai/gpt-5.4
+  api_base: https://www.codex2api.com/v1
+  api_key_env: CODEX_2_API_API_KEY
+  timeout_s: 90
+  max_concurrency: 4
+  completion_kwargs:
+    temperature: 0.1
+
+retry:
+  max_attempts: 2
+  min_wait_s: 10
+  max_wait_s: 60
+  retry_invalid_output: true
