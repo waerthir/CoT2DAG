@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from pathlib import Path
 
 import yaml
@@ -26,7 +27,17 @@ class ModelConfig(BaseModel):
     api_key_env: str = Field(min_length=1)
     timeout_s: float = Field(gt=0)
     max_concurrency: int = Field(gt=0)
+    min_request_interval_s: float = Field(default=0.0, ge=0)
+    stream: bool = False
     completion_kwargs: dict[str, object] = Field(default_factory=dict)
+
+    def model_post_init(self, __context: object) -> None:
+        """检查请求最小间隔为有限的非负数。"""
+
+        if not math.isfinite(self.min_request_interval_s):
+            raise ValueError("model.min_request_interval_s must be finite")
+        if "stream" in self.completion_kwargs:
+            raise ValueError("model.stream must not be set in completion_kwargs")
 
 
 class RetryConfig(BaseModel):

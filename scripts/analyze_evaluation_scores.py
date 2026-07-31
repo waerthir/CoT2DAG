@@ -383,3 +383,21 @@ python scripts\analyze_evaluation_scores.py `
   --threshold 6 `
   --metrics '{\"Dependency_Completeness\":\"依赖关系完整性\",\"Dependency_Accuracy\":\"依赖关系准确性\",\"Reasoning_Logic_Accuracy\":\"推理逻辑准确性\",\"Reasoning_Type_Accuracy\":\"推理类型准确性\"}'
 '''
+
+
+
+'''
+python scripts\analyze_evaluation_scores.py `
+  data\cot-1\gemini-3.1pro\node_eval.json `
+  data\cot-1\gemini-3.1pro\node_stat.txt `
+  data\cot-1\gemini-3.1pro\node_stat.png `
+  --threshold 6 `
+  --metrics '{\"Fidelity\":\"信息忠实度\",\"Atomicity\":\"原子化程度\"}'
+
+python scripts\analyze_evaluation_scores.py `
+  data\cot-1\gemini-3.1pro\rel_eval.json `
+  data\cot-1\gemini-3.1pro\rel_stat.txt `
+  data\cot-1\gemini-3.1pro\rel_stat.png `
+  --threshold 6 `
+  --metrics '{\"Dependency_Completeness\":\"依赖关系完整性\",\"Dependency_Accuracy\":\"依赖关系准确性\",\"Reasoning_Logic_Accuracy\":\"推理逻辑准确性\",\"Reasoning_Type_Accuracy\":\"推理类型准确性\"}'
+'''

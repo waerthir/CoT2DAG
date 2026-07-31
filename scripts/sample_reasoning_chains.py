@@ -1,4 +1,4 @@
-"""从大 JSON 文件中随机抽取推理链，并生成可直接用于批处理的输入文件。"""
+"""从 JSON 或 JSONL 文件中随机抽取推理链，并生成 JSON 批处理输入文件。"""
 
 from __future__ import annotations
 
@@ -17,9 +17,9 @@ def build_parser() -> argparse.ArgumentParser:
     """创建并返回随机抽样脚本的命令行参数解析器。"""
 
     parser = argparse.ArgumentParser(
-        description="从 JSON 数组随机抽取推理链，并生成带 batch_id 的精简 JSON。"
+        description="从 JSON 数组或 JSONL 随机抽取推理链，并生成带 batch_id 的精简 JSON。"
     )
-    parser.add_argument("input_json", type=Path, help="源 JSON 文件路径")
+    parser.add_argument("input_json", type=Path, help="源 JSON 或 JSONL 文件路径")
     parser.add_argument("output_json", type=Path, help="抽样结果 JSON 文件路径")
     parser.add_argument(
         "--count",
@@ -48,30 +48,51 @@ def _non_negative_integer(value: str) -> int:
     return number
 
 
-def load_source_items(input_path: Path) -> list[dict[str, Any]]:
-    """读取源 JSON 数组，并验证每个元素都有非空 reasoning_chain_model。"""
+def load_source_items(input_path: Path) -> tuple[list[dict[str, Any]], int]:
+    """读取源文件，保留有效记录并返回累计跳过的坏记录数量。"""
 
     try:
-        raw_data = json.loads(input_path.read_text(encoding="utf-8"))
+        if input_path.suffix.lower() == ".json":
+            raw_data = json.loads(input_path.read_text(encoding="utf-8"))
+            if not isinstance(raw_data, list):
+                raise SamplingInputError("输入 JSON 顶层必须是数组")
+            skipped_count = 0
+        elif input_path.suffix.lower() == ".jsonl":
+            raw_data, skipped_count = _load_jsonl_items(input_path)
+        else:
+            raise SamplingInputError("输入文件后缀必须是 .json 或 .jsonl")
     except FileNotFoundError as exc:
         raise SamplingInputError(f"输入文件不存在：{input_path}") from exc
     except json.JSONDecodeError as exc:
         raise SamplingInputError(f"输入文件不是合法 JSON：{exc}") from exc
 
-    if not isinstance(raw_data, list):
-        raise SamplingInputError("输入 JSON 顶层必须是数组")
-
     items: list[dict[str, Any]] = []
-    for index, item in enumerate(raw_data):
+    for item in raw_data:
         if not isinstance(item, dict):
-            raise SamplingInputError(f"输入第 {index} 项必须是对象")
+            skipped_count += 1
+            continue
         reasoning_chain = item.get("reasoning_chain_model")
         if not isinstance(reasoning_chain, str) or not reasoning_chain.strip():
-            raise SamplingInputError(
-                f"输入第 {index} 项缺少非空字符串 reasoning_chain_model"
-            )
+            skipped_count += 1
+            continue
         items.append(item)
-    return items
+    return items, skipped_count
+
+
+def _load_jsonl_items(input_path: Path) -> tuple[list[Any], int]:
+    """逐行读取 JSONL，跳过空行和无法解析的非空行。"""
+
+    items: list[Any] = []
+    skipped_count = 0
+    with input_path.open("r", encoding="utf-8") as source_file:
+        for line in source_file:
+            if not line.strip():
+                continue
+            try:
+                items.append(json.loads(line))
+            except json.JSONDecodeError:
+                skipped_count += 1
+    return items, skipped_count
 
 
 def build_output_items(
@@ -120,11 +141,12 @@ def execute(input_path: Path, output_path: Path, count: int, seed: int | None) -
     """完成读取、抽样、写出，并打印本次抽样摘要。"""
 
     input_path, output_path = validate_paths(input_path, output_path)
-    source_items = load_source_items(input_path)
+    source_items, skipped_count = load_source_items(input_path)
     output_items = build_output_items(source_items, count, seed)
     write_output_items(output_path, output_items)
 
-    print(f"源文件元素数：{len(source_items)}")
+    print(f"有效源记录数：{len(source_items)}")
+    print(f"跳过记录数：{skipped_count}")
     print(f"请求抽取数：{count}")
     print(f"实际抽取数：{len(output_items)}")
     print(f"随机种子：{seed if seed is not None else '未指定'}")
@@ -154,4 +176,13 @@ python scripts/sample_reasoning_chains.py `
   data\cot-1\llava-cot-11b\cot.json `
   --count 200 `
   --seed 6666
+
+---
+
+python scripts\sample_reasoning_chains.py `
+  data\cot-1\gemini-3.1pro\ready3_gemini31pro_api777_native_promptA_en_blind_manifest_first3_fixed_20260721.jsonl `
+  data\cot-1\gemini-3.1pro\cot.json `
+  --count 200 `
+  --seed 6666
+
 '''

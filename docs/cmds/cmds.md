@@ -52,7 +52,37 @@ python -m src.tasks.node_evaluation.cli retry-failed `
 python -m src.tasks.node_evaluation.cli run `
   --config data/cot-1/llava-cot-11b/node.yaml
 
+python -m src.tasks.node_evaluation.cli export `
+  --config data/cot-1/llava-cot-11b/node.yaml
+
+
+python -m src.tasks.relationship_evaluation.cli retry-failed `
+  --config data/cot-1/llava-cot-11b/relationship.yaml
 
 python -m src.tasks.relationship_evaluation.cli run `
   --config data/cot-1/llava-cot-11b/relationship.yaml
+
+python -m src.tasks.relationship_evaluation.cli export `
+  --config data/cot-1/llava-cot-11b/relationship.yaml
+
+
+
+python -m src.tasks.node_evaluation.cli retry-failed `
+  --config data/cot-1/gemini-3.1pro/node.yaml
+
+python -m src.tasks.node_evaluation.cli run `
+  --config data/cot-1/gemini-3.1pro/node.yaml
+
+python -m src.tasks.node_evaluation.cli export `
+  --config data/cot-1/gemini-3.1pro/node.yaml
+
+
+python -m src.tasks.relationship_evaluation.cli retry-failed `
+  --config data/cot-1/gemini-3.1pro/relationship.yaml
+
+python -m src.tasks.relationship_evaluation.cli run `
+  --config data/cot-1/gemini-3.1pro/relationship.yaml
+
+python -m src.tasks.relationship_evaluation.cli export `
+  --config data/cot-1/gemini-3.1pro/relationship.yaml
 ```

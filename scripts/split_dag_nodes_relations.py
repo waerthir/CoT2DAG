@@ -280,4 +280,8 @@ if __name__ == "__main__":
 python scripts/split_dag_nodes_relations.py `
   data\cot-1\llava-cot-11b\dag.json data\cot-1\llava-cot-11b\cot.json `
   data\cot-1\llava-cot-11b\node.json data\cot-1\llava-cot-11b\relationship.json
+
+python scripts/split_dag_nodes_relations.py `
+  data\cot-1\gemini-3.1pro\dag.json data\cot-1\gemini-3.1pro\cot.json `
+  data\cot-1\gemini-3.1pro\node.json data\cot-1\gemini-3.1pro\relationship.json
 '''

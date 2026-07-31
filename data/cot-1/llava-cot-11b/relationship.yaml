@@ -9,9 +9,10 @@ model:
   api_base: https://www.codex2api.com/v1
   api_key_env: CODEX_2_API_API_KEY
   timeout_s: 90
-  max_concurrency: 4
+  max_concurrency: 8
   completion_kwargs:
     temperature: 0.1
+  min_request_interval_s: 0.0
 
 retry:
   max_attempts: 3

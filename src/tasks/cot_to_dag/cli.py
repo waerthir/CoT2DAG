@@ -91,3 +91,14 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+
+'''
+
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-1\gemini-3.1pro\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-1\gemini-3.1pro\cot_to_dag.yaml
+
+
+python -m src.tasks.cot_to_dag.cli export --config data\cot-1\gemini-3.1pro\cot_to_dag.yaml
+'''
