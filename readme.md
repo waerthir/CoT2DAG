@@ -1,1 +1,30 @@
 llm批处理引擎见src\batch_engine，实际使用的库为litellm，没有做额外的配置，但是往上面套了Instructor来约束输出
+
+一个yaml的配置文件如下，需要配置对应的任务分发模块使用
+
+```
+  input_json: data\cot-1\gemini-3.1pro\cot.json
+  database: data\cot-1\gemini-3.1pro\dag.sqlite3
+  output_json: data\cot-1\gemini-3.1pro\dag.json
+  system_prompt: docs/prompt/cot_to_dag_system.md
+
+model:
+  # LiteLLM 模型名；请按中转站支持的模型与 provider 前缀修改。
+  litellm_model: openai/gpt-5.4-mini
+  # 中转站的 OpenAI 兼容基础地址；通常不是敏感信息。
+  api_base: https://www.codex2api.com/v1
+  api_key_env: CODEX_2_API_API_KEY
+  timeout_s: 90
+  max_concurrency: 4
+  completion_kwargs:
+    temperature: 0.1
+  min_request_interval_s: 0.0
+  stream: true
+
+retry:
+  # max_attempts 包含首次请求。
+  max_attempts: 3
+  min_wait_s: 2
+  max_wait_s: 60
+  retry_invalid_output: true
+```

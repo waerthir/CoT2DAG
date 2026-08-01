@@ -257,3 +257,16 @@ python scripts\extract_problem_id_reasoning_chains.py `
 python -m src.tasks.cot_to_dag.cli run --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
+
+
+
+
+
+
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\glm-5v-turbo\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\gpt-5.6-sol-xhigh\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\grok-4.5-high\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\kimi-2.7-code\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\minimax-m3\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\qwen-3.7-plus\cot_to_dag.yaml
