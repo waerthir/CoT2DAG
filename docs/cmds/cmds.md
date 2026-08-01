@@ -250,3 +250,10 @@ python scripts\extract_problem_id_reasoning_chains.py `
   data\cot-2\qwen-3.7-plus\qwen3.7-plus-process1.json `
   data\cot-2\qwen-3.7-plus\cot.json
 
+
+
+
+
+python -m src.tasks.cot_to_dag.cli run --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-2\gemini-3.1-pro\cot_to_dag.yaml
