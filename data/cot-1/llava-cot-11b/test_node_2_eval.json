@@ -1,0 +1,100 @@
+[
+  {
+    "batch_id": "001-C_1",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "001-C_2",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "001-C_3",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "001-I_1",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 9.5
+    }
+  },
+  {
+    "batch_id": "001-I_2",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "001-I_3",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "001-I_4",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "001-O",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "002-C_1",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "002-C_2",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "002-C_3",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "002-C_4",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  },
+  {
+    "batch_id": "002-I_1",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 9.5
+    }
+  },
+  {
+    "batch_id": "002-O",
+    "evaluation": {
+      "Fidelity": 10.0,
+      "Atomicity": 10.0
+    }
+  }
+]

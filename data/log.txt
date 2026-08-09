@@ -1,0 +1,168 @@
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\gemini-3.1-pro\gemini-3.1-pro-process1.json `
+>>   data\cot-2\gemini-3.1-pro\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：3925
+跳过记录数：0
+实际抽取数：3925
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\gemini-3.1-pro\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\glm-5v-turbo\glm-5v-turbo-process1.json `
+>>   data\cot-2\glm-5v-turbo\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：3937
+跳过记录数：0
+实际抽取数：3937
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\glm-5v-turbo\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\gpt-5.6-sol-xhigh\gpt-5.6-sol-xhigh-process1.json `
+>>   data\cot-2\gpt-5.6-sol-xhigh\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：3940
+跳过记录数：0
+实际抽取数：3940
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\gpt-5.6-sol-xhigh\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\grok-4.5-high\grok-4.5-high-process1.json `
+>>   data\cot-2\grok-4.5-high\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：9691
+跳过记录数：0
+实际抽取数：9691
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\grok-4.5-high\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\kimi-2.7-code\kimi-2.7-code-process1.json `
+>>   data\cot-2\kimi-2.7-code\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：3940
+跳过记录数：0
+实际抽取数：3940
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\kimi-2.7-code\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\minimax-m3\minimax-m3-process1.json `
+>>   data\cot-2\minimax-m3\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：3936
+跳过记录数：0
+实际抽取数：3936
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\minimax-m3\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\sample_reasoning_chains.py `
+>>   data\cot-2\qwen-3.7-plus\qwen3.7-plus-process1.json `
+>>   data\cot-2\qwen-3.7-plus\cot.json `
+>>   --all
+运行模式：全采样
+有效源记录数：3936
+跳过记录数：0
+实际抽取数：3936
+输出文件：E:\TrashE\work\CoT2DAG\data\cot-2\qwen-3.7-plus\cot.json
+(dag_env) PS E:\TrashE\work\CoT2DAG> 
+
+
+
+
+
+
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\gemini-3.1-pro\cot.json `
+>>   --min-consecutive-han 5
+检测到中文：分解者利用
+连续汉字长度：5
+首次命中位置：$[342]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\gemini-3.1-pro\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：图像提供了一幅中国部分地区的地图
+连续汉字长度：16
+首次命中位置：$[1639]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\glm-5v-turbo\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：月份全省亿元以上省外投资项目
+连续汉字长度：14
+首次命中位置：$[1600]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\gpt-5.6-sol-xhigh\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：图中种群增长速率随种群数量增加先升高后降低
+连续汉字长度：21
+首次命中位置：$[339]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\grok-4.5-high\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：促进资源循环利用并减轻环境污染
+连续汉字长度：15
+首次命中位置：$[2675]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\kimi-2.7-code\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：代表暖温带半湿润气候
+连续汉字长度：10
+首次命中位置：$[1631]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\minimax-m3\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：充足的光照和热量资源
+连续汉字长度：10
+首次命中位置：$[1627]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> python scripts\check_json_chinese.py `
+>>   data\cot-2\qwen-3.7-plus\cot.json `
+>>   --min-consecutive-han 10
+检测到中文：北太平洋暖流令垃圾池持续流动
+连续汉字长度：14
+首次命中位置：$[1946]['reasoning_chain_model']
+(dag_env) PS E:\TrashE\work\CoT2DAG> 
+
+
+
+
+
+
+(dag_env) PS E:\TrashE\work\CoT2DAG> python -m src.tasks.cot_to_dag.cli export --config data\cot-4\gemma-4-12b-it\cot_to_dag.yaml
+Exported 9689 completed task(s) to E:\TrashE\work\CoT2DAG\data\cot-4\gemma-4-12b-it\dag.json.
+Status: pending=0, completed=9689, failed=0
+(dag_env) PS E:\TrashE\work\CoT2DAG> python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\gemma-4-12b-it\cot_to_dag.yaml
+Reset 0 failed task(s) to pending.
+Status: pending=0, completed=9689, failed=0
+(dag_env) PS E:\TrashE\work\CoT2DAG> python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\gemma-4-31b-it\cot_to_dag.yaml
+Reset 0 failed task(s) to pending.
+Status: pending=0, completed=9689, failed=0
+(dag_env) PS E:\TrashE\work\CoT2DAG> python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\glm-4.1v-9b\cot_to_dag.yaml
+Reset 0 failed task(s) to pending.
+Status: pending=0, completed=9689, failed=0
+(dag_env) PS E:\TrashE\work\CoT2DAG> python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\llava-cot-11b\cot_to_dag.yaml
+Reset 0 failed task(s) to pending.
+Status: pending=0, completed=9689, failed=0
+
+(dag_env) PS E:\TrashE\work\CoT2DAG> python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\qwen3-vl-32b\cot_to_dag.yaml
+Reset 0 failed task(s) to pending.
+Status: pending=0, completed=9689, failed=0
+
+
+
+
+
+minicpm-v-4.5\cot_to_dag.yaml
+neo1.0-9b\cot_to_dag.yaml
+nvlm-d-72b\cot_to_dag.yaml
+qwen2.5-VL-72b\cot_to_dag.yaml
+qwen3-vl-8b\cot_to_dag.yaml
+internvl3.5-38b\cot_to_dag.yaml
+
+
+
+
+实际开销，cot-2全量跑完：
+
+7.3769
+
+
+
+
+
+
