@@ -437,6 +437,10 @@ python scripts\extract_problem_id_reasoning_chains.py `
   data\cot-4\internvl3.5-38b\internvl3-5-38b-process1_translated.json `
   data\cot-4\internvl3.5-38b\cot.json
 
+python scripts\extract_problem_id_reasoning_chains.py `
+  data\cot-4\vl-rethinker-72b\vl-rethinker-72b-process1_translated.json `
+  data\cot-4\vl-rethinker-72b\cot.json
+
 
 
 
@@ -454,6 +458,7 @@ python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\qwen2.5-VL-7
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\qwen3-vl-32b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\qwen3-vl-8b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\internvl3.5-38b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\vl-rethinker-72b\cot_to_dag.yaml
 
 
 python -m src.tasks.cot_to_dag.cli run --config data\cot-4\gemma-4-12b-it\cot_to_dag.yaml
@@ -467,6 +472,8 @@ python -m src.tasks.cot_to_dag.cli run --config data\cot-4\qwen2.5-VL-72b\cot_to
 python -m src.tasks.cot_to_dag.cli run --config data\cot-4\qwen3-vl-32b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli run --config data\cot-4\qwen3-vl-8b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli run --config data\cot-4\internvl3.5-38b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-4\vl-rethinker-72b\cot_to_dag.yaml
+
 
 python -m src.tasks.cot_to_dag.cli export --config data\cot-4\gemma-4-12b-it\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-4\gemma-4-31b-it\cot_to_dag.yaml
@@ -479,24 +486,20 @@ python -m src.tasks.cot_to_dag.cli export --config data\cot-4\qwen2.5-VL-72b\cot
 python -m src.tasks.cot_to_dag.cli export --config data\cot-4\qwen3-vl-32b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-4\qwen3-vl-8b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-4\internvl3.5-38b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-4\vl-rethinker-72b\cot_to_dag.yaml
 ```
 
 
 
 
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\minicpm-v-4.5\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\neo1.0-9b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\nvlm-d-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\qwen2.5-VL-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\qwen3-vl-8b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-4\internvl3.5-38b\cot_to_dag.yaml
+
+
 
 python -m src.tasks.cot_to_dag.cli run --config data\cot-4\minicpm-v-4.5\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-4\neo1.0-9b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli run --config data\cot-4\nvlm-d-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-4\qwen2.5-VL-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-4\qwen3-vl-8b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-4\internvl3.5-38b\cot_to_dag.yaml
+
 
 
 

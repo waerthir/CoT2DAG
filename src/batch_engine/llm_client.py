@@ -61,7 +61,10 @@ class StructuredLlmClient:
         self._config = config
         # 基础 URL 是普通连接配置，直接从 YAML 读取；密钥才从 .env 读取。
         self._api_key = _required_environment(config.model.api_key_env)
-        self._client = instructor.from_litellm(acompletion)
+        self._client = instructor.from_litellm(
+            acompletion,
+            mode=instructor.Mode.JSON,
+        )
         # 全部 worker 共用同一客户端，因此也共用同一个请求发起节流器。
         self._request_pacer = _RequestPacer(config.model.min_request_interval_s)
 
