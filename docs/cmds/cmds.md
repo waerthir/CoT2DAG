@@ -802,3 +802,34 @@ python -m src.tasks.dag_evaluation.cli export `
 
 
 
+
+
+
+跑已有的cot 2 dag
+
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\minicpm-v-4.5\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\nvlm-d-72b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\qwen2.5-VL-72b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-14b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-2b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-5-8b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\llava-v1.6-34b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\metis-rise-72b\cot_to_dag.yaml
+
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\minicpm-v-4.5\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\nvlm-d-72b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\qwen2.5-VL-72b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-14b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-2b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-5-8b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\llava-v1.6-34b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\metis-rise-72b\cot_to_dag.yaml
+
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\minicpm-v-4.5\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\nvlm-d-72b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\qwen2.5-VL-72b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-14b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-2b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-5-8b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\llava-v1.6-34b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\metis-rise-72b\cot_to_dag.yaml
