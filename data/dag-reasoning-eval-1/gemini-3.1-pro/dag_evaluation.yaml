@@ -1,0 +1,22 @@
+paths:
+  input_json: data/dag-reasoning-eval-1/gemini-3.1-pro/combine.json
+  database: data/dag-reasoning-eval-1/gemini-3.1-pro/dag_evaluation.sqlite3
+  output_json: data/dag-reasoning-eval-1/gemini-3.1-pro/dag_evaluation.json
+  system_prompt: docs/prompt/dag_eval.md
+
+model:
+  litellm_model: openai/gpt-5.6-luna
+  api_base: https://www.codex2api.com/v1
+  api_key_env: CODEX_2_API_API_KEY_4_EVAL
+  timeout_s: 45
+  max_concurrency: 200
+  completion_kwargs:
+    temperature: 0.1
+  min_request_interval_s: 0.0
+  stream: true
+
+retry:
+  max_attempts: 3
+  min_wait_s: 2
+  max_wait_s: 60
+  retry_invalid_output: true

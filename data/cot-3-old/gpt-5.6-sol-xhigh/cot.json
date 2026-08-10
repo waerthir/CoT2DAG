@@ -1,0 +1,1190 @@
+[
+  {
+    "batch_id": "open_biology_supplement_00159",
+    "reasoning_chain_model": "In the figure, ② indicates transfer to 37℃ culture at about 2.5 h; at this time the extracellular P enzyme activity of sec1 is about 20 U·mg⁻¹, then decreases to about 12 U·mg⁻¹, and further decreases to about 9 U·mg⁻¹. Since extracellular P enzyme activity reflects the amount of P enzyme secretion, this indicates that the amount of P enzyme secreted by sec1 at 37℃ decreases over time. Final answer: Gradually decreases."
+  },
+  {
+    "batch_id": "open_biology_supplement_00065",
+    "reasoning_chain_model": "In the figure, the population growth rate first increases and then decreases as population size increases, and the population size corresponding to label C is closest to the highest point of the growth-rate curve; the growth rate of logistic growth is dN/dt=rN(1-N/K), and when N=K/2 the growth rate is maximum, so starting capture at this population size and maintaining the population at this level can obtain the maximum sustainable yield. Final answer: C"
+  },
+  {
+    "batch_id": "open_biology_supplement_00068",
+    "reasoning_chain_model": "In the figure, stage A uses H2O under light and releases ①, while providing ATP and NADPH to stage B; stage B returns ② and ③ to stage A respectively. According to the photolysis of water in the light reaction producing O2, ATP producing ADP and Pi after consumption, and NADPH producing NADP+ after being oxidized, it can be known that ① is O2, ② is ADP and Pi, and ③ is NADP+. In the cycle of stage B, CO2 combines with ④ to form 2 C3 compounds, so ④ is a C5 compound, namely RuBP. Final answer: O2, ADP and Pi, NADP+, C5 compound (RuBP)"
+  },
+  {
+    "batch_id": "open_c8d2340a69524d43d1c28ec2",
+    "reasoning_chain_model": "The figure shows that from January to June 2012, the actually received funds for extra-provincial investment projects over 100 million yuan in Anhui Province reached 242.81 billion yuan, a year-on-year increase of 20.3%, equivalent to 35.7% of the province’s fixed asset investment in the same period, indicating that the scale of its undertaking of industrial transfer is relatively large. Industries usually transfer from areas with higher production factor costs to areas with lower costs; compared with developed eastern regions such as Shanghai, Jiangsu, and Zhejiang, Anhui has abundant labor resources, lower wage levels, relatively sufficient land supply, and lower prices, thus reducing enterprise production costs. Final answer: Labor costs and land costs are lower."
+  },
+  {
+    "batch_id": "open_0e528eee54eb862ba204bdfc",
+    "reasoning_chain_model": "In the figure, the carbon dioxide concentration at all soil depths in artificial grassland is generally the highest, while that in natural grassland is significantly lower; since the higher the soil carbon dioxide concentration, the stronger the carbonic acid dissolution effect, the soil carbon dioxide accumulation caused by artificial vegetation should be reduced, and natural grassland should be protected and restored on the premise of preventing soil erosion, while limiting the expansion of artificial grassland and other overly lush vegetation. Final answer: Protect and restore natural grassland, limit the expansion of artificial grassland and other high-biomass vegetation, and control excessive vegetation luxuriance to reduce soil carbon dioxide concentration and the dissolution effect on the stone forest."
+  },
+  {
+    "batch_id": "open_97748a581f946c1fdd872ca7",
+    "reasoning_chain_model": "In the figure, the newly added urban population accounts for 65%, clearly higher than the original urban population’s 35%; the main source of the newly added urban population is people who migrated from rural areas into cities and towns. Final answer: Rural areas"
+  },
+  {
+    "batch_id": "open_f1d0b79ecc7bf85e2bea03a0",
+    "reasoning_chain_model": "Location ④ in the figure is far from the northern front, and the nearby isobars are relatively sparse, so the weather is relatively stable and the wind is relatively weak; the possibility of precipitation or dust is lower. In contrast, at location ② the isobars are dense and the wind is stronger, location ③ is close to the front, and location ① is also more easily affected by weather systems than location ④. When there is no precipitation, little dust, and weaker wind, it is most suitable for washing cars, and the car-washing index is the lowest. Final answer: 4"
+  },
+  {
+    "batch_id": "open_ecc43cd6671c3eed2ea8352f",
+    "reasoning_chain_model": "In the figure, the average temperature in January at place A is higher than in July, indicating that place A is located in the Southern Hemisphere and July is winter; comparing the July precipitation shown in the figure with the annual precipitation, and using the annual precipitation divided by 12 as the monthly average precipitation, it can be seen that July precipitation is relatively high, the seasonal distribution of precipitation is relatively even, with slightly more in winter and slightly less in summer, whereas southern Anhui is affected by the monsoon and precipitation is mainly concentrated in summer, with less in winter, so the seasonal distribution of precipitation at place A is opposite to that of southern Anhui. Final answer: The seasonal distribution of precipitation is relatively even, with relatively more precipitation in winter and relatively less in summer, opposite to the characteristics of southern Anhui, which has more rain in summer and less rain in winter."
+  },
+  {
+    "batch_id": "open_d3dd832efba34962fa5656e4",
+    "reasoning_chain_model": "The figure uses percentages to show the changes in cultivated land, forest land, grassland, construction land, water areas, and unused land in urban and suburban areas over the past ten years. Estimating the land-use change rate usually involves interpreting, classifying, and comparing the areas of remote-sensing images from the earlier and later periods. The change rate can be calculated as (later-period area − earlier-period area) ÷ earlier-period area × 100%, so the geographic information technology used is remote sensing technology (RS). Final answer: Remote sensing technology (RS)"
+  },
+  {
+    "batch_id": "open_b9ffd262f3f0228a72d2722c",
+    "reasoning_chain_model": "The noise contours are elongated along the aircraft operating direction, showing that the strongest airport-noise impact follows the takeoff and landing path. On the North China Plain, an airport runway should generally follow the northwest–southeast prevailing-wind axis; this excludes B and D. At A, the southeast extension of the flight path approaches or crosses the urban area, whereas at C the northwest–southeast route remains outside the built-up area and directs the main noise zone away from it. Final answer: C (label C)."
+  },
+  {
+    "batch_id": "open_db7c64261dc1182905dd00b5",
+    "reasoning_chain_model": "In the figure, type ③ has both a low birth rate and a low death rate, and the natural growth rate is also close to zero. According to natural growth rate = birth rate − death rate, China's current population growth situation, with a low birth rate, low natural growth rate, and low death rate, is similar to type ③. Final answer: Type ③"
+  },
+  {
+    "batch_id": "open_bbd223d25322166f4f630076",
+    "reasoning_chain_model": "In the figure, industrial centers such as Jinchang, Baiyin, Lanzhou, and Yinchuan are distributed along the Yellow River in Gansu and Ningxia, and are closely related to the distribution of mineral resources such as lead-zinc, copper, and iron, as well as hydropower stations. This indicates that industry mainly gradually clustered and formed under the attraction of resources, energy, and transportation conditions. Judging by the formation mode of industrial regions, this belongs to a spontaneously formed industrial region dominated by resource-based industry. Final answer: A resource-based spontaneously formed industrial region."
+  },
+  {
+    "batch_id": "open_16f959e19f9a5b8eb67652c0",
+    "reasoning_chain_model": "At time 2 in the figure, the population natural growth rate is close to its peak, about 25‰–30‰, indicating that the population is growing very quickly. Population natural growth rate = birth rate − death rate. This high natural growth pattern, with a high birth rate and a death rate that has already clearly declined, is currently mainly found in developing countries in sub-Saharan Africa; a typical country is Nigeria. Final answer: Nigeria"
+  },
+  {
+    "batch_id": "open_7ee71018d0392886898dd0a8",
+    "reasoning_chain_model": "In the figure, B is located near the confluence of the Jinsha River and the Yalong River north of about 102°E, 24°N, matching the location of Panzhihua; Panzhihua relies on the locally abundant vanadium-titanium magnetite for development and has developed the iron and steel industry. Final answer: iron ore resources"
+  },
+  {
+    "batch_id": "open_7dbe600de5255d82ff7f31e3",
+    "reasoning_chain_model": "In the figure, labor supply is approximately unlimited and wages are relatively low before the “Lewis turning point”; after crossing the turning point, labor supply becomes tighter and wage levels rise. Since labor-intensive industries rely on a large amount of cheap labor, recruitment difficulties and rising wages will significantly increase their production costs, so they are affected the most. Final answer: labor-intensive industrial sectors"
+  },
+  {
+    "batch_id": "open_b8f6b74fc113c45dd0c9c97e",
+    "reasoning_chain_model": "In the figure, the photosynthetic production potential of corn, wheat, and soybeans is the highest among all levels, about 40,000–55,000 kg/100 square meters, while the light-temperature production potential after adding the temperature factor drops sharply, indicating that the region has abundant light energy resources but relatively insufficient thermal conditions; photosynthetic production potential is mainly affected by solar radiation and light conditions, so its highest value reflects that the region’s most important agricultural production advantage is sufficient sunlight and strong solar radiation. Final answer: sufficient sunlight, strong solar radiation, and abundant light energy resources."
+  },
+  {
+    "batch_id": "open_fe62c0af4a72806787169077",
+    "reasoning_chain_model": "In the figure, the vertical-axis elevation scale is 0, 2000, 4000, and 6000 meters. The profile line is mostly between about 3000—5000 meters, with some parts approaching 6000 meters. There are multiple obvious rises and falls along the line, and the elevation difference between the highest and lowest points is about 2000—3000 meters, indicating that the region as a whole has high elevation, large surface relief, alternating mountains and river valleys, and generally rises from Xining toward Lhasa. Final answer: overall high elevation, large surface relief, alternating mountains and river valleys, generally rising from Xining toward Lhasa."
+  },
+  {
+    "batch_id": "open_72238ab34467ef6f6660b112",
+    "reasoning_chain_model": "In the figure, the terrain generally decreases along the direction from A to B, and the B end is adjacent to the marked “perennial water area”; the fourth section is located in the lowest waterfront zone. Agricultural layout should adapt to local conditions: mountainous areas should develop forestry and fruit industry, flat land should develop crop cultivation, while perennial water areas are suitable for developing fisheries. Final answer: aquaculture"
+  },
+  {
+    "batch_id": "open_24974d5993e93f36efcfe4cd",
+    "reasoning_chain_model": "In the figure, Dongting Lake and its basin are located within the interior of mainland China, and the water body mainly circulates within the land area through processes such as precipitation, surface runoff, lake-surface evaporation, and water vapor transport; judging by the domain in which the water cycle occurs, this belongs to the internal terrestrial cycle. Final answer: internal terrestrial cycle"
+  },
+  {
+    "batch_id": "open_f6f5347a4f95c834ee2651f9",
+    "reasoning_chain_model": "In the figure, j is located at the intersection of the “warm temperate zone” row and the “semi-humid region” column, so it represents a warm temperate semi-humid climate; in China, this type of climate is mainly distributed in the North China region, primarily the North China Plain. Final answer: North China region (primarily the North China Plain)"
+  },
+  {
+    "batch_id": "open_a7e3f4a1966cd8aa42e00229",
+    "reasoning_chain_model": "In the figure, the Yichang—Wanzhou railway runs across the area along the route, connecting cities such as Yichang, Enshi, and Wanzhou, and links up with existing railways at both ends; the addition of transportation routes and their interconnection can increase the density and accessibility of the transport network, enhance railway transportation capacity, and form an east-west railway corridor connecting China’s central-eastern region with the southwest region. Final answer: Improve the transportation network of the areas along the route, increase transportation accessibility and transport capacity, and strengthen the connections between the areas along the route and the central-eastern and southwest regions."
+  },
+  {
+    "batch_id": "open_918cecd14db8af683ed306c4",
+    "reasoning_chain_model": "In the figure, longitude increases from 100°E to 120°E from left to right, so the right side is east; the prevailing wind arrow points to the right, indicating that the airflow moves from west to east; wind direction is named according to the direction from which the wind blows, so it is a westerly wind. Final answer: westerly wind"
+  },
+  {
+    "batch_id": "open_701479ed137c3915e72d372d",
+    "reasoning_chain_model": "In the figure, the dust belt shown by A (label A) is located in the northern Atlantic at about 10°—30°N and spreads westward from North Africa to the Caribbean Sea and near North America; in Northern Hemisphere summer, the pressure belts, wind belts, and the intertropical convergence zone move northward, and the northeast trade winds can transport Saharan dust westward to this latitude range, so it is most likely to occur from June to August, with a typical month being July. Final answer: Northern Hemisphere summer (about July)"
+  },
+  {
+    "batch_id": "open_4af258cf8ec7f10389e5ee84",
+    "reasoning_chain_model": "In the figure, the symbols indicating larger numbers of headquarters mainly appear in economically developed and conveniently accessible cities such as Beijing, Shanghai, and Guangzhou—Shenzhen, while other headquarters are also mostly distributed in provincial capitals and eastern coastal cities; these cities are usually regional economic and transportation hubs. Final answer: Economically developed and conveniently accessible municipalities directly under the central government, provincial capital cities, and central cities on the eastern coast."
+  },
+  {
+    "batch_id": "open_e32ab583707cb5f5700f453e",
+    "reasoning_chain_model": "In the figure, label D has relative values of both moisture and heat of about 3, and a relative value of light of about 2, showing that moisture and heat conditions are relatively good but not as good as in the southern region, and light is at a medium level; among China’s four major geographical regions, this climatic condition corresponds to the northern region. Final answer: Northern region"
+  },
+  {
+    "batch_id": "open_07137c6517013a14e9d3fa8f",
+    "reasoning_chain_model": "The north-south cross-section shown is about 200 kilometers long, with elevation fluctuating from about 200 meters, and along the way there are multiple ranges of mountains about 500 meters, 1100 meters, and 1500 meters high, as well as intermontane lowlands; the average January temperature is generally about 10–15℃, and after the prevailing winter wind crosses the mountains, it rises noticeably on the southern side. Calculating according to the mountain vertical temperature lapse rate of about 0.6℃/100 meters, a 1500-meter elevation difference can lower temperature by about 9℃, but subsidence on the leeward slope can produce foehn warming; this feature of being located in southern China, with overlapping mountain ranges that can weaken the influence of northern winter cold air, best matches the Nanling Mountains. Final answer: Nanling Mountains."
+  },
+  {
+    "batch_id": "open_3a40daaa467141bafe344673",
+    "reasoning_chain_model": "In the figure, the “market” factor corresponds to letter c; McDonald’s and KFC mainly target consumers, and the main location factor for their layout is the consumer market. Final answer: c"
+  },
+  {
+    "batch_id": "open_05d9cf4d3041074c10469fa0",
+    "reasoning_chain_model": "The figure shows that industries along the Yangtze River are transferring from the eastern coastal area to the central and western industrial transfer demonstration zones, providing conditions for migrant workers to return home for employment and entrepreneurship; the activity described in the question stem that they carry out after returning home should be independent entrepreneurship. Final answer: independent entrepreneurship"
+  },
+  {
+    "batch_id": "open_01f5e09703b56148e2297c62",
+    "reasoning_chain_model": "In the figure, place A is the first to expand production in the new-product period, its output is relatively stable in the maturity period, and in the standardization period production declines and is lower than consumption; place B has very little production in the first two periods, and in the standardization period output increases rapidly and exceeds local consumption. This conforms to the product life cycle and the pattern of industrial transfer: R&D and initial production are concentrated in place A, where technology and market conditions are better, and after the product becomes standardized, it is transferred to place B, where labor costs are lower, for mass production and export. A typical industry is the standardized consumer electronics assembly manufacturing industry. Final answer: Consumer electronics manufacturing (electronic assembly) enterprise"
+  },
+  {
+    "batch_id": "open_6e2680359e6908131b7994ae",
+    "reasoning_chain_model": "In Figure A, location P is on the west coast of a continent at about 30°N, and Figure B shows that precipitation at location P is mainly concentrated in the winter half-year of the Northern Hemisphere, so it belongs to a Mediterranean climate; this climate has hot summers and mild winters, the monthly mean temperature should be lowest in January and highest in July, and the winter monthly mean temperature is above 0℃. In Figure C, the curve that matches this annual temperature variation characteristic is curve ②. Final answer: ②"
+  },
+  {
+    "batch_id": "open_90ff53dd5123a6c9fb4ef052",
+    "reasoning_chain_model": "The figure shows that the global financial crisis caused enterprises in coastal areas such as the Pearl River Delta to close down, go bankrupt, or suspend production, and caused large numbers of migrant workers to return home, indicating that the Pearl River Delta’s original export-oriented, labor-intensive industries were impacted by the decline in external demand. In responding to the crisis, the Pearl River Delta can obtain national policy and financial support such as expanding domestic demand, infrastructure investment, tax reductions, and credit; it can also strengthen cooperation with the inland areas and the Pan-Pearl River Delta region, use the inland areas’ resources, energy, land, labor force, and broad market, transfer out some labor-intensive industries, and use the funds, technology, and information brought back by returning migrant workers to expand domestic demand; at the same time, it can use Hong Kong and Macao’s capital, technology, management experience, information, and international market channels to promote industrial upgrading. Final answer: support in terms of national policy and funds, inland resources, energy, land, labor force and markets, the funds, technology and information brought back by returning migrant workers, as well as Hong Kong and Macao’s capital, technology, management and international market channels."
+  },
+  {
+    "batch_id": "open_bc14523c9ae5708c261d9063",
+    "reasoning_chain_model": "In the figure, the dashed line ① extends eastward from China’s northwestern inland region to the eastern coast, indicating the West-East Gas Pipeline. Its resource-exporting area is mainly located in Xinjiang, where the climate is arid, vegetation is sparse, and the ecology is fragile; water resources are scarce, and development activities can easily cause destruction of surface vegetation and land degradation. Final answer: Land desertification."
+  },
+  {
+    "batch_id": "open_0190bc76cf78921c15323eb1",
+    "reasoning_chain_model": "In the figure, the resource-exporting end of route ③ is located in southwestern China near the Tropic of Cancer, and the arrow points toward the southeastern coast. It belongs to the Yunnan-Guizhou Plateau and its surrounding karst regions; this area has rugged terrain, concentrated precipitation, and thin soil layers. After vegetation is destroyed, surface runoff erosion intensifies, so severe soil erosion is likely to occur, further forming rocky desertification. Final answer: Severe soil erosion, prominently manifested as rocky desertification."
+  },
+  {
+    "batch_id": "open_e4a3a364da229af6bceb2e34",
+    "reasoning_chain_model": "Figure A shows that the lake is located in the inland desert area of the Eurasian continent at about 40°N, 60°E, so it should be the Aral Sea; the local area is deep inland, has an arid climate, and receives little precipitation, while acid rain requires relatively large amounts of sulfur oxides and nitrogen oxides to combine with precipitation in order to form, so lake shrinkage, land desertification, and soil salinization may occur here, but a prominent acid rain problem cannot form. Final answer: acid rain"
+  },
+  {
+    "batch_id": "open_6bac1fabeba24fc437ca5b1d",
+    "reasoning_chain_model": "The shaded urban area is centered on label B, while label C lies outside the city on its southwestern side; label A is northwest near the lake, and the eastern side faces the sea. In southeastern coastal China, the prevailing monsoon winds are mainly northwesterly in winter and southeasterly in summer, so a heavily polluting chemical industry should be placed southwest or northeast of the city, approximately perpendicular to the monsoon axis, to prevent emissions from passing over the urban area; among the marked sites, label C best meets this requirement and is separated from the main urban area. Final answer: C"
+  },
+  {
+    "batch_id": "open_28f9b8d40ac1d6d82c5ee1e0",
+    "reasoning_chain_model": "In the figure, the tea symbol is mainly marked in central India, whereas India’s tea is actually concentrated in northeastern Assam, the southern foothills of the Himalayas, and southern mountainous areas, so this marking is clearly inconsistent with reality. Final answer: Tea"
+  },
+  {
+    "batch_id": "open_f1e5ed24cc449c7a57a9b80f",
+    "reasoning_chain_model": "In the figure, the rainy area is located on the western side of the subtropical high, where cold air meets southwest warm and humid airflow, mainly covering the Sichuan Basin and nearby areas; the rivers in this region flow into the Yangtze River, and continuous autumn rain will increase runoff and may trigger flooding. Final answer: Yangtze River basin"
+  },
+  {
+    "batch_id": "open_d63f0048237d6d28db1aa841",
+    "reasoning_chain_model": "In the figure, the location choice for “industry” is affected by factors such as raw materials, labor, market, power, technology, transportation, capital, and policy; enterprises comprehensively consider these conditions when selecting locations, and the fundamental purpose is to reduce production and transportation costs and increase profits, so the most important consideration is economic benefits. Final answer: Economic benefits"
+  },
+  {
+    "batch_id": "open_35a5534c73ec5c522ee2ae29",
+    "reasoning_chain_model": "The shaded area in the figure is the urban area, the surrounding area is the suburbs, and the suburbs have roads connected to the urban area and are close to the urban market; according to the pattern of suburban agriculture, suburban land should give priority to developing high-value-added crops that have short transport distances, large demand, and are fresh and perishable, so vegetables are mainly planted. Final answer: vegetables"
+  },
+  {
+    "batch_id": "open_54eeaa6f578e064088866f70",
+    "reasoning_chain_model": "The outline of location B in the figure is Australia, and the solid arrows indicate its agricultural products being exported to Asia; Australia has extensive grasslands and developed animal husbandry, and at the same time its wheat cultivation has a high commodity rate, so the two main categories of agricultural products exported are wool and wheat, with the second category being wheat. Final answer: wheat"
+  },
+  {
+    "batch_id": "open_c872253ec762d3571f5377ed",
+    "reasoning_chain_model": "Location ① in the figure is situated along the coast, with an annual average temperature close to 25℃, and is in a high-value area with relatively abundant annual precipitation; the hydrothermal conditions of high temperature and abundant rainfall are conducive to the formation of tall, evergreen forest vegetation with complex layers. Final answer: tropical rainforest"
+  },
+  {
+    "batch_id": "open_760b2e891a88a26966c11749",
+    "reasoning_chain_model": "The image shows a cold front connected to a low-pressure center east of Beijing, with strong cold high pressure to the northwest; as the front passes Beijing, strong northerly winds, sharp cooling, and possible rain or snow increase heating demand rather than reduce it. Final answer: urban electricity and gas consumption decreases"
+  },
+  {
+    "batch_id": "open_d437c8455c3a717ab640158f",
+    "reasoning_chain_model": "The island country in the figure is located in the Indian Ocean at about 80°E and 6°–9°N; it is Sri Lanka, with the Arabian Sea to its west. In winter, the North Indian Ocean is affected by the northeast monsoon, and the monsoon current south of Sri Lanka generally flows from east to west, toward the southwest. A ship’s speed over ground can be expressed as v over ground = v ship + v current; when sailing westward, the current component is in the same direction as the course, increasing the speed. Therefore, in winter, merchant ships of this country sailing westward through the Arabian Sea can use the current to reach the East African coast or the Red Sea direction more quickly. Final answer: sail westward toward the East African coast (Red Sea direction)"
+  },
+  {
+    "batch_id": "open_ed5b0b9caa2baabe500b1442",
+    "reasoning_chain_model": "In the figure, light haze and heavy haze are mainly concentrated in eastern China, especially the North China Plain and the middle and lower reaches of the Yangtze River, with relatively little distribution in the western region; therefore, haze is mainly distributed in China’s eastern monsoon region. Final answer: eastern China, especially the North China Plain and the middle and lower reaches of the Yangtze River"
+  },
+  {
+    "batch_id": "open_8130f4a8d38756896771704e",
+    "reasoning_chain_model": "The lake water level in the figure changes markedly with the months. When the water level rises in summer, the input and output fluxes of TSS are generally larger, while when the water level falls in winter and spring, the fluxes are smaller. The TSS flux can be expressed as F=CQ, where C is the TSS concentration and Q is the water volume or flow rate, and changes in water level reflect seasonal changes in the lake’s water volume and exchange flow; therefore, another direct cause is the change in the lake water level. Final answer: water level"
+  },
+  {
+    "batch_id": "open_d9a4b59fb2d1b0dd0aa07777",
+    "reasoning_chain_model": "The black dots in the figure indicate mineral water sites, and most are distributed along fault zones, especially deep major faults, indicating that these mineral waters are formed by groundwater emerging at the surface along rock-layer fissures and fault channels; classified by the space in which the water body exists, mineral water belongs to groundwater among terrestrial water. Final answer: groundwater"
+  },
+  {
+    "batch_id": "open_69782c27a319df8bedf7b897",
+    "reasoning_chain_model": "A in the figure is located on Mexico's Baja California Peninsula near the Tropic of Cancer, in an area controlled by the subtropical high, and is also affected by the cooling and dehumidifying influence of the coastal California Cold Current, resulting in scarce precipitation and an arid climate; therefore, in addition to volcanic landscapes, desert and drought-tolerant cactus vegetation landscapes can also be seen. Final answer: tropical desert and cactus landscape"
+  },
+  {
+    "batch_id": "open_4ee3c731d0cbc66132272619",
+    "reasoning_chain_model": "The northeastern and eastern coastal zones in the figure include the Northeast region and the relatively economically developed eastern coastal areas. In some of these areas, the intensity of resource development is relatively high, so the development direction should be to optimize the industrial structure, improve resource utilization efficiency, and protect the ecological environment, rather than continuing to accelerate the speed of resource development. Final answer: resource development"
+  },
+  {
+    "batch_id": "open_92c6880779e5151cd146642b",
+    "reasoning_chain_model": "In chart B (label B), cultivated land is 15.3%, forest is 40.6%, grassland is 20.7%, and other land is 23.4%, totaling 15.3% + 40.6% + 20.7% + 23.4% = 100%; the large forest share and relatively small cultivated-land share match Russia’s land-use structure. Final answer: Russia"
+  },
+  {
+    "batch_id": "open_ec11a3678eacde041205ed42",
+    "reasoning_chain_model": "In the figure, the lines of latitude outward from the central pole are 66.5° and 23.5° in sequence. The arrows of ocean currents ② and ④ both flow from higher latitudes toward lower latitudes, so they are cold currents; ocean currents ① and ③ flow from lower latitudes toward higher latitudes, so they are warm currents. The numbers of the two cold currents in ascending order are ②, ④, so the smaller number is ②. Final answer: ②"
+  },
+  {
+    "batch_id": "open_c8c6eaff6c3f6a68279bbd71",
+    "reasoning_chain_model": "Location ② in the figure is near the front. Air masses with different properties on the two sides of the front meet, and warm moist air is forced to rise; after the temperature drops, water vapor condenses into clouds and produces precipitation. Locations ① and ③ are farther from the front, and the weather is relatively stable. Final answer: location ②"
+  },
+  {
+    "batch_id": "open_bf256a0b9caa2ac5dcde09fb",
+    "reasoning_chain_model": "The figure shows that Zhangmu Port is located on the China-Nepal border, relying on the Friendship Bridge and National Highway 318 to connect with Lhasa, Shigatse, and other places, but along the route the mountains are high and the valleys deep, the roads are winding, and the transport distance is relatively long, so transportation costs are high, making it unsuitable to export large quantities of low-value-added, bulky products; considering that China's industrial production capacity is relatively strong and Nepal's industrial base is relatively weak, it is suitable to export manufactured industrial products with high value per unit weight, small volume, and in line with the needs of the Nepalese market. Final answer: high-value-added products such as mechanical and electrical and communication equipment, medical medicines, textiles and garments, electronic products, and daily consumer goods."
+  },
+  {
+    "batch_id": "open_ed836c4d87f6b6b97f6ac424",
+    "reasoning_chain_model": "In the figure, the a—b highway runs close to the river valley; in the western section, the contour lines are relatively dense and gullies are developed. Dense contour lines indicate a relatively steep slope, and gullies easily collect surface runoff; during heavy rainfall, they can easily trigger mountain floods, landslides, and debris flows. Final answer: The slope is steep and there are many gullies, making mountain floods, landslides, and debris flows likely to occur."
+  },
+  {
+    "batch_id": "open_409b01aacc315ef3f8890863",
+    "reasoning_chain_model": "In the figure, the urban land is divided into multiple relatively independent clusters, such as the western, northern, eastern, and southeastern parts, and these are connected to each other by major transportation roads; therefore, it belongs to a cluster-type spatial structure formed by the combination of multiple districts. Final answer: Clustered form (multi-center cluster type)."
+  },
+  {
+    "batch_id": "open_dad651c2ffa1da35792cfb42",
+    "reasoning_chain_model": "The latitude and longitude of the area shown in the figure are approximately 113°E to 113.5°E and 27.5°N to 28°N, corresponding to the vicinity of Zhuzhou, but Xi'an and the complete railway network are not shown; according to the distribution of China’s main railway lines, Zhuzhou is located on the Beijing–Guangzhou Line. One first goes north along the Beijing–Guangzhou Line to Zhengzhou, then transfers to the Longhai Line westward to reach Xi'an; this is the shortest traditional main railway route between the two places. Final answer: Beijing–Guangzhou Line, Longhai Line."
+  },
+  {
+    "batch_id": "open_a44c1321685136b01251e601",
+    "reasoning_chain_model": "In the figure, Dongying City is located in the Yellow River Delta, near the Bohai Sea, with low and flat terrain and poor drainage; in coastal areas, the groundwater level is relatively high and the salt content is relatively large. When precipitation is relatively low and evaporation is strong, groundwater rises through capillary action, and after the water evaporates, salts continuously accumulate on the surface, thus forming large areas of saline-alkali land. Final answer: The terrain is low and flat, drainage is poor, the saline groundwater level is high, and evaporation is strong, causing salts to accumulate on the surface."
+  },
+  {
+    "batch_id": "open_9b7ba0f09eb1e9d04968d9ab",
+    "reasoning_chain_model": "In the figure, the dark-colored and light-colored areas represent heavy haze and light haze respectively, mainly distributed in central and eastern China; when cold air arrives, it is often accompanied by relatively strong winds. Air movement and turbulence intensify, and pollutants can disperse, be diluted, and be transported away, so the haze will lessen or dissipate. Final answer: Windy weather."
+  },
+  {
+    "batch_id": "open_0d831267b1caf180e974143a",
+    "reasoning_chain_model": "The four cities in the figure are Beijing, Singapore, Sydney, and Rio de Janeiro; March 23 is close to the vernal equinox, and the solar declination is about 0°. The noon solar altitude formula is h=90°−|φ−δ|, so it can be approximately judged by the absolute value of latitude. Beijing’s latitude is about 40°N, Sydney’s about 34°S, Rio de Janeiro’s about 23°S, and Singapore’s about 1°N. Beijing has the largest absolute value of latitude, so its noon solar altitude is the smallest. Final answer: Beijing."
+  },
+  {
+    "batch_id": "open_fabc00c3074b2ed93002deff",
+    "reasoning_chain_model": "In the figure, winter temperatures are below 0℃, summer temperatures are about 25℃, and the annual temperature range is relatively large; precipitation in every month is relatively low, annual precipitation is insufficient and mainly concentrated in summer, and the groundwater level rises markedly as summer temperatures increase and snow and ice meltwater increases. Based on the characteristics of “scarce precipitation, relatively large temperature range, and groundwater recharge closely related to snow and ice meltwater during the high-temperature period,” it can be judged that this place has a temperate continental climate and is most likely located in the inland northwest region of China. Final answer: inland northwest region"
+  },
+  {
+    "batch_id": "open_4966e38f82f66d857aa4eab9",
+    "reasoning_chain_model": "In the figure, the soil air at location ④ accounts for 50%, water accounts for only 4%, minerals account for 42%, and organic matter accounts for 4%, indicating that the soil is severely short of water and extremely dry; too little soil moisture will lead to vegetation degradation, exposed ground surface, and wind erosion, so its land degradation manifests as land desertification. Final answer: land desertification"
+  },
+  {
+    "batch_id": "open_9d3b20e74c6d96719be113d3",
+    "reasoning_chain_model": "In the figure, “building a reservoir” directly points to I, and I together with “increased precipitation around the lake” jointly affects II; after reservoir impoundment, infiltration of the water body increases, causing the groundwater level in and around the reservoir area to rise, thereby increasing soil moisture. Final answer: rise in groundwater level"
+  },
+  {
+    "batch_id": "open_212abd5f2d8677934b799817",
+    "reasoning_chain_model": "I first check the relationships between the boxes according to the causal arrows in the figure, focusing on distinguishing “changes in water surface, evaporation, precipitation” and subsequent changes in water quantity, to avoid directly guessing the fill-in based only on the common effects of “building a reservoir.” It can be clearly read from the figure that building a reservoir leads respectively to an upper branch and a lower branch; the lower branch, after “increased precipitation around the lake,” then affects Ⅱ and Ⅳ, while Ⅱ continues to affect Ⅳ. Therefore Ⅱ should be a hydrological quantity or water-cycle link that can be jointly caused by the upper branch and increased precipitation, and can continue to cause Ⅳ. I am further comparing this with common textbook wording for this type of water-cycle schematic question to confirm whether the item to be filled is a specific process (such as enhanced evaporation) or a result (such as increased water volume). In the figure, Ⅱ is simultaneously affected by reservoir impoundment leakage recharge and “increased precipitation around the lake,” indicating that these processes together give groundwater more recharge and raise the groundwater level; the rise in groundwater level together with increased precipitation affects Ⅳ. Final answer: rise in groundwater level"
+  },
+  {
+    "batch_id": "open_69600ab46dff6a6444ee4ea9",
+    "reasoning_chain_model": "The figure only marks the approximate latitudes and land-sea positions of a, b, c, and d: a and c are located between 30°N and 60°N, while b and d are located between 0°N and 30°N, but the problem does not provide the climate-feature descriptions or options that need to be judged; based only on location, at most one can infer that a may be a temperate maritime climate, b may be a tropical desert climate, c may be a temperate monsoon climate, and d may be a subtropical monsoon climate. It is impossible to determine which description is wrong, nor can the so-called “wrong description” be written. Final answer: Cannot be determined; the problem lacks the descriptions or options about the climate characteristics of the four places a, b, c, and d that are to be judged."
+  },
+  {
+    "batch_id": "open_9a340af3f9035d3b4bf01305",
+    "reasoning_chain_model": "In the figure, City Q is located near the border between China and Kazakhstan, and has an oil pipeline and a national highway connecting it to the interior; combined with the fact that the county where it is located was approved as a county open to the outside world and established a border residents’ mutual trade market, it can be seen that this place is convenient for connecting with Kazakhstan and the Central Asian market and for carrying out border trade and international transportation. Final answer: It is located on the China-Kazakhstan border and has convenient transportation, making it an important overland port for China to Central Asia."
+  },
+  {
+    "batch_id": "open_9ff4b1b01978c1fa1689d937",
+    "reasoning_chain_model": "In the figure, “forming a large area of water” will affect “groundwater”; after the reservoir stores water, infiltration recharge increases, and the groundwater level usually rises. Final answer: groundwater level rises"
+  },
+  {
+    "batch_id": "open_9bb41dd741fd5506254510f6",
+    "reasoning_chain_model": "The figure shows that the Central Plains urban agglomeration is centered on Zhengzhou, with multiple railway lines connecting cities such as Luoyang, Xuchang, and Luohe; railway transportation is a socioeconomic condition built by humans and does not belong to natural causes such as terrain, rivers, and mineral resources. Final answer: convenient railway transportation"
+  },
+  {
+    "batch_id": "open_668ff9c59af7e6345ea505b8",
+    "reasoning_chain_model": "In the figure, each isotherm rises to its highest position at around 16:00 Beijing time, indicating that the temperature of the free atmosphere at the same altitude is highest at this time; the glacier surface temperature is always relatively low and stable, so at this time the temperature difference between the glacier and the surrounding free atmosphere is the largest. From ρ=p/RT, it can be known that the larger the temperature difference, the greater the density difference between cold air and warm air and the horizontal pressure gradient, and the strongest glacier wind is formed by the cold, dense air flowing downward along the glacier. Final answer: around 16:00 in the afternoon."
+  },
+  {
+    "batch_id": "open_b779beecb567b7345c0589a1",
+    "reasoning_chain_model": "In the figure, EF is the equator, and the angle between OP and the radius in the direction of the North Pole is 20°, so the latitude of point P is 90°−20°＝70°N. When polar night occurs at 70°N, the direct solar point must at least reach 20°S, that is, the solar declination δ≤20°S; and because the farthest south the direct solar point can reach is the Tropic of Capricorn 23°26′S, the range of directly illuminated solar latitude is from 20°S to 23°26′S. Final answer: 20°S to 23°26′S"
+  },
+  {
+    "batch_id": "open_aac126decaf1b6c67ca3ff6b",
+    "reasoning_chain_model": "In the figure, the glacier extends from the high-altitude area on the south side toward the low-altitude area on the north side, and ① is located downstream of the glacier; the air over the glacier surface is colder than the free atmosphere at the same altitude, and the cold air has greater density and higher pressure. Under the action of gravity and the horizontal pressure gradient force, it flows along the glacier surface from high places to low places, forming a glacier downslope wind. Its movement direction is from south to north, while wind direction is named according to the direction it comes from. Final answer: southerly wind (glacier wind)"
+  },
+  {
+    "batch_id": "open_b41aeaf3547f6edb32b8f0db",
+    "reasoning_chain_model": "In the figure, the ocean current moves in the direction label B → label C → label D → label A → label B, forming an overall clockwise circulation; according to the distribution pattern of world surface ocean currents, in mid- and low-latitude sea areas, ocean gyres form centered on the subtropics, clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere, so this circulation is most likely to appear in the mid- and low-latitude sea areas of the oceans in the Northern Hemisphere. Final answer: mid- and low-latitude sea areas of the oceans in the Northern Hemisphere"
+  },
+  {
+    "batch_id": "open_a768fe31f8770ff384de4718",
+    "reasoning_chain_model": "The image shows four elderly people, two adult parents, and one child, which fits the “4—2—1” family structure; “2” represents the parents of the only child, and this generation was born from the late 1970s to the 1980s, and at the current stage is mainly in the middle-aged age group. Final answer: middle-aged people"
+  },
+  {
+    "batch_id": "open_41e74f85eba943faf0d736a8",
+    "reasoning_chain_model": "The figure is marked with 31°N and 121°E, with the central urban area at the center, and the adjacent surrounding area is labeled “vegetable, dairy cattle, flower area,” indicating that this region relies on the urban market to develop fresh agricultural products and high-value-added horticulture, and belongs to the suburban agricultural regional type. Final answer: suburban agriculture (mainly vegetable, dairy cattle, and flower production)"
+  },
+  {
+    "batch_id": "open_d457340350eb22280c6c1345",
+    "reasoning_chain_model": "Figure 6 shows that the planted crops include rice, vegetables, flowers, rapeseed, etc., among which rice accounts for a relatively large proportion; the local average temperature in January is 3℃, higher than 0℃. The Qinling—Huaihe line roughly coincides with China’s January 0℃ isotherm, and south of this line wet-field agriculture and rice cultivation are dominant, so this cultivated land should be located in the southern region south of the Qinling—Huaihe line, more likely in the Yangtze River basin. Final answer: the southern region south of the Qinling—Huaihe line (possibly located in the Yangtze River basin)"
+  },
+  {
+    "batch_id": "open_eb039a63cb0f99b0b3a021e8",
+    "reasoning_chain_model": "The figure shows that this brand originated from Taiwan, set up an OEM factory in Quanzhou in the 1980s, and only afterward developed its own brand in Quanzhou. Compared with other coastal cities that likewise had cheap labor and open policies, Quanzhou’s prominent advantage is that it faces Taiwan across the sea, the languages and customs of Fujian and Taiwan are similar, and kinship and hometown ties are close; many Taiwan residents also have ancestral origins in the Quanzhou area, making it convenient for entrepreneurs to use local social relations to invest in and build factories, recruit workers, and operate businesses, so local kinship and hometown ties are the main reason for its site selection. Final answer: Fujian and Taiwan are geographically close, blood ties and hometown ties are close, and entrepreneurs have a hometown attachment and can conveniently use local social relations."
+  },
+  {
+    "batch_id": "open_11e7f87374a5d52e5815d4c4",
+    "reasoning_chain_model": "In the figure, curve label C has relatively low air pressure before the weather system passes, rises noticeably near the passing period ②, and maintains relatively high air pressure after passing; when a cold front passes, cold air replaces warm air, the temperature drops, and air pressure rises, so it corresponds to label C. Final answer: C"
+  },
+  {
+    "batch_id": "open_1717ce605b777bd61fa1b504",
+    "reasoning_chain_model": "The image shows towering, steep, and locally exposed rock masses, which conform to the geomorphic characteristics of Sanqing Mountain granite after long-term denudation; its formation process is that deep magma intruded and slowly cooled and crystallized underground to form granite, then was uplifted by crustal tectonic movement, and the overlying rock layers were gradually removed through weathering, erosion, and denudation, ultimately causing the granite to be exposed at the surface. Final answer: magma intruded and slowly cooled and crystallized to form granite→crustal uplift→overlying rock layers underwent weathering, erosion, and denudation→granite was exposed at the surface."
+  },
+  {
+    "batch_id": "open_16572623e13310b0ffd470e9",
+    "reasoning_chain_model": "In the figure, in the 1990s this brand’s headquarters was located in Quanzhou and mainly targeted the domestic market; in 2009 the headquarters moved to Xiamen, which has a higher degree of openness and more convenient external transportation and information links, while its development direction also shifted toward the international market. The location of an enterprise headquarters is mainly affected by market information, transportation links, and the needs of internationalized operations, so the dominant factor in this relocation was facilitating the development of the international market. Final answer: International market factor (facilitating the development of the international market)"
+  },
+  {
+    "batch_id": "open_984e94a80d0f6639d15aad43",
+    "reasoning_chain_model": "In the figure, label A is located near the Norwegian coast in northwestern Europe, and the isotherm here clearly protrudes toward higher latitudes; the North Atlantic Warm Current flows through this sea area and has a significant warming effect on the coast, making the temperature at location label A higher than in other areas at the same latitude, and therefore the isotherm bends. Final answer: warming effect of the North Atlantic Warm Current"
+  },
+  {
+    "batch_id": "open_2187c7f409fdd9483c90ed59",
+    "reasoning_chain_model": "In the figure, label D is located at about 30°S, 140°E in the Murray-Darling Basin of southeastern Australia, which is a world-famous mixed wheat-sheep farming area. Local crop farming and animal husbandry are both emphasized; wheat cultivation, sheep raising, and land fallowing are carried out alternately, which can both maintain soil fertility and form a sound agricultural ecosystem, and also stagger busy farming periods; agriculture is mainly operated by family farms, with large production scale, high levels of mechanization and specialization, products mainly oriented toward the market, a high commodity rate, and the ability to flexibly adjust the production ratio of wheat and sheep according to market demand. Final answer: Wheat cultivation is combined with sheep raising, the production scale is large, the levels of mechanization, specialization, and commercialization are high, the agricultural ecology is sound, farming arrangements are reasonable, and market adaptability is strong."
+  },
+  {
+    "batch_id": "open_9b12c206929dce6d643e0c8d",
+    "reasoning_chain_model": "In the figure, the horizontal axis runs from the south side of the Qinling Mountains across the mountains to the north side; curve label C increases with rising terrain on the southern slope of the Qinling Mountains, reaches a high value near the southern-slope mountains, and decreases noticeably after crossing the Qinling Mountains; this is because the southern slope is the windward slope of the summer monsoon, and topographic uplift increases precipitation, while the northern slope is on the leeward slope and the farther north, the weaker the influence of the summer monsoon, so this change conforms to the distribution of annual precipitation. Final answer: C"
+  },
+  {
+    "batch_id": "open_f030d16ad82cfe0a86254e78",
+    "reasoning_chain_model": "In the figure, the Guiyang–Guangzhou railway passes through Guizhou, Guangxi, and Guangdong in sequence. Along the route one can see the ethnic cultures of the Miao, Dong, Zhuang, and other groups, as well as the tea-drinking customs of the Lingnan region; the peacock dance is the representative dance of the Dai people in Yunnan and is not a typical folk custom of the Zhuang people in Guangxi, so saying that the peacock dance is a traditional folk custom of the Guangxi Zhuang is inconsistent with the regional culture along the route. Final answer: The statement that “the traditional folk custom of the Guangxi Zhuang is dancing the peacock dance” is wrong."
+  },
+  {
+    "batch_id": "open_85f898f0e3d702d7fbf15696",
+    "reasoning_chain_model": "The image shows Zhengzhou as the core of the Central Plains Urban Agglomeration, connected by railways to Luoyang, Kaifeng, Xuchang, Jiaozuo, Jiyuan, Pingdingshan, and Luohe; such an urban agglomeration promotes regional coordination, transportation links, economic growth, and urbanization, but it does not aim to make the industrial structures of the cities identical, because complementary specialization is necessary for coordinated development. Final answer: increase the convergence of the industrial structures of the cities"
+  },
+  {
+    "batch_id": "open_613283bce52436d8eeb8ba43",
+    "reasoning_chain_model": "In the figure, B is located in the plateau area near about 110°E, with undulating surface and many gullies, belonging to the Loess Plateau where soil erosion is severe; agricultural development should adapt to local conditions, reduce cultivation on steep slopes, return farmland to forest and grassland, carry out soil and water conservation, and focus on developing forestry and animal husbandry. Final answer: Return farmland to forest and grassland, strengthen soil and water conservation, and develop forestry and animal husbandry."
+  },
+  {
+    "batch_id": "open_990d80bd3d8025165da0ff02",
+    "reasoning_chain_model": "In the figure, C has annual precipitation of about 1000 millimeters, and monthly average temperatures between about 1℃ and 25℃, showing mild winters, relatively hot summers, and relatively abundant precipitation, which matches the characteristics of China's subtropical monsoon climate; its representative city is Shanghai Municipality. Final answer: Shanghai Municipality"
+  },
+  {
+    "batch_id": "open_e99947ca8702999e2ed886b6",
+    "reasoning_chain_model": "In the figure, Gansu is located in China's northwestern desertification region. Its climate is arid and windy, easily forming wind-erosion desertification; meanwhile, loess is widespread, precipitation is concentrated, and surface vegetation is sparse, so water erosion is significant. Therefore, the other main type is water-erosion desertification. Final answer: water-erosion desertification"
+  },
+  {
+    "batch_id": "open_87a01d377c8c6650ef37cc12",
+    "reasoning_chain_model": "In the figure, the screening conditions sequentially include suitable geological conditions, being located in a non-densely populated area, not being close to major roads, and not being within an ecological protection area; these conditions emphasize geological safety and being far from residents and sensitive ecological areas, in order to reduce pollution and its impact on people and the environment, which matches the typical site-selection requirements for waste landfill facilities. Final answer: waste landfill site"
+  },
+  {
+    "batch_id": "open_fdf6b82b7c1633fbdba1fc3a",
+    "reasoning_chain_model": "In the figure, when the natural zones gradually transition from tundra, coniferous forest, mixed forest, and deciduous broad-leaved forest to evergreen broad-leaved forest, solar radiation and annual average temperature generally increase, indicating that this regional differentiation is mainly manifested as heat change from high latitudes to low latitudes; although precipitation decreases markedly at the end and forms desert, which belongs to the influence of moisture conditions, it is not the dominant factor in the regular replacement of the preceding natural zones. Solar radiation determines how much heat the surface receives, and heat differences lead to the sequential distribution of different natural zones. Final answer: heat differences caused by solar radiation (with heat as the dominant factor)"
+  },
+  {
+    "batch_id": "open_95553828b7a1572a1716576a",
+    "reasoning_chain_model": "In the figure, the grassland range at location B is relatively small, and the surrounding large area is sandy land, indicating that vegetation at the edge of the oasis has degraded and sandy land is expanding toward the interior of the oasis; oasis shrinkage is usually manifested as a reduction in vegetation coverage area and intensified land desertification. Final answer: The grassland area shrinks, sandy land expands toward the interior of the oasis, and desertification intensifies."
+  },
+  {
+    "batch_id": "open_049e99a333a094ab17a69eff",
+    "reasoning_chain_model": "I first distinguish the contour lines, rivers, and water-diversion lines according to the legend in the figure, and then judge whether each candidate route satisfies conditions such as gravity flow, water intake volume, and route length. The focus is to identify the relative positions of the small town and the two rivers, as well as the terrain elevation. The key constraints for the candidate water-diversion lines in the figure are: in a southern hilly area, priority should be given to using terrain drop for gravity flow, and the route should follow contour lines as much as possible while avoiding obvious ridges; since the two rivers have equal flow, one cannot use “the river is larger” alone as the basis for selecting the water source. Next I check the starting points and directions corresponding to the numbers. In the figure, line ② takes water from the upstream section of the small river on the right; the water intake point is higher than the small town, and the route is shorter and generally arranged along contour lines, so it can use gravity flow and reduce engineering work. The water intake point of line ④ is lower, and lines ① and ③ are longer; therefore, under the condition that the two small rivers have equal flow, line ② is the most reasonable. Final answer: ②"
+  },
+  {
+    "batch_id": "open_1dd1e9b2ad18bb5be94d401b",
+    "reasoning_chain_model": "In the figure, the A—C river section has three obvious bends, and B, D, and F are respectively located on the inner side of the river bends, i.e., the convex banks; a meandering river is affected by centrifugal action, with surface water flow eroding the outer concave bank, while bottom water flow carries sediment toward the inner convex bank and deposits it there. Therefore, the riverbanks where sediment deposition is relatively obvious, in alphabetical order, are B, D, F. Final answer: B、D、F"
+  },
+  {
+    "batch_id": "open_45c0f79083e11524937d7c3f",
+    "reasoning_chain_model": "In the figure, ④ is located at about 105°E—110°E, 28°N—32°N, south of the Qinling—Huaihe line and in the Sichuan Basin area, so it belongs to the Bashu cultural region centered on Sichuan and Chongqing. Its typical regional cultural landscapes include western Sichuan dwellings, stilted buildings, etc. Final answer: Bashu cultural landscape (western Sichuan dwellings, stilted buildings)"
+  },
+  {
+    "batch_id": "open_b6128131523f72eb8aad67c3",
+    "reasoning_chain_model": "In the figure, “vegetable production base” is connected with “seed and seedling company,” “agricultural production materials enterprises,” etc.; upstream enterprises are enterprises that provide seeds, seedlings, and other production materials for vegetable production, so besides agricultural production materials enterprises, the other type of upstream enterprise is seed and seedling company. Final answer: seed and seedling company"
+  },
+  {
+    "batch_id": "open_3bca1aa78e8bb6467313f5dc",
+    "reasoning_chain_model": "In the figure, there is a pipeline connecting the petroleum production area and the fertilizer plant, so petroleum can be directly and continuously transported to the production workshop; pipeline transportation has advantages such as large transport capacity, low loss, relatively high safety, strong continuity, and little influence from weather, but its transport routes are fixed and its flexibility is relatively poor, so “strong flexibility” is not one of its advantages. Final answer: strong flexibility"
+  },
+  {
+    "batch_id": "open_118e61991d533d25d09eb089",
+    "reasoning_chain_model": "In the figure, M is located near the outlet of a mountain valley, the surrounding contour lines are relatively dense, and seasonal rivers flow into the main stream, indicating that the slope is relatively steep and runoff converges rapidly during precipitation. The water flow can easily carry loose debris materials from slopes and valleys downward, so debris flows often occur. Final answer: debris flow"
+  },
+  {
+    "batch_id": "open_d884132644d03e85628e404c",
+    "reasoning_chain_model": "In the table, the sunrise and sunset times for city A over three days are 6:12—18:29, 6:10—18:30, and 6:08—18:31, respectively, while for city B they are 5:53—18:08, 5:52—18:08, and 5:51—18:09, respectively. Local noon time = (sunrise time + sunset time) ÷ 2; city A is about 12:20 Beijing time, and city B is about 12:00. When both use Beijing time, a later noon indicates a location farther west, so A is west of B. The day lengths of A are 12 hours 17 minutes, 12 hours 20 minutes, and 12 hours 23 minutes, respectively, longer than B's 12 hours 15 minutes, 12 hours 16 minutes, and 12 hours 18 minutes, and increasing faster, indicating that A has a higher latitude and is located north of B. Final answer: northwest direction"
+  },
+  {
+    "batch_id": "open_afb138916a66937c1d88f452",
+    "reasoning_chain_model": "In the figure, the Yangtze River channel has bends, and the wharf should be chosen on the side with deep water and relatively fast flow; on a meandering river, the concave bank is eroded due to centrifugal action, and sediment is not easy to deposit, while the convex bank has slower flow and is prone to siltation. Therefore, a water transport wharf that has not silted up for decades is most likely located on the concave bank. Final answer: concave bank"
+  },
+  {
+    "batch_id": "open_c571f776a13f7f1860701727",
+    "reasoning_chain_model": "In the figure, the contour lines are dense and the terrain relief is obvious, with mountain peaks, forests, river rapids, and an ancient temple distributed there, indicating that the local area has both mountainous-water natural landscapes and religious cultural landscapes. Therefore, it is suitable to develop sightseeing, rafting, and cultural tourism products characterized by mountain-and-water scenery, forest ecology, and ancient temple culture. Final answer: mountain-and-water scenery, forest ecology, and ancient temple cultural landscape."
+  },
+  {
+    "batch_id": "open_9e6eb352f4979f9500602fff",
+    "reasoning_chain_model": "In the figure, Kiribati’s longitude range is from 169°32′E to 150°35′W, all within the Western Hemisphere range bounded by 160°E and 20°W; its latitude range extends from 4°43′N to 11°25′S, and the 0° latitude line (the Equator) passes through its territory, so it spans both the Southern and Northern Hemispheres. Final answer: Located in the Western Hemisphere, spanning both the Southern and Northern Hemispheres."
+  },
+  {
+    "batch_id": "open_8c74c67a9f1e92dce788b000",
+    "reasoning_chain_model": "In the figure, the vegetable production base is interconnected with farmers, vegetable processing enterprises, agricultural production materials distribution enterprises, scientific research and training institutions, intermediary service organizations, and the government, directly driving the development of local vegetable production and related industries; whereas “providing a path that can be used for reference” affects other regions and is an indirect effect of experience demonstration. Final answer: the development of agricultural industry clusters in other regions"
+  },
+  {
+    "batch_id": "open_c0da4539efbb1e512e3577a0",
+    "reasoning_chain_model": "In the figure, location A is in South America south of the Tropic of Capricorn and east of the Andes Mountains; combined with \"large-scale beef exports,\" it can be judged as the Pampas grassland of Argentina. Favorable conditions for local agricultural development include flat terrain, mild climate, broad grasslands, sparse population with vast land, relatively low land rent, and convenient sea and land transportation, so dense population and abundant labor are not favorable conditions for its agricultural development. Final answer: dense population and abundant labor"
+  },
+  {
+    "batch_id": "open_ed0d9a5b127def409adb5acb",
+    "reasoning_chain_model": "In the figure, D is located in the Andes Mountains of western South America near the equator. Although the latitude is low and solar radiation is relatively strong, the local altitude is very high; in the troposphere, for every 100 meters increase in altitude, temperature decreases by about 0.6°C, so the high altitude significantly lowers the local annual average temperature. Final answer: Location D is in the Andes Mountains, has a high altitude, and has relatively low temperature."
+  },
+  {
+    "batch_id": "open_5a3561fd61b587338e338284",
+    "reasoning_chain_model": "Figure 3 shows that China's population dependency ratio will gradually rise after experiencing a decline, indicating that in the future the proportion of children and the elderly relative to the working-age population will increase, and the pressure on labor supply will grow; Figure 4 shows that from 2000 to 2010 the proportion of the population aged 15—64 increased, while the proportion of the population aged 0—14 decreased and the proportion of the elderly population increased. Population dependency ratio = (population aged 0—14 + population aged 65 and above) ÷ population aged 15—64 × 100%, therefore in the future it should rely on improving labor productivity to compensate for the relative decrease in labor force, focus on developing technology-intensive and capital-intensive industries, and appropriately develop service industries related to population aging such as elderly care and medical care. Final answer: Technology-intensive and capital-intensive industries (while also taking into account related service industries such as elderly care and medical care)"
+  },
+  {
+    "batch_id": "open_c5951eaffc7a4dd8476b5604",
+    "reasoning_chain_model": "In the figure, the light rail passes through an urban area with dense buildings and scarce land, and crosses ground roads and blocks by means of continuous elevated bridges; setting the line in the air can use three-dimensional space, reduce land acquisition and the division and interference with ground traffic, among which the core purpose is to occupy less valuable urban land. Final answer: Save urban land and reduce interference with ground traffic."
+  },
+  {
+    "batch_id": "open_c20f1b5f3e68168fc578a2cb",
+    "reasoning_chain_model": "In the figure, there are various transportation facilities such as railways, expressways, and an airport near Yinchuan, and the transportation routes are relatively concentrated, which facilitates the collection and distribution of express parcels and multimodal transport; an express sorting center should be preferentially located at an integrated transportation hub to reduce transportation and transfer costs and improve delivery efficiency, so Yinchuan City is the most suitable choice. Final answer: Yinchuan City"
+  },
+  {
+    "batch_id": "open_e9b6c77a0965847c483978bd",
+    "reasoning_chain_model": "In the figure, advantageous area A is located in the higher-latitude Northeast region, while advantageous area B is located in the lower-latitude central-eastern region; area A has lower temperatures, a longer crop growth cycle, and in summer has longer sunshine duration and a larger day-night temperature difference. Photosynthesis is strong during the day while respiratory consumption is low at night, which is conducive to the accumulation of organic matter and nutrients, so the quality of agricultural products is higher. Final answer: Area A has a higher latitude, a long crop growth period, sufficient sunshine, and a large day-night temperature difference, which is conducive to the accumulation of organic matter."
+  },
+  {
+    "batch_id": "open_c9e80cc066492ab9320ef8c1",
+    "reasoning_chain_model": "In the figure, the upstream of the solar panel factory is directly connected to polysilicon production, and polysilicon in turn uses the park's high-grade silicon ore as raw material and is supplied with electricity by the thermal power plant, so its outstanding advantages are local supply of raw materials and sufficient energy, which can reduce production and transportation costs. Final answer: The park has abundant high-grade silicon ore resources, sufficient supply of polysilicon raw materials, and guaranteed electricity."
+  },
+  {
+    "batch_id": "open_1a158a47c79a55364bf89083",
+    "reasoning_chain_model": "The structure shown by ③ in the figure cuts through the rock layer at ②, but is covered by the overlying rock layer at ①, indicating that ② is earlier than ③, and ③ is earlier than ①; the structure shown by ④ also cuts through ① and the rock layers below it. According to the principles that in sedimentary rocks the upper layers are newer and the lower layers are older, and that the cutter is later than what is cut, the formation sequence from early to late is ②, ③, ①, ④. Final answer: ②→③→①→④"
+  },
+  {
+    "batch_id": "open_eabb7e160156ef8192c0df1f",
+    "reasoning_chain_model": "The figure shows that from 2000 to 2010, the area of cultivated land fluctuated with the years, and the proportions of planted areas for grain crops, vegetables and melons/fruits, oil crops and cotton, and other crops changed; by comparing the spectral characteristics and coverage ranges of remote sensing images from different periods, the distribution and area changes of various crops can be identified and calculated. Therefore, agricultural remote sensing can monitor changes in cultivated land area and crop planting structure. Final answer: changes in cultivated land area and crop planting structure"
+  },
+  {
+    "batch_id": "open_26038fd416b286c213c34d8d",
+    "reasoning_chain_model": "The map’s darkest category, representing more than 20 sandstorm occurrences, forms a major western center in southern Xinjiang, corresponding to the Tarim Basin and especially the Taklimakan Desert area; therefore it is identified as China’s primary sandstorm center. Final answer: Tarim Basin (Taklimakan Desert area)"
+  },
+  {
+    "batch_id": "open_069581fde10ca944c0db8c59",
+    "reasoning_chain_model": "In Figure A, the arrow from “magma” toward rock A is marked ⑦; a volcanic eruption is a magmatic activity in which magma rises, erupts, and cools to form igneous rock. Final answer: ⑦"
+  },
+  {
+    "batch_id": "open_a369efb344d28977f7bae1af",
+    "reasoning_chain_model": "In the figure, the amount of water entering the reservoir is very small in winter and spring, increases rapidly after June, reaches a peak of about 4 million cubic meters in July, and remains relatively large in August–September; the water level is lowest in spring and highest around September after the flood season. This indicates that local precipitation and river runoff are highly concentrated in summer, with drought in winter and spring, matching the hydrological characteristics of the North China temperate monsoon climate region. Final answer: North China region"
+  },
+  {
+    "batch_id": "open_cfc9f8c5d2498d8b81ea5fbb",
+    "reasoning_chain_model": "The figure shows the Yellow River flowing generally from south to north along the eastern side of the Yinchuan Plain, from lower to higher latitudes. In winter, the downstream northern section freezes earlier, while in spring the upstream southern section thaws earlier, so floating ice can accumulate against the still-frozen downstream channel, blocking flow and raising the water level. Final answer: ice-jam flood"
+  },
+  {
+    "batch_id": "open_1364a496bc5e8a42b642a8a4",
+    "reasoning_chain_model": "The large bright, dense cloud layer above Earth in the figure can strongly reflect solar shortwave radiation during the day, reducing the solar radiation reaching the ground and thereby slowing the warming of the land surface. Final answer: enhance the weakening effect on solar radiation, lowering the daytime temperature in the covered area"
+  },
+  {
+    "batch_id": "open_20f9bfc1cc41a1b05444bb89",
+    "reasoning_chain_model": "The profile in the figure runs along 16°S through South America; A is located on the west coast at about 80°W, near the Andes Mountains, which are as high as about 7000 meters, and B is located on the east coast at about 40°W; starting from A, going south along the coast around the southern end of the continent and then north to B, one would successively pass through natural zones such as tropical desert, subtropical evergreen sclerophyllous forest, temperate deciduous broadleaf forest, temperate grassland and desert, and subtropical evergreen broadleaf forest, but southern South America lacks the broad subarctic land area needed to form subarctic coniferous forest, so the route would not pass through a subarctic coniferous forest zone. Final answer: subarctic coniferous forest zone"
+  },
+  {
+    "batch_id": "open_f7b4d2a253faee7c4befb3e9",
+    "reasoning_chain_model": "The shaded lake in the figure is located in the central-eastern part, and the contour lines show that there are two relatively long extending ridges on its northern and eastern sides; in contour interpretation, a ridge is high ground where contour lines bulge toward lower elevations, and the observation point should be located in the open low area south of the lake and facing north. The location labeled C matches this orientation and terrain relationship, while the other locations cannot simultaneously satisfy the conditions that the lake is to the north and that the two ridges are distributed on the northern and eastern sides of the lake. Final answer: location C"
+  },
+  {
+    "batch_id": "open_f046be078aff08bc2cf9ce92",
+    "reasoning_chain_model": "In the figure, county-level and above cities in the north are relatively dense, and many are distributed in belts along railways, national roads, and expressways, with especially high concentration at intersections of transportation lines, indicating that transportation accessibility is a direct influencing factor; the denser cities and transportation network in the north may also be related to relatively flat terrain, which is convenient for construction, as well as concentrated population and economic activity. Final answer: transportation conditions and terrain conditions, especially the distribution and intersections of transportation lines."
+  },
+  {
+    "batch_id": "open_a745f3de563204250870cb8a",
+    "reasoning_chain_model": "The image places A and D on the eastern margins of the major Northern Hemisphere continents, corresponding to East Asia and eastern North America. These monsoon or humid continental climates receive more warm-season moisture and convection, producing a summer precipitation maximum, unlike the western-margin locations with winter-dominant or more evenly distributed rainfall. Final answer: A and D."
+  },
+  {
+    "batch_id": "open_742a33a3b9c992636f3f2aaa",
+    "reasoning_chain_model": "In the figure, in 1989 the desert area is about 1000 square kilometers and the saline-alkali land is about 800 square kilometers, both relatively large, while water bodies and wetlands are only about 200 square kilometers; from 1989 to 2010, water bodies and wetlands decreased significantly, and cultivated land and forest-grassland increased, reflecting the characteristics of an arid climate, widespread desert, and the development of irrigated oasis agriculture. Therefore, this region should be located in the arid inland area of Northwest China, most likely the oasis-desert transition zone of Xinjiang. Final answer: Northwest China (most likely Xinjiang)"
+  },
+  {
+    "batch_id": "open_e8df91f69ea4a1582b8b607e",
+    "reasoning_chain_model": "In the figure, ③ occupies a relatively small proportion of area and changes little, which fits the characteristics of commercial districts usually being located in the city center, occupying relatively little land but having high land-use intensity; ① has the largest proportion and should be residential area, while ② shrinks significantly with the relocation of industry outward and should be industrial area. Final answer: Commercial district"
+  },
+  {
+    "batch_id": "open_4c28b2a55e078a6d2e334940",
+    "reasoning_chain_model": "Bank D (D) lies on the inner, convex side of the broad river bend, and the gap between the July solid shoreline and January dashed shoreline is widest there, indicating a broad exposed point bar. In a meandering channel, slower flow along the convex bank allows transported sediment to settle, while the faster flow erodes the opposite concave bank, so deposition is most significant at D. Final answer: D (D)"
+  },
+  {
+    "batch_id": "open_d58c76a220f01c5ad3098130",
+    "reasoning_chain_model": "In the figure, ① has the largest nutrient storage in litter and a relatively slow material cycle, ② has the largest soil nutrient storage, and ③ has the largest biomass nutrient storage and a relatively fast material cycle; the higher the latitude, the lower the temperature, the slower the decomposition of litter, and more nutrients accumulate in the litter, while at low latitudes with high temperature and abundant rainfall, biological growth and decomposition are vigorous, and nutrients are mainly stored in living organisms. Therefore, ① is high latitude, ② is mid-latitude, and ③ is low latitude. Final answer: ①→②→③"
+  },
+  {
+    "batch_id": "open_18a17472feaf941ee5a133dd",
+    "reasoning_chain_model": "In the figure, commercial land is mainly concentrated along the city's main roads and at road intersections. These locations have high transportation accessibility and large passenger flows, making commodity circulation convenient and attracting consumers. Therefore, the layout of commercial districts is mainly affected by transportation conditions. Final answer: Transportation conditions"
+  },
+  {
+    "batch_id": "open_7244e7b3b2ecf52e98ddee29",
+    "reasoning_chain_model": "In the figure, 12 stations are located at 70°—80°N, 157°W—81°E, and 22 stations are located at 60°—70°N, 166°W—41°E; the land within these high-latitude ranges mainly includes northern North America, northern Europe, and northern Asia. Final answer: North America, Europe, and Asia."
+  },
+  {
+    "batch_id": "open_1b4a2b5ef5d7c09f0bdc5767",
+    "reasoning_chain_model": "In the figure, Helan Mountain is located west of the Yinchuan Plain; its western side extends deep into the interior and is on the leeward slope of the summer monsoon, with little precipitation and an arid climate, so it mainly forms a temperate desert landscape. Final answer: Temperate desert landscape"
+  },
+  {
+    "batch_id": "open_73737a9d8a33b2bf10a00247",
+    "reasoning_chain_model": "The town in the figure is located at about 121°E, 29°N, so it can be judged that its province is Zhejiang Province; in the figure, the western part has dense contour lines and many mountain peaks, while the urban area in the east has relatively flat terrain, which also fits the characteristics of widespread mountains and hills in southwestern Zhejiang and coastal plains distributed in the northeast. Final answer: Mainly mountains and hills, with terrain higher in the southwest and lower in the northeast."
+  },
+  {
+    "batch_id": "open_dd5428923bb1248813810ff4",
+    "reasoning_chain_model": "In the figure, the period with solar radiation each day accounts for about 14 hours of the whole day, indicating that the day length is obviously greater than 12 hours; the temperature is roughly 8–18℃, and also clearly lower than in midsummer. In a 32°N region, the situation where the day length is relatively long while the temperature is still relatively low is usually in the spring warming stage, and best matches April. Final answer: April"
+  },
+  {
+    "batch_id": "open_46d6af3cd711aa64e2154afe",
+    "reasoning_chain_model": "In the figure, during most of the period from 1949 to 2009 in Beijing, the birth rate was higher than the death rate, and the natural growth rate was generally positive; population growth will increase pressure on resources and the environment. Environmental population capacity is mainly constrained by scarce resources, and Beijing has insufficient water resources, so measures such as the South-to-North Water Diversion should be used to strengthen inter-basin allocation of water resources. Final answer: Inter-basin allocation of water resources"
+  },
+  {
+    "batch_id": "open_dc0f2b66b6cddde315c2372d",
+    "reasoning_chain_model": "In the figure, Beijing's natural population growth rate generally declines and has been at a relatively low level in recent years; environmental population carrying capacity depends on resource consumption and environmental pressure. Increasing the proportion of the tertiary industry, which consumes fewer resources and has higher added value, is conducive to reducing the resource and environmental burden per unit of output value, thereby improving the population-environment carrying capacity. Final answer: Tertiary industry"
+  },
+  {
+    "batch_id": "open_86034f2c89ac13cb1d04bebb",
+    "reasoning_chain_model": "In the figure, the adjacent isolines of land production potential are successively 700, 750, 800, 850, 900, 950, with a contour interval of 50 g/(m²·year); M is located on the next isoline south of the 950 isoline, so its value is 950 + 50 = 1000 g/(m²·year). Final answer: 1000 g/(m²·year)"
+  },
+  {
+    "batch_id": "open_6d717f2819977d2dd948b8a3",
+    "reasoning_chain_model": "In the figure, around 2009, Beijing's natural population growth rate was relatively low, and population growth was more affected by population in-migration; a large amount of population in-migration will increase pressure on resources and the environment such as land, water, housing, and transportation, thereby intensifying the contradiction between population and resources and the environment. Final answer: The contradiction between population and resources and the environment"
+  },
+  {
+    "batch_id": "open_1786c7016a5da21521f3a32b",
+    "reasoning_chain_model": "In the figure, Parlung Zangbo runs across Bomi County, with many tributaries such as Yigong Zangbo and Bodui Zangbo flowing into it; the river system is relatively dense, and many rivers flow through high mountain gorges. Hydropower power P=ρgQH. Bomi has relatively abundant precipitation and snow-ice meltwater supply, so river discharge Q is relatively large, and the large terrain relief makes the head H relatively large. Therefore, hydropower reserves are large, relatively concentrated in distribution, and have great development potential, but the current degree of development and utilization is relatively low. Final answer: Bomi County has abundant and relatively concentrated hydropower resources, great development potential, and a low degree of development; they are mainly distributed in the high mountain gorge sections of the Parlung Zangbo main stream and tributaries such as Yigong Zangbo and Bodui Zangbo."
+  },
+  {
+    "batch_id": "open_4574122e4f9dafaa7bde0388",
+    "reasoning_chain_model": "In figure C, the left side is the north slope and the right side is the south slope. The mountain natural belts from low to high are roughly evergreen broad-leaved forest, deciduous broad-leaved forest, mixed coniferous and broad-leaved forest, and coniferous forest, and the upper limit of the same natural belt is higher on the south slope, indicating that this mountain is located in the transition zone between the warm temperate zone and the subtropical zone in the Northern Hemisphere; the Qinling Mountains are precisely an important boundary in China between the warm temperate zone and the subtropical zone, and between deciduous broad-leaved forest and evergreen broad-leaved forest, with the south slope being warmer and wetter and the north slope colder, matching the figure. Final answer: Qinling region"
+  },
+  {
+    "batch_id": "open_f633a0bdd6f818bf8019f4a8",
+    "reasoning_chain_model": "In the figure, Zhangye is located in an inland continental area at about 39°N, 100°E, with high mountains of 5547 meters above sea level nearby. The climate is dry, with many sunny days and a large day-night temperature difference; strong daytime sunlight makes photosynthesis in fruits and melons vigorous, while low temperatures at night reduce the consumption of organic matter by respiration, so more sugar accumulates and the quality is excellent. Final answer: Strong sunlight and a large day-night temperature difference are conducive to sugar accumulation in fruits and melons."
+  },
+  {
+    "batch_id": "open_22d7bcd3c95e44df495bbda4",
+    "reasoning_chain_model": "In the figure, ④ is small parcels of land scattered in the urban built-up area and near major roads; ecological city planning should allocate green space in areas where residents’ activities are concentrated and traffic pollution is relatively obvious, in order to purify the air, reduce noise and the heat island effect, and provide leisure space. Therefore, ④ should be planned as urban green space or a park greening area. Final answer: Urban green space (park greening area)"
+  },
+  {
+    "batch_id": "open_db40c251e81792ac120a77e1",
+    "reasoning_chain_model": "The figure shows that coal is widely distributed in Yulin and its surrounding areas, natural gas is concentrated in distribution, and there are contiguous rock salt resources, indicating that the local energy minerals and chemical raw materials are diverse in type, large in reserves, well combined, and relatively concentrated in distribution. This facilitates the comprehensive development, mutual support, and local processing of coal, natural gas, and rock salt, forming an energy and chemical industry chain; if combined with the characteristics stated in the material such as shallow coal burial and relatively good coal quality, the resource development conditions are even more superior. Final answer: Coal, natural gas, rock salt and other resources are abundant, with complete types, good combinations, and concentrated distribution, and the coal is shallowly buried, of high quality, and easy to mine, facilitating comprehensive development and the development of the energy and chemical industry."
+  },
+  {
+    "batch_id": "open_f93f97c1c56d61d6c6fd40fe",
+    "reasoning_chain_model": "The figure shows that Yunan County has rivers, railways, and expressways passing through it, connecting the county seat and several designated towns. The transportation conditions are favorable for enterprises to concentrate their layout and share infrastructure; industrial agglomeration can strengthen enterprise cooperation, reduce transportation and production costs, and form economies of scale, thereby increasing employment and fiscal revenue and promoting local industrialization and urbanization. However, dry batteries, building materials, and fine chemicals are all highly polluting, and concentrated layout will also increase environmental pressures such as water, air, and soil pollution. Final answer: Promote local economic development, increase employment, and accelerate industrialization and urbanization, while also aggravating resource and environmental pressure."
+  },
+  {
+    "batch_id": "open_81ffbb063ca4a59758842d9c",
+    "reasoning_chain_model": "In the figure, railway T from Dunhuang to Golmud is a direct route in a nearly north-south direction, while the original railway had to detour eastward into provincial-level administrative region A; A is Gansu Province, whose provincial-level administrative center is Lanzhou, so after railway T opens, it will no longer detour through Lanzhou. Final answer: Lanzhou"
+  },
+  {
+    "batch_id": "open_dad02e267ea0de7e5e1c9d5e",
+    "reasoning_chain_model": "In the figure, from 2000 to 2005, Beijing’s inhalable particulate matter concentration was about 0.14—0.17 mg/m³, continuously higher than the standard value of about 0.10 mg/m³; besides anthropogenic emissions, Beijing has little precipitation in winter and spring, a dry climate and frequent strong winds, and is also close to sand-source areas in northern and northwestern regions, so dust is easily transported and suspended in the air. Final answer: Dry and windy in winter and spring and close to sand-source areas, with relatively many dust weather events."
+  },
+  {
+    "batch_id": "open_5d357f59f2f52dde04ac6744",
+    "reasoning_chain_model": "In the figure, the product transportation cost of label A type industry accounts for the largest share, about 45%, clearly higher than raw materials, technology, and wage inputs; to reduce finished-product transportation costs, this type of industry should be located close to the consumer market, and belongs to market-oriented industry. Final answer: market-oriented industrial layout"
+  },
+  {
+    "batch_id": "open_7094cbe6b263fd092bc2d40b",
+    "reasoning_chain_model": "In the figure, urban land from 1950 to 1990 expanded along transportation lines such as the Yangtze River, the canal, and the railway, indicating that the direction of urban development was guided by the distribution positions of major transportation routes; therefore, the layout of transportation lines affects the evolution of urban spatial form. Final answer: layout"
+  },
+  {
+    "batch_id": "open_74eb8f50af0916c7c4cc7820",
+    "reasoning_chain_model": "In the figure, from 1975 to 2005 the proportion of forest land decreased from about 47% to about 30%, while residential land, roads, and square land generally increased, and the monthly average PM10 concentration continued to rise, indicating that air quality tended to deteriorate; forest land and other green spaces can adsorb and block particulate matter, so continuing to occupy forest land and grassland to expand residential areas, roads, and other construction land would further aggravate particulate pollution. Final answer: It is not suitable to continue occupying forest land and grassland to expand urban construction land."
+  },
+  {
+    "batch_id": "open_dd787e6f0cd949d3f8e96912",
+    "reasoning_chain_model": "In the figure, steel plant A is located on the southwest side of the urban area, and ③ is situated between the steel plant and the main urban area; the steel industry produces smoke and dust, waste gas, and noise, so the isolated position of ③ should be used to set up protective green space, in order to reduce the impact of industrial pollution on the urban area. Final answer: Protective green belt"
+  },
+  {
+    "batch_id": "open_2089e4e0cb2615253fa24d6f",
+    "reasoning_chain_model": "The left figure shows the estuary opening toward the right, with the upper bank marked label B at 33°33′ and the lower bank marked label A at 33°50′; this latitude order indicates a Southern Hemisphere setting. The Coriolis acceleration is a_c = 2Ωv sinφ, so with φ < 0, the flowing water deflects to its left; for the rightward-flowing river, this strengthens erosion along the upper label B bank and leaves slower flow and greater sediment deposition along the lower label A bank. The island will therefore expand toward and eventually join the lower, right bank. Final answer: label A bank"
+  },
+  {
+    "batch_id": "open_b2529593624b78771d3e5c58",
+    "reasoning_chain_model": "In the figure, a is located above “high yield per unit area” and, together with “natural conditions,” points to “high yield per unit area”; high yield per unit area in commercial grain agriculture requires both favorable natural conditions and a relatively high level of agricultural science and technology, so a corresponds to developed agricultural science and technology. Final answer: High level of agricultural science and technology (developed agricultural science and technology)"
+  },
+  {
+    "batch_id": "open_3d6801e41d52cb06f6886857",
+    "reasoning_chain_model": "In the figure, the mountain peak elevation is 573 meters, and the contour interval is 100 meters; from the 500-meter contour line around the mountain peak, the elevation decreases successively toward the downstream direction of the river, so it can be determined that the upper edge of the waterfall is located at the 300-meter contour line. The waterfall drop is 60 meters, so the elevation of the water surface in the pool below is 300－60＝240 meters; the viewing platform is 5 meters above the water surface, so its elevation is 240＋5＝245 meters. The height difference between the viewing platform and the mountain peak is 573－245＝328 meters. Final answer: 328 meters"
+  },
+  {
+    "batch_id": "open_263ec02318ee32a3b018a42e",
+    "reasoning_chain_model": "In the figure, point P is located at the boundary between land and ocean, with land to the west and ocean to the east, and the isotherms increase from 2℃ on the north side to 4℃ on the south side; the fact that January temperature increases toward the south indicates that this place is in the Northern Hemisphere, and the ocean being on the east side of the continent indicates that it is on the eastern coast of a continent. Based only on the information in the figure, the specific city cannot be determined. Final answer: The eastern coast of a mid-latitude continent in the Northern Hemisphere, possibly the eastern coastal region of China"
+  },
+  {
+    "batch_id": "open_33d55dac1000218483133e61",
+    "reasoning_chain_model": "In the figure, a relatively large area of salt fields is distributed along the southwestern coast, which can provide sufficient sea-salt raw materials for salt chemical production, so it is suitable for building a salt chemical industry base. Final answer: Salt chemical industry base"
+  },
+  {
+    "batch_id": "open_1f6fe04f60d3e855947c8db0",
+    "reasoning_chain_model": "In the figure, the volcano is located beneath the ice cap; the high temperature produced by a volcanic eruption would cause the glacier to melt rapidly, and a large amount of meltwater would flow into the river, causing the water level to surge. Final answer: Flood disaster"
+  },
+  {
+    "batch_id": "open_4d00738004c7a2715febd981",
+    "reasoning_chain_model": "The graph shows that place a receives relatively strong solar radiation throughout the year with two peaks near the equinoxes, matching the annual pattern near the equator; place b receives radiation mainly from about September to the following March and peaks around December–January, indicating polar day during Southern Hemisphere summer, so it is near the South Pole; place c receives radiation mainly from about March to September and peaks around June–July, indicating polar day during Northern Hemisphere summer, so it is near the North Pole. Final answer: a is near the equator, b is near the South Polar region, and c is near the North Polar region."
+  },
+  {
+    "batch_id": "open_49f4ad970245c92d0af9a7e1",
+    "reasoning_chain_model": "In the figure, the left and right boundaries of the visible hemisphere are the 180° meridian and the 0° meridian respectively, and the central meridian is 90°W. The dusk line a intersects the equator near the center; the local time at the intersection of the equator and the dusk line is 18:00, so 90°W is 18:00. The 0° meridian, which differs by 90° to the east, is 24:00, namely the natural date change line, while the artificial date change line is the 180° meridian. The two date boundary lines differ by 180°, so two dates exist globally at the same time, and the new and old dates each occupy half of the globe. Final answer: There are two dates globally, and the new and old dates each occupy half."
+  },
+  {
+    "batch_id": "open_05565bce4be6c8822ad0ba0e",
+    "reasoning_chain_model": "In the figure, the day length of ①—④ is all 12 hours, among which the noon solar altitude of ③ is about 45°, and that of ④ is lower than 45°; the day length of ⑤ is 24 hours. On March 21, the Sun directly shines on the equator, day and night are basically equal everywhere, and the noon solar altitude H＝90°－|latitude|; the latitude north of the Tropic of Cancer is greater than 23.5°N, so the noon solar altitude is less than 66.5°, which matches the positions of ③ and ④ in the figure. Final answer: ③ and ④"
+  },
+  {
+    "batch_id": "open_7ea0ab60fe0063b2d5219cc7",
+    "reasoning_chain_model": "In the figure, location Q is on the urban periphery, adjacent to universities and research institutes, with strong scientific and technological strength, concentrated talent, convenient nearby transportation, and a relatively good environment; high-tech industries have high requirements for knowledge, technical talent, and environmental quality, so this location is most suitable for building a high-tech industrial zone. Final answer: high-tech industrial zone"
+  },
+  {
+    "batch_id": "open_3689e22cf87b2e44e9e73f78",
+    "reasoning_chain_model": "The day length at point P in the figure is about 15 hours, clearly greater than 12 hours, and the noon solar altitude is about 70°, indicating that the direct solar point is in the Northern Hemisphere and Beijing is in summer; according to the noon solar altitude formula h＝90°－|local latitude－latitude of the direct solar point|, Beijing has a relatively large noon solar altitude around the summer solstice. Beijing has a temperate monsoon climate; in summer it is affected by the summer monsoon, with high temperatures and concentrated precipitation, and thunderstorms or rainstorms may occur. Final answer: Hot and rainy, with possible thunderstorms or rainstorms."
+  },
+  {
+    "batch_id": "open_6d519c99d4c3acabf1d63e5d",
+    "reasoning_chain_model": "In the figure, the industrial center successively shifted from Western Europe in the 1960s and 1970s to Japan in the 1970s and 1980s, then to the southeastern coast of China in the 1980s and 1990s, and after 2003 shifted again to Southeast Asian regions such as Vietnam, while products were exported back to the original production regions. This shows that the industry has relatively low technology and capital thresholds, consumes a large amount of labor, and shifts to low-cost regions as labor costs rise; this transfer path best matches the characteristics of the shoemaking industry, especially the sports shoe manufacturing industry. Final answer: shoemaking industry (sports shoe manufacturing industry)"
+  },
+  {
+    "batch_id": "open_7813d3ca73a62f269df3986f",
+    "reasoning_chain_model": "In the figure, domestic sewage, feces, and other wastes enter a biogas digester or biochemical tank for treatment and recycling, avoiding the direct discharge of sewage into the water source area, so it can reduce pollutants entering the water body and improve and protect water quality. Final answer: Reduce pollution of the water source and protect the water quality of the water source."
+  },
+  {
+    "batch_id": "open_1a4a5da6a20f35d907e20a26",
+    "reasoning_chain_model": "In the figure, cloud cover overall rises from about 48% to about 60%, and the annual temperature range overall decreases from about 14.2℃ to about 13.6℃; the increase in cloud cover and the decrease in annual temperature range indicate that the ocean’s moderating effect on climate has strengthened. Final answer: Oceanicity strengthened"
+  },
+  {
+    "batch_id": "open_fe0ff60ae3f144ea6c41a434",
+    "reasoning_chain_model": "In the figure, the coal-bearing rock layers on both sides of location label C do not extend continuously, but instead show obvious fracturing and displacement; displacement of rock layers along a fracture plane is a typical feature of a fault. The image is relatively blurry, making it difficult to further determine whether it is a normal fault or a reverse fault. Final answer: fault"
+  },
+  {
+    "batch_id": "open_ce519b48d42c364ce0d26f4a",
+    "reasoning_chain_model": "In the figure, the wage input of type A factory accounts for about 15%, fuel cost about 20%, raw material input about 42%, freight about 5%, technology input about 7%, and other inputs about 23%; among them, raw material input has the highest share, indicating that the dominant location factor of this factory is raw materials. Classified by dominant factor, an industry in which raw material input is dominant belongs to raw-material-oriented industry. Final answer: raw-material-oriented industry"
+  },
+  {
+    "batch_id": "open_7093e44dcb689b0586db9a67",
+    "reasoning_chain_model": "In the figure, J is located in northern Africa, in the Sahara region. This area is affected by the subtropical high-pressure belt and the northeast trade winds, with scarce precipitation throughout the year, forming a large-area tropical desert landscape. Final answer: tropical desert landscape"
+  },
+  {
+    "batch_id": "open_ffc6161a647f0b5f9c8538ce",
+    "reasoning_chain_model": "In the figure, solar radiation is the incoming energy arrow on the left that travels from top to bottom toward the ground and passes through the weakening effect of the atmosphere; this arrow is labeled ①. Final answer: ①"
+  },
+  {
+    "batch_id": "open_06ee36cf3e1dda0901660b3c",
+    "reasoning_chain_model": "In the figure, the downward slanting arrow pointing from the atmosphere to the ground is labeled ③; after the atmosphere absorbs terrestrial longwave radiation, it returns energy to the ground in the form of longwave radiation, which is atmospheric counter-radiation. Final answer: ③"
+  },
+  {
+    "batch_id": "open_03262e57c604acc54b957d8b",
+    "reasoning_chain_model": "The figure shows Region A (marked label A) in the north-central interior of the United States, within the lightly shaded Great Plains area that has a low preference index; this region has extensive flat land and relatively sparse population, so its economy is dominated by large-scale agriculture and animal husbandry. Final answer: agriculture and animal husbandry."
+  },
+  {
+    "batch_id": "open_83dd20cfde996d6aa8b4fc75",
+    "reasoning_chain_model": "In the figure, the railway network demand length DL is always higher than the completed railway network length SL, while during the T3 to T4 stage, DL tends to level off from a high level and decreases slightly, whereas SL continues to rise, so the vertical distance between the two curves gradually narrows; the formula for the supply-demand gap is DL－SL, and the narrowing distance between the curves indicates that the railway transportation supply-demand gap decreases and the supply-demand contradiction is somewhat alleviated. Final answer: T3 to T4 stage"
+  },
+  {
+    "batch_id": "open_1ce1782732968bbe2945f15c",
+    "reasoning_chain_model": "In the table, Shanghai's birth rate is 7.05‰ and its natural growth rate is 1.98‰, while Beijing's birth rate is 7.48‰ and its natural growth rate is 3.07‰; the natural population growth rate = birth rate − death rate, so Shanghai's death rate is approximately 7.05‰ − 1.98‰ = 5.07‰, and Beijing's death rate is approximately 7.48‰ − 3.07‰ = 4.41‰. Shanghai not only has a lower birth rate, but also a higher death rate, among which the difference in death rates has a more obvious impact on the difference in natural growth rates, mainly related to Shanghai's higher degree of population aging. Final answer: The degree of population aging is relatively high, leading to a higher death rate."
+  },
+  {
+    "batch_id": "open_56361c8ddaa467647e89acea",
+    "reasoning_chain_model": "In the figure, the surface elevation is mostly below 500 meters, the terrain is gently undulating and lakes are distributed there; the isotherms on the west side are about 0–6℃, and those on the east side are about 9–18℃. From ρ=p/(R_dT_v), it can be seen that when air pressure is similar, the lower the temperature and the less water vapor contained, the greater the air density. Therefore, the cold air on the west side, driven by upper-level westerlies, wedges eastward beneath the warm air, manifesting as cold front activity commonly seen in low mountain and hilly areas of eastern China. Combining features such as low-elevation hills, many lakes, and relatively high temperatures, this place is most likely located in the southern Southeast Hills, specifically corresponding to the Jiangnan Hills area. Final answer: Southeast Hills (Jiangnan Hills area)"
+  },
+  {
+    "batch_id": "open_d0be1f2dc3f449e3743bfaa7",
+    "reasoning_chain_model": "In the figure, coal accounts for the largest proportion in the energy consumption structure, indicating that this region mainly relies on coal energy; sulfur dioxide and nitrogen oxides emitted from coal combustion form sulfuric acid and nitric acid in the atmosphere and are deposited with acid rain, increasing soil acidity and leaching nutrients, which in severe cases leads to a decline in soil fertility. Final answer: Soil acidification, decline in soil fertility"
+  },
+  {
+    "batch_id": "open_f0c357cb02eecdc435fb8927",
+    "reasoning_chain_model": "The table lists population growth rates of 1.3% for country A, 0.9% for country B, and 2.1% for country C; since 2.1% is the highest, assuming “population immigration rate” refers to the table’s population growth rate, the answer is C. Final answer: C"
+  },
+  {
+    "batch_id": "open_6392914ec7fdbaf149a85585",
+    "reasoning_chain_model": "In the figure, location B has relatively low precipitation throughout the year, about 5 millimeters in winter, rising to about 25–30 millimeters in summer, and both potential evaporation and actual evaporation are mainly concentrated in the short summer, being almost zero in winter, indicating that this place is cold year-round, has a short summer, and water evaporation is clearly limited by low temperature, which matches the hydrothermal characteristics of a polar tundra climate. Final answer: Tundra climate"
+  },
+  {
+    "batch_id": "open_7be514226afc050c2bb50970",
+    "reasoning_chain_model": "In the figure, location C is located within an area enclosed by contour lines higher than those of A, B, and D; the contour values near A and B are lower, and location D crosses the highland near C and then enters a lower contour range; the larger the contour value, the higher the elevation, so among the four locations, location C has the highest elevation. Final answer: C"
+  },
+  {
+    "batch_id": "open_4eb2cd4638fed208d346fbb2",
+    "reasoning_chain_model": "In the figure, B is directly related to “strong winter monsoon” and affects C through strong-wind conditions; when China’s winter monsoon is strong, cold air from high-latitude regions rapidly moves southward, easily forming cold wave weather, and the accompanying strong winds may also promote sandstorms. Final answer: cold wave"
+  },
+  {
+    "batch_id": "open_2dc1fa4e94f4237dcc797c0c",
+    "reasoning_chain_model": "In the figure, the lengths of the daylight arcs for Beijing, ①, and ② are approximately 220°, 162.5°, and 140°, respectively. On the same date, the solar declination is the same everywhere, and the daylight arc length A and latitude φ satisfy cos(A/2)=-tanφ·tanδ; Beijing’s latitude is about 40°N, and substituting A=220° gives a solar declination of about 22°N. Then, using the daylight arc lengths of ① and ② respectively, the latitudes are found to be about 20°S and 40°S. Therefore, the three places from north to south are Beijing, ①, ②. Final answer: Beijing (about 40°N)—① (about 20°S)—② (about 40°S)"
+  },
+  {
+    "batch_id": "open_384f1425de90513b7d756eba",
+    "reasoning_chain_model": "In the figure, M5 connects the “source market” to only one “destination,” and uses a two-way route to indicate tourists traveling from the source market to that destination and then returning, which matches the characteristics of a single-destination pattern. Final answer: M5 pattern"
+  },
+  {
+    "batch_id": "open_f3640c0148975cb9d688ced4",
+    "reasoning_chain_model": "In the figure, location A is approximately on the western coast of Peru in South America between 10°S—15°S and 75°W—80°W; it is in the tropics and on the western side of the Andes Mountains. This area is affected by the cooling and dehumidifying effect of the Peru Current, while the Andes Mountains block moist airflows from the Atlantic, resulting in scarce precipitation and limiting this climate zone to a long, narrow distribution along the coast. Final answer: Ocean currents and topography."
+  },
+  {
+    "batch_id": "open_05eec0040f2c7542c420ea84",
+    "reasoning_chain_model": "Figure A is located near 40°N. In Figure B, at P, the eastern bank of the river valley is steeper and the western bank is gentler, indicating that the eastern bank is more strongly eroded; in the Northern Hemisphere, river water is deflected to the right side of its direction of movement by the geostrophic deflection force, so the eastern bank is the river’s right bank, and the river should flow from south to north. Final answer: Flows from south to north"
+  },
+  {
+    "batch_id": "open_0f08114dd5e82b85893b07ab",
+    "reasoning_chain_model": "In the figure, Shanghai has a concentration of many multinational companies’ R&D centers and production enterprises, and it is located at the mouth of the Yangtze River and in a coastal area; the clustering of R&D institutions shows that Shanghai has strong scientific and technological capabilities, abundant specialized talent, and convenient information exchange, while its location along the river and coast is also favorable for transporting raw materials and products, so it is highly attractive to multinational petrochemical enterprises. Final answer: Prominent advantages in technology and talent, convenient information and transportation, and good petrochemical industry clustering and supporting conditions."
+  },
+  {
+    "batch_id": "open_e7f74f86be33891cd84655e4",
+    "reasoning_chain_model": "In the figure, location A has an annual precipitation of about 1500 millimeters, a lowest monthly average temperature of about 14℃, and a highest monthly average temperature of about 28℃; it is warm throughout the year and has abundant precipitation, matching the characteristics of Guangzhou’s subtropical monsoon climate. Final answer: Guangzhou"
+  },
+  {
+    "batch_id": "open_f8786c8ec6be2ebda02f94d3",
+    "reasoning_chain_model": "In the figure, the vertical axis simultaneously represents urban population (hundred million) and urbanization level (%); the population shown by curve ④ slowly increases from about 500 million in 1950 to about 1 billion in 2010, consistent with the characteristic of slower urban population growth in developed countries. Final answer: curve ④"
+  },
+  {
+    "batch_id": "open_1507d6e506412b4594198096",
+    "reasoning_chain_model": "The 38°N profile shows B (B) as a high, dissected surface west of the steep Taihang Mountain margin, whereas A (A), near 115°E and the Bohai Sea, is low and flat; these correspond to the Loess Plateau and the North China Plain respectively. Therefore, their principal difference is in topography, especially elevation and surface relief. Final answer: Topography and relief—B is the high, undulating Loess Plateau, while A is the low, flat North China Plain."
+  },
+  {
+    "batch_id": "open_603b176393c2801eb83058db",
+    "reasoning_chain_model": "In the figure, the noon solar altitude at the two endpoints E and F is the same, H is located between two peak values close to 90°, and on day H the noon sun is due south, indicating that H is the winter solstice, and E and F are two adjacent summer solstices; M and N are respectively the midpoints of E—H and H—F, so M is the autumnal equinox and N is the vernal equinox. The noon solar altitude satisfies h=90°−|φ−δ|, and Beijing is located in the Northern Hemisphere. From after the summer solstice to before the autumnal equinox, the direct solar point moves southward, the day length is still greater than the night length but gradually becomes shorter, so it corresponds to E—M in the figure. Final answer: E—M"
+  },
+  {
+    "batch_id": "open_b065f0307d32d6d91c6bea92",
+    "reasoning_chain_model": "The figure shows that from 1998 to 2000, the cotton purchase guidance price fell from 617.5 yuan/dan to 390.0 yuan/dan, a decrease of 37%; the sown area fell from 4.459 million hectares to 4.041 million hectares, a decrease of 9%; while yield per unit area rose from 1009 kg/ha to 1093 kg/ha, an increase of about 9%. This indicates that the price decline caused low-yield fields to exit, and cotton planting became concentrated in areas with better natural conditions and production conditions, thereby increasing the average yield per unit area. Final answer: The cotton sown area decreased, low-yield fields exited, and cotton planting became concentrated in areas with better conditions, causing the yield per unit area in 2000 to be higher."
+  },
+  {
+    "batch_id": "open_fe4c10f8745f1260375833e1",
+    "reasoning_chain_model": "In the figure, ② has only the “influence” of the environment on human society, representing early humans relying on and adapting to nature; ① emphasizes humans’ “development” of the environment, representing the stage in which humans transformed and utilized nature; ③ simultaneously reflects the environment’s “influence” on humans and humans’ “development” of the environment, representing the movement of the human–land relationship toward interaction and coordinated development. Therefore, the historical evolutionary sequence is ②→①→③. Final answer: ②→①→③"
+  },
+  {
+    "batch_id": "open_a2b0e43b3569b67c10179891",
+    "reasoning_chain_model": "The figure shows that B lies in the overlap of relatively low-freight contours for both raw materials from M1 and M2 and for the finished product shipped to market N; D is close to M2 but far from M1 and N, while A and C have higher combined contour values. For any site P, total freight per unit product is T(P) = freight from M1 to P + freight from M2 to P + freight from P to N. Although some individual contour numbers are blurred, adding the three contour readings at each marked site gives the smallest total at B. Final answer: B"
+  },
+  {
+    "batch_id": "open_87ae1643c8fe7e53b9db3439",
+    "reasoning_chain_model": "In the figure, label A has a wheat field area of about 31 million hm², a per-unit-area yield of about 3178 kg/hm², and a total output of about 96 million tons; estimating according to “total output = planted area × per-unit-area yield,” its total output is close to 100 million tons, which matches the characteristics among the five listed countries of China having a large wheat planting area and high total output. Final answer: China"
+  },
+  {
+    "batch_id": "open_37f975a2081922591a0e6d28",
+    "reasoning_chain_model": "In the figure, label C has a wheat field area of about 26.56 million hectares, a per-unit-area yield of about 2800 kilograms/hectare, and a total output of 74.54 million tons; calculating according to “total output = planted area × per-unit-area yield,” 26.56 million hectares × 2800 kilograms/hectare ≈ 74.37 million tons, basically consistent with the 74.54 million tons in the figure, and this set of data corresponds to the United States. Final answer: United States"
+  },
+  {
+    "batch_id": "open_fc727046aa37aa2a041db0ff",
+    "reasoning_chain_model": "In the figure, ① and ③ are located near 30°, and the gray belt represents the subtropical high-pressure belt; ② and ④ are located near 60°, and the gray belt represents the subpolar low-pressure belt. The arrows indicate the wind directions of the adjacent wind belts. Near-surface airflow diverges from the 30° high-pressure belt and converges toward the 60° low-pressure belt, and is deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Therefore, ③ is the northeast trade wind belt and subtropical high-pressure belt near 30°N, and ④ is the westerly belt and subpolar low-pressure belt near 60°N; ① is the southeast trade wind belt and subtropical high-pressure belt near 30°S, and ② is the westerly belt and subpolar low-pressure belt near 60°S. From north to south, the order is 60°N, 30°N, 30°S, 60°S. Final answer: ④③①②"
+  },
+  {
+    "batch_id": "open_e0edfc2bb7f2a014519cab0b",
+    "reasoning_chain_model": "M in the figure is located in the warm temperate zone, with annual precipitation of about 300–450 mm, and the climate is relatively dry. The moisture conditions are insufficient for developing water-demanding crop farming, but they are suitable for the growth of grasses, so the broad grasslands can be used to develop commercial animal husbandry. Final answer: large-scale ranching"
+  },
+  {
+    "batch_id": "open_5e2481e6f2700bb835424496",
+    "reasoning_chain_model": "The image shows Mount Putuo’s coastal rocks and the inscription “Buddhist Land of Sea and Sky,” indicating a low-elevation island environment, but it does not directly display distinct vegetation belts. Mount Putuo lies in the subtropical maritime monsoon zone, so its zonal vegetation is mainly evergreen broad-leaved forest; coastal areas also support salt-, wind-, and drought-tolerant communities, while secondary forests and planted vegetation occur near temples and settlements. Because the mountain is only a few hundred metres high, altitudinal differences in heat and moisture are limited, so vertical zonation is weak and vegetation tends to form a diverse, patchy mosaic influenced by terrain, the sea, and human activity. Final answer: Vegetation is diverse but dominated by subtropical evergreen broad-leaved forest, with distinctive coastal communities and patchy secondary or planted forests; its vertical zonation is not pronounced."
+  },
+  {
+    "batch_id": "open_e37ff1631bbe6e4ad23b5787",
+    "reasoning_chain_model": "In the figure, the airflow diverges from the pressure belt toward both sides, indicating that this pressure belt is the subtropical high-pressure belt; the wind direction of wind belt 2 is northwest wind, belonging to the Southern Hemisphere prevailing westerlies. When affected by this wind belt year-round, the westerlies from the ocean continuously bring warm and moist airflows, so a temperate maritime climate that is mild and humid year-round forms on the west coasts of continents at 40°–60°S. Final answer: west-coast regions of continents at 40°–60°S"
+  },
+  {
+    "batch_id": "open_6a089ca47c323c9cc5f3b58e",
+    "reasoning_chain_model": "The figure places code ⑥ on the connection between hydrology and landform. The Loess Plateau’s deeply dissected gullies and ravines were mainly formed by intense surface runoff and fluvial erosion of loose loess, showing the influence of hydrology on geomorphology. Final answer: ⑥"
+  },
+  {
+    "batch_id": "open_ac3a3a4e7463cb192810ff68",
+    "reasoning_chain_model": "In the figure, curve a has relatively high bid-rent capacity in the city center and near ③ and ⑤, curve c is relatively dominant in the far suburbs, while curve b, which represents the bid-rent capacity of residential land, is higher than the other curves in the distance segments ② and ④; land is usually occupied by the function with the highest bid-rent capacity, and ② is closer to the city center than ④. Final answer: ②"
+  },
+  {
+    "batch_id": "open_0116764e91ffc64f550b8238",
+    "reasoning_chain_model": "In the figure, the proportion of fisheries rose from 61.2% in 1988 to 84.6% in 1997, indicating that agricultural production became more dependent on fisheries; Shishi is located on the southern coast of Fujian, and the strong winds, heavy rain, and storm surges brought by typhoons would seriously damage aquaculture and fishing facilities, so agricultural losses may be aggravated. Final answer: typhoon disaster"
+  },
+  {
+    "batch_id": "open_c9ab1330445b1b7f67c6dac3",
+    "reasoning_chain_model": "In the figure, the share of automobile industrial output value in city 3 is about 50%, clearly higher than other industrial sectors, matching the industrial characteristics of Detroit, the automobile city of the United States, so city 3 is Detroit; Detroit is located in the Great Lakes region of the United States, where the local climate is cold and wet and cities are dense, making it suitable for developing dairy farming oriented toward urban markets. Final answer: dairy farming"
+  },
+  {
+    "batch_id": "open_135e75d86e3f9f9827a5cfec",
+    "reasoning_chain_model": "The map places Qatar in West Asia on the Arabian Peninsula; native Qataris are predominantly Arabs, who are classified in traditional school geography as the white race and mostly practice Islam. Final answer: white race"
+  },
+  {
+    "batch_id": "open_136a0a7d9a8f6bc673ad8c5e",
+    "reasoning_chain_model": "In the figure, the longwave radiation emitted outward by the heated atmosphere and directed toward outer space is labeled ⑦; based on the process in which the atmosphere absorbs terrestrial longwave radiation and then radiates outward again, the numerical code for atmospheric radiation can be determined. Final answer: ⑦"
+  },
+  {
+    "batch_id": "open_bc36dcf4bb54c613970ccb1a",
+    "reasoning_chain_model": "In the figure, “sediments” point to the letter b through the arrow labeled ② for diagenesis; sediments form sedimentary rock through diagenesis such as compaction and cementation, so sedimentary rock corresponds to b. Final answer: b"
+  },
+  {
+    "batch_id": "open_e593b13958faf06c6b4dc449",
+    "reasoning_chain_model": "In the figure, B is located on the south side of the low-pressure center, in the warm air mass controlled area between the cold front and the warm front, while A is located behind the cold front, and C and D are located on the north side of the warm front, all mainly affected by colder air masses; in a frontal cyclone, the temperature in the warm sector between the two fronts is relatively higher. Therefore, Final answer: B"
+  },
+  {
+    "batch_id": "open_6ef1613acf34d5a23c993cbf",
+    "reasoning_chain_model": "In the figure, location ② is approximately near 45°N, 120°E, and location ③ is approximately near 20°N, 110°E; both places are located in the eastern monsoon region of China. The common characteristics of a monsoon climate are high temperatures in summer, concentrated precipitation, and simultaneous hydrothermal conditions, which are favorable for crop growth. Final answer: Both places belong to a monsoon climate, with hot and rainy summers and rainfall and heat occurring in the same season."
+  },
+  {
+    "batch_id": "open_42eefc4eeb1c5afdd2d4d317",
+    "reasoning_chain_model": "In the figure, place A is located near the source of a narrow river in the northern part of the island and is very close to the coast, while B, C, and D are farther from the corresponding coasts or are located in the middle and lower reaches of rivers. Slope can be expressed as \"elevation difference ÷ horizontal distance\"; when the contour interval is the same, the greater the slope, the smaller the spacing between contour lines. The horizontal distance from the inland high area to sea level at place A is the shortest, and the slope is the greatest, so the contour lines are the densest. Final answer: place A"
+  },
+  {
+    "batch_id": "open_81468436afbded828424c6c0",
+    "reasoning_chain_model": "In the figure, the lake water area of Dongting Lake in June is clearly larger than in July–September, indicating that precipitation in the basin is concentrated in June and the runoff entering the lake is large; Dongting Lake is located in the middle reaches of the Yangtze River region, and in June it is affected by the Jianghuai plum rain belt, entering the rainy season and flood season. Final answer: plum rain period (flood season)"
+  },
+  {
+    "batch_id": "open_7f3b6af5f287d5fdb90e12bd",
+    "reasoning_chain_model": "In the figure, place A is located near the approximately 2800 MJ/m² isoline, the value at place B is about 3000 MJ/m², and place C is located near the approximately 2400 MJ/m² isoline; effective radiation equals ground radiation minus the atmospheric counter-radiation absorbed by the ground, so comparing according to the isoline values, it increases from A to B and decreases from B to C. Final answer: first increases and then decreases"
+  },
+  {
+    "batch_id": "open_167e644899c37b01a554d3ca",
+    "reasoning_chain_model": "In the figure, the perennial water area is located on the eastern side of the region; the water area extends beyond the map frame and only one shoreline is shown. The land contours decrease from west to east from 100 meters and 75 meters to 50 meters and continue lowering toward the water area, indicating that this is a coast where land transitions toward a large low water surface, rather than a river with two banks or a lake or reservoir enclosed on all sides. Final answer: ocean (sea area)"
+  },
+  {
+    "batch_id": "open_ce960ab3814f65ffa125875c",
+    "reasoning_chain_model": "In the figure, the northeastern United States has a relatively high population density and is a traditional industrial and urban concentration area; after the 1970s, this region achieved economic recovery through industrial structure adjustment and redevelopment of old industrial areas, employment opportunities increased, and the urban environment improved, again strengthening its attraction to population. Final answer: Redevelopment and economic recovery of the old industrial areas in the Northeast, and improvement of the urban environment, attracted population return."
+  },
+  {
+    "batch_id": "open_9f5c3dd39692c914da12c16e",
+    "reasoning_chain_model": "In the figure, C is located in a low-elevation coastal area near the Persian Gulf and is clearly influenced by the ocean; the diurnal temperature range is the difference between the daily maximum temperature and the daily minimum temperature. Seawater has a large specific heat capacity and warms and cools slowly, which can regulate near-surface air temperature, so the diurnal temperature variation at location C is relatively small. Final answer: The diurnal temperature range is relatively small."
+  },
+  {
+    "batch_id": "open_9e076ac6932dc9531406ef84",
+    "reasoning_chain_model": "In the figure, region B has both per capita income and the proportion of the manufacturing workforce significantly lower than region A; lower per capita income usually corresponds to lower wages and labor costs. For industrial sectors with similar technology, products, and production conditions, the lower the production cost, the stronger the price competitiveness of the products. Therefore, similar industrial sectors in region B, relying on the advantage of labor costs, will be in a relatively favorable position in competition. Final answer: relatively favorable position."
+  },
+  {
+    "batch_id": "open_d3ab9529089505d22e2764f0",
+    "reasoning_chain_model": "In the figure, ② is located between the Yanshan Mountains in the north and the plain in the south, includes the Beijing urban area, and has relatively low and flat terrain; this area is close to a densely populated consumer market, with good transportation, technology, and cold-chain conditions, while land costs are relatively high. Therefore, it is suitable for arranging intensive and deep processing of fresh agricultural products such as dairy products, meat, and fruits and vegetables that have high requirements for market access and timeliness and relatively high added value, and is not suitable for land-intensive primary processing. Final answer: urban-type (suburban market-oriented) intensive and deep processing zone for agricultural products"
+  },
+  {
+    "batch_id": "open_931dc1f2e9ed9374dc5dd87c",
+    "reasoning_chain_model": "In the figure, location A is approximately on the west coast of South America at 10°–15°S and 75°–80°W, with the Pacific Ocean to the west and land and the Andes Mountains to the east; the Peru Cold Current flows along the coast, cooling and dehumidifying the nearshore area and forming stable air, while the Andes Mountains block moist airflow from the Atlantic Ocean, so the local climate is arid. Final answer: Topography and ocean current, mainly the blocking effect of the Andes Mountains and the cooling and dehumidifying effect of the Peru Cold Current."
+  },
+  {
+    "batch_id": "open_2487e90b3e64dd842b4cef7c",
+    "reasoning_chain_model": "In the figure, the illuminated side of the mountain peak faces the upper right, and the shadow extends roughly toward the lower left, indicating that the sun is located in the upper right of the figure; the flight direction from Xi'an to Urumqi is approximately west-northwest, with an estimated azimuth of about 300°, and when the plane passes over the Qilian Mountains in mid-August it is already evening, with the local sun located west-northwest, at an azimuth of about 280° to 290°, meaning the sun is in the left front of the plane's heading. In the figure, if the plane is flying in direction B, the sun in the upper right is exactly in its left front, consistent with the light and shadow in the photo and the flight route direction. Final answer: direction B"
+  },
+  {
+    "batch_id": "open_551c8e2bcdbbdc07b7188e2f",
+    "reasoning_chain_model": "In the figure, place A is located approximately at 90°W, 40°N, and the automobile industry shifts along the arrow from place A to place D at approximately 120°E, 30°N; according to the impact of industrial transfer on the transfer-out area, place A can redirect capital, technology, and labor to industries with higher added value, thereby promoting adjustment and upgrading of the industrial structure, while also reducing resource consumption and industrial pollution and improving environmental quality. However, the relocation of automobile production and its supporting industries will also reduce local jobs, possibly causing some workers to become unemployed and affecting related industries. Final answer: Promote the optimization and upgrading of A's industrial structure and reduce resource and environmental pressure, but it may lead to fewer jobs and affect related supporting industries."
+  },
+  {
+    "batch_id": "open_98b317009b0703217a51402e",
+    "reasoning_chain_model": "The shaded area in the figure is located near the Fenwei Plain at about 35°N, 110°E, in a temperate monsoon climate zone, where precipitation has large seasonal and interannual variations. Summer precipitation is concentrated and there are many rainstorms, making floods likely to form, while in spring there is little precipitation and evaporation is relatively strong, making drought disasters likely, so agricultural production is unstable. Final answer: Frequent drought and flood disasters."
+  },
+  {
+    "batch_id": "open_11f1a9b72082ff3ad4f85822",
+    "reasoning_chain_model": "In the statistical table, the value in the Guizhou column of the row “growth rate (%)” is 15, so Guizhou's economic growth rate in 2011 was 15%. Final answer: 15%"
+  },
+  {
+    "batch_id": "open_612d98527d65ee12d698870b",
+    "reasoning_chain_model": "In the figure, a, b, and c respectively represent the output value proportions of the primary, secondary, and tertiary industries, and a+b+c=100%; country D is located in the high-value area of c, with the highest proportion of tertiary industry, indicating that its level of economic development is relatively high and its demand for industrial upgrading is relatively strong, while country A is located in the high-value area of a, with the highest proportion of primary industry, indicating that its level of economic development is relatively low and the costs of production factors such as labor and land are relatively low. Industry usually transfers from developed countries with higher production costs to developing countries with lower production costs, so the direction of transfer is from country D to country A. Final answer: Transfer from country D to country A"
+  },
+  {
+    "batch_id": "open_ffceb9fafd2c6fe3a4bcfe91",
+    "reasoning_chain_model": "In the figure, ⑤ is located on the southeastern edge of the city, downstream of the river, close to the industrial area and far from the main residential areas; a sewage treatment plant should be laid out downstream of the urban river to facilitate drainage and avoid polluting the urban water source, and it should preferably be located on the outskirts of the city, close to industrial areas with relatively large sewage discharge. Final answer: ⑤"
+  },
+  {
+    "batch_id": "open_0ff467d809fc3598931d7577",
+    "reasoning_chain_model": "In the left figure, “212” is marked beside the road section between Nyalam and Tingri; on a traffic map, the number beside a road usually indicates the road mileage between the two places on that section, so it means the two places are about 212 kilometers apart. Final answer: Nyalam and Tingri"
+  },
+  {
+    "batch_id": "open_541103bf081c841236481ecf",
+    "reasoning_chain_model": "I first determine its logistics direction based on the modules in the figure and the boundary position where ④ is located, and check the arrow direction between ④ and animal husbandry, to avoid confusing system inputs, outputs, or internal circulation. The dashed box in the figure represents the agricultural ecosystem; ④ is located at the lower right and is connected to animal husbandry, with the arrow pointing from inside the system to outside the dashed box. Based on the direction of material flow in the ecosystem, it can be known that it represents animal husbandry exporting livestock and poultry products outside the system, such as meat, eggs, milk, etc. Final answer: Animal husbandry exports livestock and poultry products outside the system"
+  },
+  {
+    "batch_id": "open_4ede5c8b27bef57310c2e2a4",
+    "reasoning_chain_model": "The causes of A in the figure include low total precipitation, large evaporation, low vegetation coverage, high irrigation water use in spring, and dense population and cities. These factors can cause a prominent contradiction between water supply and demand, so A represents a drought disaster, and combined with the characteristics of spring water use, it can specifically be judged as spring drought. Final answer: Spring drought (drought disaster)"
+  },
+  {
+    "batch_id": "open_8d8a71fc9789e421ad487234",
+    "reasoning_chain_model": "Island A in the figure is located in the mid-latitude sea area southeast of Australia, within the influence range of the prevailing westerlies and the cold current flowing from west to east; this cold current in the mid-latitude sea area of the Southern Hemisphere is the West Wind Drift, so the cold current with a relatively large influence on Island A is the West Wind Drift. Final answer: West Wind Drift"
+  },
+  {
+    "batch_id": "open_aa7cc35fa01d7c4f818d5cc0",
+    "reasoning_chain_model": "In the figure, ① is located below ③ limestone, so ① formed before ③; ⑤ cuts through ③ but is covered by ②, so ⑤ is later than ③ and earlier than ②; ② covers ③ and ⑤; ④ then cuts through ③ and ②, so ④ formed latest. Final answer: ①③⑤②④"
+  },
+  {
+    "batch_id": "open_757b8ad14df1b7f2f68bb268",
+    "reasoning_chain_model": "The AC section flows from the lower-latitude point C toward the higher-latitude point A, as indicated by the spring ice-jam flooding; in the Northern Hemisphere, the Coriolis force deflects flowing water to the right, strengthening erosion on the right bank and favoring sediment deposition on the left bank. Facing downstream from C to A, bank E is on the left side of the river, whereas F is on the right. Final answer: bank E"
+  },
+  {
+    "batch_id": "open_eb728d5949fd21733cc00217",
+    "reasoning_chain_model": "The “Ashima landscape” in the figure is composed of upright stone pillars, whose outline closely resembles a human figure. Its viewing value mainly comes from the shape and image of the stone peaks, so when appreciating it, one should focus on grasping the landscape’s formal beauty. Final answer: formal beauty"
+  },
+  {
+    "batch_id": "open_143e93f6f01b05fdd2239a55",
+    "reasoning_chain_model": "In the figure, ③ is located at about 20°N, 110°E, corresponding to the area of Hainan Island and the Leizhou Peninsula in China. It belongs to the tropical monsoon climate zone, with sufficient heat and precipitation, and is a major producing area of natural rubber in China. Final answer: natural rubber"
+  },
+  {
+    "batch_id": "open_8f423de7c0dded313cad85b4",
+    "reasoning_chain_model": "The figure marks the Earth's equator and the spacecraft docking position, but the subsolar point needs to be determined from the given time in the problem; on November 3, the latitude of the subsolar point is about 15°S. Beijing time is based on 120°E, and 1:36 differs from noon 12:00 by 10 hours 24 minutes, corresponding to a longitude difference of 10.4×15°=156°, so the meridian where noon is located is 120°E+156°=276°E, namely 84°W. The solar altitude is 90° at the subsolar point and decreases outward from there. Final answer: the point at about 15°S, 84°W"
+  },
+  {
+    "batch_id": "open_487d90e600f2fff482d5936f",
+    "reasoning_chain_model": "In the figure, location ③ is controlled by the subtropical high for about 8 months and by the westerlies for 4 months. Under the prevailing subtropical high, descending air currents dominate and precipitation is low; the westerlies bring water vapor from the ocean and precipitation is greater. Therefore, the precipitation at location ③ is concentrated in the shorter period controlled by the westerlies, and the contrast between dry and wet seasons is relatively large. Final answer: ③"
+  },
+  {
+    "batch_id": "open_010b818d501d22d5996670d4",
+    "reasoning_chain_model": "The diagram shows the Earth at point A with the Northern Hemisphere tilted away from the Sun, corresponding to the winter solstice; following the indicated counterclockwise revolution direction, B corresponds to the spring equinox, C to the summer solstice, and D to the autumn equinox. September 19 is close to the autumnal equinox on about September 23, so the Earth was near point D. Final answer: point D"
+  },
+  {
+    "batch_id": "open_01bad12c0dc0a3ccefbedabf",
+    "reasoning_chain_model": "In the diagram, the shading represents land and the white represents ocean. A is located on the west coast of a continent south of the 40° latitude line, and according to the typical distribution on west coasts in the mid-latitudes, it can be judged to have a Mediterranean climate; its cause is the seasonal movement of the subtropical high and the westerly belt, manifested as hot, dry summers and mild, rainy winters. When the obliquity of the ecliptic is 0°, the direct solar point is located at the equator throughout the year and seasonal changes disappear, so a Mediterranean climate would usually be difficult to maintain, but the problem assumes that this climate still exists, so agriculture should be judged based on its climatic characteristics. It is suitable for growing cash crops such as grapes, citrus, olives, and vegetables, and is most likely to develop Mediterranean-style agriculture dominated by horticulture. Final answer: horticulture (Mediterranean-style agriculture)"
+  },
+  {
+    "batch_id": "open_41b81fc5a2f3e27b6ad5b242",
+    "reasoning_chain_model": "In the figure, from 2009 to 2011, the city's total population continued to increase, while although the natural growth rate decreased from about 10‰ to about 5‰, it remained positive throughout; total population growth = natural population growth + mechanical population growth. Therefore, in addition to economic development attracting population inflow, the number of births still exceeded the number of deaths, and positive natural growth also promoted the increase in total population. Final answer: The natural population growth rate is positive, the number of births exceeds the number of deaths, and the natural population growth is relatively large."
+  },
+  {
+    "batch_id": "open_83415679a5ed028fd2d4ad78",
+    "reasoning_chain_model": "The contour lines in the figure are labeled 40 meters and 50 meters, and there is one contour line between them, so the contour interval is 5 meters; within the area shown, the highest point is located in the north, the highest closed contour line is about 80 meters, and the elevation is below 85 meters. The lowest point is located in the south where the river flows out of the map sheet, with an elevation between 30 meters and 35 meters. Therefore, the maximum height difference is greater than 80－35＝45 meters and less than 85－30＝55 meters, and the possible maximum height difference is close to 55 meters. Final answer: less than 55 meters"
+  },
+  {
+    "batch_id": "open_350739fb065ba1725a1164bd",
+    "reasoning_chain_model": "In the diagram, lake L is directly connected to river section A, and river section A is located downstream of the lake outlet; the lake can store floods and supplement low flows, reducing the seasonal variation in runoff of the river section immediately after flowing out of the lake, while the farther from the lake, factors such as tributary inflow weaken its regulating effect. Therefore, the section most obviously regulated by lake L is river section A. Final answer: river section A"
+  },
+  {
+    "batch_id": "open_657dd67cb6513b84e4a44c0e",
+    "reasoning_chain_model": "In the figure, Brazil’s main and secondary soybean-producing areas have already extended deep into tropical rainforest regions, indicating that large-scale deforestation is related to agricultural expansion; after tropical rainforests are cut down, the vegetation’s ability to conserve water, maintain soil and water, and absorb carbon dioxide declines, causing soil erosion, reduced biodiversity, and intensifying global warming, but it will not improve local soil fertility, because in tropical rainforest regions nutrients are mainly stored in the plants, and after the vegetation is lost, soil nutrients will be rapidly lost. Final answer: improve local soil fertility"
+  },
+  {
+    "batch_id": "open_dea9056c1ef809cbdade26c0",
+    "reasoning_chain_model": "In the figure, the straight-line distance on the map from cliff top A to small station B is about 2.5 times the 500-meter scale segment, so the shortest horizontal projection length of the one-way cableway is about 2.5×500＝1250 meters; a two-way cableway requires two equal-length cables, so the minimum total length of cable needed is 2×1250＝2500 meters. Final answer: 2500 meters"
+  },
+  {
+    "batch_id": "open_d72c30b21009db83d59becf3",
+    "reasoning_chain_model": "Point 1 in the figure is located on the east side of a low-pressure area in the Northern Hemisphere, with lower pressure on the southwest side. The isobar values increase eastward from 1004 hPa and 1012 hPa to 1020 hPa, and the isobars near point 1 are roughly oriented northwest—southeast; near-surface wind is affected jointly by the horizontal pressure gradient force, the geostrophic deflection force, and friction, blowing obliquely across isobars from the high-pressure side toward the low-pressure side, and deflecting to the right in the Northern Hemisphere. Therefore, the air at point 1 generally blows toward the northwest, and wind direction is named by the direction it comes from, so it is a southeast wind. Final answer: southeast wind"
+  },
+  {
+    "batch_id": "open_61e25b9f4404dabfbe2efe34",
+    "reasoning_chain_model": "In the figure, the day length at location a is constantly 12 hours throughout the year, indicating it is located at the equator; the day length at location b varies between 6 and 18 hours, so the latitude is relatively low; the day length at location c varies continuously between 0 and 24 hours, so its latitude is higher than that of b; location d has about half a year of polar day and half a year of polar night, indicating it is located at the pole. The linear velocity of Earth’s rotation is v=ωRcosφ; the smaller the absolute value of latitude φ, the greater the rotational linear velocity. Therefore, the absolute latitude values of the four locations are in the order a＜b＜c＜d, and the order of rotational linear velocity from fast to slow is the opposite. Final answer: a＞b＞c＞d"
+  },
+  {
+    "batch_id": "open_ab73b256f71ebbf2dd0fd956",
+    "reasoning_chain_model": "The region shown is located in southern South America at about 40°S to 50°S. The isobar values decrease from 1010 hPa in the north to 1002 hPa and 998 hPa in the south, and they bend when a relative low pressure forms over the heated land, reflecting that the Southern Hemisphere continental thermal low is relatively obvious; the land warms faster than the ocean and has lower pressure, a land-sea pressure configuration that usually occurs in the local warm season, while the seasons in the Southern Hemisphere are opposite to those in the Northern Hemisphere, so this month may belong to the Southern Hemisphere summer. Final answer: summer"
+  },
+  {
+    "batch_id": "open_bf6de401626fa677f0862c53",
+    "reasoning_chain_model": "In the figure, the 25 people/km² population density isoline for 1990 is the dashed line, and that for 2010 is the solid line. The solid line has clearly moved toward the southeast relative to the dashed line, indicating that the low-density area below 25 people/km² has expanded, while the total population is still continuously increasing, showing that the newly added population is mainly concentrated in southeastern towns, oases, and other areas with better natural conditions and water resources; therefore, the spatial distribution of population in this region is very uneven, with dense population in the southeast and sparse population in the northwest, and the population is concentrating toward the southeast, with the degree of agglomeration continuously increasing. Final answer: The population distribution is uneven, dense in the southeast and sparse in the northwest, and the population is continuously concentrating toward the southeast, with the degree of agglomeration increasing."
+  },
+  {
+    "batch_id": "open_67bf57d83395c87ed725a4b3",
+    "reasoning_chain_model": "In the figure, the settlement symbols are mainly concentrated on the relatively flat terraces and valley areas on both sides of the river, far fewer on the highly undulating slopes, so this settlement is mainly distributed along the river, especially on river terraces. Final answer: Mainly distributed on the flat terraces and valley areas on both sides of the river."
+  },
+  {
+    "batch_id": "open_e96b9386a0c8af6f73ddc526",
+    "reasoning_chain_model": "In the table, India ranks 2nd in the climate change vulnerability index among 171 evaluated countries, close to the highest level; India mainly has a tropical monsoon climate, with the southwest monsoon in summer bringing concentrated and relatively intense precipitation, while the advance and retreat and the strength of the monsoon are unstable, and coastal areas are also often affected by tropical cyclones, making it easy for persistent heavy rain to occur and trigger large-scale floods, so the extreme weather with the highest frequency of occurrence may be heavy rain. Final answer: Heavy rain (often triggering flood disasters)"
+  },
+  {
+    "batch_id": "open_44d49d8aded64a6c8c1652dd",
+    "reasoning_chain_model": "In the figure, the two banks of the river are closest at the narrow valley mouth upstream of the gray pond, which is most suitable for building a dam; the contour interval is 10 meters, the scale bar length in the figure represents 50 meters, and according to the dam height of about 13 meters, measuring the corresponding elevation on both sides of the dam site gives a dam crest length of about 1.3 times the scale bar, so L≈1.3×50 meters≈65 meters. Final answer: about 65 meters"
+  },
+  {
+    "batch_id": "open_0b0bca816d0db668a16eacb8",
+    "reasoning_chain_model": "In diagram (II), during period A, the temperature reaches the annual maximum and precipitation is the least, indicating that coastal area ① is in the Northern Hemisphere summer; in summer the direct solar point moves northward, and the pressure belts move northward accordingly, while the continent is heated and forms a low pressure, causing the subtropical high over ocean ③ in diagram (I) to extend toward the continent. Final answer: move northward and extend westward, that is, westward extension and northward lift."
+  },
+  {
+    "batch_id": "open_acde1933c2ccf167b41c38ed",
+    "reasoning_chain_model": "In the figure, a noon solar altitude of 90° occurs twice in a year, indicating that the place is located between the Tropic of Cancer and the Tropic of Capricorn; the lowest noon solar altitude of 46°34′ occurs only once, corresponding to the winter solstice. Using h＝90°－|φ－δ| and δ＝－23°26′, we get 46°34′＝90°－（φ＋23°26′）, so φ＝20°N. This place belongs to the tropics, and therefore tropical vegetation is most likely to appear; but the figure has no information such as precipitation or land-sea location, so it is impossible to further determine whether it is rainforest, monsoon forest, grassland, or desert. Final answer: Tropical vegetation"
+  },
+  {
+    "batch_id": "open_66c35fd8e20d5f820e679017",
+    "reasoning_chain_model": "In the diagram, place D has relatively good moisture and light conditions, with relative values both about 3, while the heat condition is slightly weaker, with a relative value about 2. Therefore, it is suitable for planting temperate crops that are cold-resistant and have lower heat requirements, and for using the relatively good light and moisture to develop large-scale grain production. Final answer: develop dry farming dominated by spring wheat, corn, soybeans, etc., and build a commodity grain base."
+  },
+  {
+    "batch_id": "open_1a52080e610eabbbe17fce4c",
+    "reasoning_chain_model": "In the diagram, both dust diffusion belts cross the Atlantic Ocean westward from western Africa: diffusion belt A is approximately located at 10°N–30°N and can reach the Caribbean Sea, Central America, and southern North America; diffusion belt B is close to the equator and can reach northern South America and the Amazon region. Under the influence of prevailing easterlies and the northeast and southeast trade winds, dust is transported long distances downwind, and after entering the local atmosphere it directly increases the concentration of suspended particulate matter. Therefore, downwind areas of western Africa, especially the tropical Atlantic, the Caribbean Sea, Central America, and northern South America and the Amazon region, may experience an increase in atmospheric suspended particulate matter. Final answer: the tropical Atlantic and, to its west, the Caribbean Sea, Central America, northern South America, and the Amazon region."
+  },
+  {
+    "batch_id": "open_00751d6424e8a099d182af04",
+    "reasoning_chain_model": "In the figure, Zhongshan Station is located on the coast of the Antarctic continent at about 70°S, 76°E, while Chongqing is about 30°N, 107°E, so Zhongshan Station is southwest of Chongqing; the shortest route is the minor arc of a great circle, and the initial bearing angle can be calculated using θ=atan2[sinΔλ·cosφ₂，cosφ₁·sinφ₂−sinφ₁·cosφ₂·cosΔλ]. Substituting φ₁≈30°, λ₁≈107°, φ₂≈−70°, λ₂≈76°, gives θ≈190°, that is, south by west, and along this segment of the great-circle route both latitude and longitude continuously decrease, so the bearing is always in the southwest quadrant. Final answer: Fly southwest all the way"
+  },
+  {
+    "batch_id": "open_25ba6e6e1318e2d70c388b34",
+    "reasoning_chain_model": "The land parcel layer places land B in the second cell of the top row, the land-price layer shows its original land price as 10, and the proposed-subway-station layer shows a station within this parcel. According to the bid-rent principle, a subway station greatly improves accessibility and concentrates passenger flow, so nearby land prices rise and land tends to be allocated to the activity with the greatest ability to pay rent; commercial and service activities benefit most from high accessibility and passenger flow, even though the resulting land price is unlikely to exceed 50. Final answer: Commercial land use."
+  },
+  {
+    "batch_id": "open_e255c047e37f2c4e4875c5fc",
+    "reasoning_chain_model": "In the figure, precipitation first increases with time, reaches a peak in the middle of the year, and then gradually decreases, indicating that the precipitation in this place is mainly concentrated in the middle of the year; if the horizontal axis represents a year from January to December, then the middle of the year is the Northern Hemisphere summer, and this feature of rainy summers and dry winters is common in Northern Hemisphere monsoon regions, such as eastern China. Final answer: Northern Hemisphere monsoon region (such as eastern China)"
+  },
+  {
+    "batch_id": "open_ef07b4baf0aab79cfcd83f09",
+    "reasoning_chain_model": "In the figure, location B is at the highest part of the mountain, and its rock-layer fill symbol is consistent with the granite in the legend, so the mountain body there is mainly composed of granite, and it can be inferred to be a granite mountainous area. Final answer: granite mountainous area"
+  },
+  {
+    "batch_id": "open_14f7c37bc078782973dfa75b",
+    "reasoning_chain_model": "In the figure, the Altai Mountains, Tianshan Mountains, and Kunlun Mountains are distributed in northern, central, and southern Xinjiang respectively, with the Junggar Basin and Tarim Basin sandwiched between the mountain ranges; therefore, its terrain pattern can be summarized as “three mountains enclosing two basins,” which best reflects Xinjiang’s unique regional landscape. Final answer: three mountains enclosing two basins"
+  },
+  {
+    "batch_id": "open_5daf53d198458799c63cba8b",
+    "reasoning_chain_model": "In the figure, ⑤ is located where the day length is 24 hours and the noon solar altitude is about 23.5°; according to the noon solar altitude formula H＝90°－|φ－δ|, at the pole φ＝90° and when the local summer solstice has the Sun directly overhead at latitude δ＝23.5°, therefore H＝90°－|90°－23.5°|＝23.5°, and polar day occurs at the same time, with a day length of 24 hours. Final answer: the summer solstice at the North Pole or the winter solstice at the South Pole"
+  },
+  {
+    "batch_id": "open_ee6c27211297b62776eda301",
+    "reasoning_chain_model": "In the figure, location E is a low-pressure center with air pressure of about 1004 hPa, the front extends southwestward from the low-pressure center, and the precipitation area is mainly behind the front; in a Northern Hemisphere frontal cyclone, a front that extends southwestward from the low-pressure center and has precipitation behind the front is a cold front. Final answer: cold front"
+  },
+  {
+    "batch_id": "open_54d95e06971f062ae02f686f",
+    "reasoning_chain_model": "Region B has the highest relative water and heat values, both about 4, but the lowest sunlight value, about 1. These warm, humid, and cloudy conditions are characteristic of the Sichuan Basin, where abundant rainfall and frequent cloud cover reduce solar radiation. Final answer: Sichuan Basin."
+  },
+  {
+    "batch_id": "open_9bc75f8ec1157c13ef47ba3c",
+    "reasoning_chain_model": "In the figure, region C has relative values of water, heat, and sunlight all at medium levels, around about 3; this conforms to the characteristics of China's Northern region, where water, heat, and sunlight conditions are relatively balanced, while the Qinghai-Tibet region has low heat and strong sunlight, the Southern region has high water-heat conditions, and the Northwestern region has little water and strong sunlight, so C corresponds to the Northern region. Final answer: Northern region"
+  },
+  {
+    "batch_id": "open_64a134fca92a17cb45e784c7",
+    "reasoning_chain_model": "In the figure, the urbanization rate of the United States rose from 51.2% in 1920 to 75.2% in 1995, with the growth rate slowing significantly in the later period, while the population migrated from urban central areas to suburbs and the urban territorial scope expanded; according to the four-stage division of concentrated urbanization, suburban urbanization, counter-urbanization, and re-urbanization, population migration from the central urban area to the suburbs is a typical characteristic of suburban urbanization. Final answer: suburban urbanization stage"
+  },
+  {
+    "batch_id": "open_16c84c14d87fdce269e1df3b",
+    "reasoning_chain_model": "The legend uses hundred million cubic meters to represent the natural gas production-consumption difference of each provincial-level administrative region, and positive-value textures are distributed in Xinjiang, Qinghai, Inner Mongolia, Shaanxi, Sichuan, and Chongqing; natural gas production-consumption difference＝production－consumption, and a difference greater than 0 indicates that production is greater than consumption. Final answer: Xinjiang Uygur Autonomous Region, Qinghai Province, Inner Mongolia Autonomous Region, Shaanxi Province, Sichuan Province, Chongqing Municipality"
+  },
+  {
+    "batch_id": "open_476e7c298e2d4935f73eb1b1",
+    "reasoning_chain_model": "In the figure, the organic matter in the pond-bottom sludge points to ①, and there is bidirectional material exchange between ① and ②, while ② then points to ③ and ④ in sequence; the organic matter in the pond-bottom sludge is first decomposed by decomposers, and after bacteria decompose organic matter, they provide inorganic salts and carbon dioxide for algae, while algae provide oxygen for bacteria, so ① represents bacteria. Final answer: bacteria (decomposers)"
+  },
+  {
+    "batch_id": "open_924063c2505da9c2131432a3",
+    "reasoning_chain_model": "In the figure, 2 is located between 1 and 3, material is transmitted from 2 to 3, and after 2 dies it can be deposited to form pond-bottom sludge; according to the material cycling and food-chain relationship in a pond ecosystem of “inorganic nutrients or decomposer action → phytoplankton → zooplankton → fish,” 2 should be the producer that uses inorganic nutrients to synthesize organic matter and provides food for the next trophic level. Final answer: phytoplankton (producers)"
+  },
+  {
+    "batch_id": "open_ba0fd3bddefd140be53d592a",
+    "reasoning_chain_model": "In the figure, ② points to ③, and ③ then points to ④, forming the feeding relationship in the pond; combined with the pond-bottom sludge being decomposed by ① and ① exchanging materials with ②, it can be known that ② is producers such as algae, and ④ is a predator, so ③ is zooplankton that feeds on algae and is eaten by ④, belonging to primary consumers. Final answer: zooplankton (primary consumers)"
+  },
+  {
+    "batch_id": "open_3dddc5e185c02d843f63c466",
+    "reasoning_chain_model": "In the figure, ① represents water vapor above the ocean being transported westward to land, and ⑤ and ⑥ respectively represent land water flowing eastward back to the ocean through surface runoff and groundwater runoff; “cloud vapor travels west” corresponds to water vapor transport, and “spring water flows east” corresponds to runoff. Final answer: ①⑤⑥"
+  },
+  {
+    "batch_id": "open_68cbd8695539182af9d4584b",
+    "reasoning_chain_model": "In the figure, the population migration arrows generally point to city ④, and the migration amount of 2500 people is marked between cities ③ and ④, indicating that city ④ has attracted more outside population; net in-migration = number of immigrants − number of emigrants, and a relatively large net in-migration usually indicates that the city has more employment opportunities and a higher level of economic development, so city ④ has relatively better economic development and a relatively higher employment level. Final answer: city ④"
+  },
+  {
+    "batch_id": "open_33d31fae0b40735e4ad6db3a",
+    "reasoning_chain_model": "In the figure, the material flow between b and c is labeled “feed, forage,” and between b and the biogas digester it is labeled “manure,” indicating that b uses the feed and forage provided by the planting area to carry out livestock and poultry breeding, and sends the produced manure into the biogas digester, so b represents the breeding area. Final answer: breeding area"
+  },
+  {
+    "batch_id": "open_9d025b6f6594f8eace9945d3",
+    "reasoning_chain_model": "In the figure, the railway starts in the north at Harbin, passes through Changchun and Shenyang, and reaches Dalian in the south, connecting Northeast China with the Liaodong Peninsula and the Bohai Rim region; based on the locations of these cities and the economic links of this route, the blank in the statement “realized direct dialogue between the Northeast Asia economic circle and ____” corresponds to the Bohai Rim economic circle. Final answer: Bohai Rim economic circle"
+  },
+  {
+    "batch_id": "open_c51938447f884e2691525c58",
+    "reasoning_chain_model": "The chart shows desert steppe, meadow steppe, and mixed farming-pastoral systems, together with population and per-capita cultivated land and grassland, but it provides no information about river destinations or whether runoff reaches the sea; temperate grasslands may occur in either endorheic or exorheic basins, so inferring that the local rivers are inland rivers is unreliable. Final answer: inland rivers"
+  },
+  {
+    "batch_id": "open_4c9abd04a7a78d78f320c4e5",
+    "reasoning_chain_model": "In stage II in the figure, the investment direction points from multinational corporations to developing country b, and the production factory is also located in b, while parts and components are mainly imported from developed countries a and d, and the products are then sold to other countries, indicating that this stage mainly uses the lower labor costs in developing countries to reduce automobile assembly and production costs. Final answer: cheap labor (lower labor costs)"
+  },
+  {
+    "batch_id": "open_de1ed5d93e04960a3168e539",
+    "reasoning_chain_model": "The lowest point of the solid temperature line in the figure is located at about 130 kilometers along the profile, corresponding to the rising slope section on the left side of the main peak, with terrain elevation between the 500-meter and 1000-meter marks, about 700–800 meters; this profile is north-south oriented, and combined with the prevailing wind direction in January shown in the figure, it can be judged that the left side of the main peak is the north slope. Final answer: north slope, elevation 500–1000 meters"
+  },
+  {
+    "batch_id": "open_f7dfe1bb81b5ec15e1ebfcd1",
+    "reasoning_chain_model": "Within the range of about 0–4 kilometers on the right side of the mountaintop in the figure, the elevation drops markedly from about 1600 meters to about 500 meters, while the precipitation curve basically remains at 120 millimeters; the vertical change rate of precipitation is ΔP/ΔH, and since ΔP≈0, ΔP/ΔH≈0, so the vertical change there is the smallest. Final answer: on the leeward slope about 0–4 kilometers to the right of the mountaintop"
+  },
+  {
+    "batch_id": "open_c9e0bcafa960b254c6948c4c",
+    "reasoning_chain_model": "Label B is the high-temperature center of closed isotherms, with the center about 14°C, decreasing outward in sequence to 12°C, 10°C, and 8°C; air temperature usually decreases as elevation increases, so the elevation at label B is lower than the surroundings, and the landform is a basin (depression). Final answer: basin (depression)"
+  },
+  {
+    "batch_id": "open_c46f9656a583ecf1f155906f",
+    "reasoning_chain_model": "In the figure, the same rock layer below label B arches upward, and the rock layers dip from the arched center toward both sides; this is the typical form of an anticline structure. Final answer: anticline"
+  },
+  {
+    "batch_id": "open_631979ce065397f09530be9a",
+    "reasoning_chain_model": "In the figure, the elevations of adjacent contour lines are 160 meters, 170 meters, and 180 meters, so the contour interval is 10 meters; point A is located between the 160-meter and 170-meter contour lines, so 160 meters < hA < 170 meters, and point B is located between the 150-meter and 160-meter contour lines, so 150 meters < hB < 160 meters. The relative height H = hA−hB; its minimum value is greater than 160−160 = 0 meters, and its maximum value is less than 170−150 = 20 meters, therefore 0 meters < H < 20 meters. Final answer: 0 meters < H < 20 meters"
+  },
+  {
+    "batch_id": "open_5f993db5a46f09c760bf2082",
+    "reasoning_chain_model": "In the figure, historical disaster hazard is evaluated using disaster scale, disaster frequency, and disaster density; potential disaster hazard is evaluated using geology, terrain and landforms, meteorology and hydrology, vegetation, and human activities; then the two types of evaluations are combined to form the final result, so this result reflects the theme of regional disaster hazard assessment. Final answer: regional disaster hazard assessment"
+  },
+  {
+    "batch_id": "open_e5259911703b393dd8fc445b",
+    "reasoning_chain_model": "In the figure, labor corresponds to the letter b, and market corresponds to the letter c; China's population is about 1.3397 billion. A large population can both provide abundant labor and form a broad consumer market, so the advantages for industrial development correspond to b and c, and the second letter in order is c. Final answer: c"
+  },
+  {
+    "batch_id": "open_f3887ef444d6bf299ed7fa7b",
+    "reasoning_chain_model": "In the figure, the share of highway transportation in the Southwest region is about 19%, clearly higher than railway transportation and water transportation; regional freight modes are constrained not only by terrain conditions, but also depend on the level of economic development and transportation infrastructure construction. The railway and inland waterway shipping networks in the Southwest region are relatively insufficient, and highway transportation has become the main mode because route layout is flexible. Final answer: level of economic development (level of transportation infrastructure construction)"
+  },
+  {
+    "batch_id": "open_17a7ccc35c58f0a30c6aa981",
+    "reasoning_chain_model": "In the figure, the proportion of the population aged 10—14 was always higher than the proportion of the population aged 55—59 before 2009; around 2009 both were about 7%, and afterward the proportion of the population aged 55—59 was higher than the proportion of the population aged 10—14. Every 5 years, the population aged 10—14 will enter the 15—60 working-age population, while the population aged 55—59 will exit, so the change in the proportion of the working-age population is approximately \"proportion of the population aged 10—14 − proportion of the population aged 55—59\": before 2009 the difference was positive, and the proportion of the working-age population rose; after 2009 the difference was negative, and the proportion of the working-age population declined, so the highest point appears when the two curves intersect. Final answer: around 2009"
+  },
+  {
+    "batch_id": "open_63f9326bcf88cfbd9eaba5a3",
+    "reasoning_chain_model": "In the figure, there is another contour line between the adjacent 200-meter and 300-meter contour lines, so the contour interval is 50 meters; river L flows from high elevation to low elevation, its highest end has an elevation lower than 350 meters, and its lowest end has an elevation higher than 150 meters, so the maximum drop is less than 350 - 150 = 200 meters. If elevation is taken in integer meters, the maximum possible is 199 meters. Final answer: 199 meters"
+  },
+  {
+    "batch_id": "open_1f1dbbbb399141488e5247fa",
+    "reasoning_chain_model": "In the figure, type B factories have the highest proportion of technological input, about 50%, while the proportions of raw material input and transportation costs are both less than 10%, indicating that they belong to technology-intensive industry; proportion of transportation costs = transportation costs ÷ total input × 100%. Such factories usually have a relatively low proportion of transportation costs because their products are small in volume, light in weight, and high in added value, and they have very weak dependence on raw material origins, so low transportation cost is least likely to be due to being close to raw material origins. Final answer: close to raw material origins"
+  },
+  {
+    "batch_id": "open_062179d716364f4f8f41a2d2",
+    "reasoning_chain_model": "In the figure, the annual precipitation of this basin is about 1000–2000 mm, with abundant precipitation, and reservoir sediment deposition is mainly concentrated in summer, indicating that summer precipitation intensity is high and the rainy season is concentrated, showing monsoon climate characteristics of hot and rainy summers and relatively less rain in winter; combined with the relatively large annual precipitation, it best fits a subtropical monsoon climate. Final answer: subtropical monsoon climate"
+  },
+  {
+    "batch_id": "open_229f2f9dfdce40f9c78b2a51",
+    "reasoning_chain_model": "In the figure, Zone 3 is located inside the urban area indicated by diagonal lines, close to major roads and expressways, adjacent to industrial areas in the surroundings, and there is a protective belt separating industrial land from the urban area; according to the general patterns of urban functional zones, urban areas have dense population and buildings, convenient transportation, concentrated commercial and public service facilities, and high land-use intensity and land prices. Final answer: Zone 3 belongs to the urban area, with dense population and buildings, convenient transportation, concentrated commercial and public service facilities, and high land-use intensity and land prices."
+  },
+  {
+    "batch_id": "open_3fbad8fb486f26df1f93c60e",
+    "reasoning_chain_model": "In the figure, B is located in Australia, and the solid arrows indicate its agricultural products being exported to Asia and other places; Australia has developed commercial agriculture and mainly exports two types of agricultural products, wheat and wool, so the first type should be wheat. Final answer: wheat"
+  },
+  {
+    "batch_id": "open_2108f8505afef5d2dda7fbb5",
+    "reasoning_chain_model": "The main factors for the formation of the advantageous industry in area A in the figure are proximity to the central market, complete infrastructure, and preferential government policies; proximity to the market helps reduce commodity circulation costs, and complete infrastructure and policy support help expand the scale of transactions, so its advantageous industry belongs to market-oriented commercial and trade industry. Final answer: commercial and trade industry"
+  },
+  {
+    "batch_id": "open_24c4930a4f179bfcd5f9d916",
+    "reasoning_chain_model": "The formation factors of the advantageous industry in area D in the figure are mainly raw materials, with transportation conditions secondary, and it also requires certain human resources, indicating that this industry belongs to raw-material-oriented processing industry; food processing industry depends relatively strongly on raw material production areas and transportation, which is consistent with the factor composition shown in the figure. Final answer: food processing industry"
+  },
+  {
+    "batch_id": "open_fabbacd1ef291ece4dce853e",
+    "reasoning_chain_model": "In the figure, Ningxia is located in the central and near-western region; Ningxia has an arid climate, relatively little precipitation, and strong evaporation. Water resources are the main limiting factor for agricultural development, so water-saving irrigation technology should be adopted to improve the utilization rate of water resources and vigorously develop water-saving agriculture. Final answer: water-saving agriculture"
+  },
+  {
+    "batch_id": "open_3d101d621b9cee5f0a028bd7",
+    "reasoning_chain_model": "In the figure, Iceland is located at about 65°N, and there are volcanoes and ice caps in the central-southern part of the island, indicating relatively high terrain; this latitude is controlled by the prevailing westerlies, and the warm, moist air from the Atlantic first reaches the south. After being lifted by mountains, it cools and condenses, forming more orographic rain, while the north is on the leeward slope, where the air sinks and warms, resulting in less precipitation. Final answer: The south is on the windward slope of the warm, moist Atlantic westerlies, with much orographic rain, while the north is on the leeward slope."
+  },
+  {
+    "batch_id": "open_e497abdca5a20be9c0f45155",
+    "reasoning_chain_model": "The island in the figure is located between 13°20′N and 13°40′N, and between 144°40′E and 144°50′E; the area near 144°E belongs to the western Pacific, so this island is located in the western Pacific. Final answer: western Pacific"
+  },
+  {
+    "batch_id": "open_0d7b478935d27bddf49bfb07",
+    "reasoning_chain_model": "In the figure, the ridge line of the western Pacific subtropical high is located at about 25°N, and the northern rain belt has advanced to the vicinity of North China; according to the pattern that the rain belt in eastern China is usually located about 5–8 degrees of latitude northwest of the subtropical high, at the convergence zone of warm, moist air and northern cold air, at this time North China has sufficient water vapor and vigorous convection, enters the concentrated precipitation period, and often experiences hot, humid, overcast/rainy, and rainstorm weather. Final answer: North China enters the rainy season, with hot and humid conditions, and frequent overcast/rainy weather and rainstorms."
+  },
+  {
+    "batch_id": "open_8ba68eab86dee2376d0a205d",
+    "reasoning_chain_model": "The image shows that Earth’s axis points in a fixed direction and that Earth revolves counterclockwise; when Earth is on the left side of the Sun, the Northern Hemisphere is tilted away from the Sun, corresponding to the winter solstice. Position C (C) lies after this position along the revolution direction and before the Northern Hemisphere’s summer-solstice position, so the Sun’s direct point is moving northward and the Northern Hemisphere receives increasingly longer daylight. Anhui is in the Northern Hemisphere, so its daylight duration gradually increases. Final answer: Daylight in Anhui is gradually becoming longer."
+  },
+  {
+    "batch_id": "open_920718619e075573b9c3cc99",
+    "reasoning_chain_model": "The figure shows that A (A) combines the preliminary suitable-site layer with the road layer, while B (B) combines that result with the ecological-protection-area layer to exclude locations near major roads and within protected areas; combining spatial layers and retaining or removing areas according to their spatial relationships is overlay analysis, specifically a difference/erase operation for the excluded areas. Final answer: Overlay analysis."
+  },
+  {
+    "batch_id": "open_68d12259adfccebd5de1c766",
+    "reasoning_chain_model": "In the figure, M is located in the high-water-level section on the left side of the duration curve, representing relatively high water levels that last for a short period within a year; after a reservoir is built upstream, it will store floodwater and reduce flood peaks, so under the same cumulative duration, the water level in this section decreases, and point M will move vertically downward. Final answer: move downward"
+  },
+  {
+    "batch_id": "open_50a7485ff840611713eb6a9c",
+    "reasoning_chain_model": "In the figure, the values of the annual mean temperature isotherms within temperature zone Ⅱ are overall smaller than those in temperature zone Ⅲ; the larger the isotherm value, the higher the annual mean temperature, so the annual mean temperature of temperature zone Ⅱ is lower. Final answer: The annual mean temperature of temperature zone Ⅱ is lower than that of temperature zone Ⅲ."
+  },
+  {
+    "batch_id": "open_7375c31864c8b4f8e30d0840",
+    "reasoning_chain_model": "In the figure, b represents labor force, and c represents market; China's total population is about 1.3397 billion, and a large population means abundant labor resources and a broad consumer market, so the corresponding letters are b and c, and the first letter in order is b. Final answer: b"
+  },
+  {
+    "batch_id": "open_7d9a573f0ee95be48b60f629",
+    "reasoning_chain_model": "The left figure shows land to the west and ocean to the east, while the 25°C isotherm lies north of the 21°C isotherm and both bend southward near the coast; this indicates a warm current flowing along the eastern coast of a continent in the Southern Hemisphere. In the right figure, that location is point D off eastern Australia, corresponding to the East Australian Current. Final answer: D"
+  },
+  {
+    "batch_id": "open_d3a4a9358deb1d1c3d75d042",
+    "reasoning_chain_model": "The north arrow in the figure indicates that the top is north. Along the river, the contour lines bend into a “V” shape, with the tip pointing toward the higher-elevation northwest direction, and the river channel extends from the higher place in the figure toward the lower place at the lower right; according to the rule that rivers flow from high places to low places, and that when contour lines cross a valley the tip of the “V” shape points upstream, it can be known that the downstream direction is southeast. Final answer: flows from northwest to southeast."
+  },
+  {
+    "batch_id": "open_03298e5668e7cf50762bd48c",
+    "reasoning_chain_model": "In the figure, the salt content curve drops to close to 0 g/L at the stage where the horizontal coordinate is about 3–4 thousand years, which is the lowest among all periods. Salt content can be approximately expressed as C＝M/V, where M is the total amount of salt in the lake water and V is the volume of lake water; when the change in the total amount of salt is relatively small, a decrease in C indicates that the lake water volume and water level are relatively large, which usually means increased inflow into the lake, that is, more precipitation, or weaker evaporation. Therefore, during this period the lake water level was relatively high, precipitation was greater, evaporation was weaker, and the climate was generally relatively humid; the salt content alone cannot determine whether it was specifically warmer or colder at that time. Final answer: The lake water level was relatively high, precipitation was greater, evaporation was weaker, and the climate was generally relatively humid."
+  },
+  {
+    "batch_id": "open_cde46bae6591067810540676",
+    "reasoning_chain_model": "In the ternary diagram, factor a increases toward the lower-left 100% vertex, and label A lies closest to that vertex among the four industrial types, so it has the largest labor-factor proportion. Since a + b + c = 100% and an industry with a larger labor share requires more workers, it is more vulnerable to a labor shortage. Final answer: label A."
+  },
+  {
+    "batch_id": "open_8a46478497b6ccbf52ce8a21",
+    "reasoning_chain_model": "In the figure, point M is located on the concave bank of a bend in the Xiangjiang River channel, and the nearby terrain is relatively flat; the concave bank of a river is eroded by flowing water, making the riverbed relatively deep, which facilitates ship docking and port construction. Final answer: Point M."
+  },
+  {
+    "batch_id": "open_549bc42b9828e24928beae22",
+    "reasoning_chain_model": "In the figure, in 2010/11 Yunnan's sugarcane planting area was about 4.5 million mu and its output was about 1.8 million tons, respectively higher than Guangdong's about 2 million mu and 1 million tons; based on the planting-area ratio 450÷200≈2.25 and the output ratio 180÷100=1.8, it can be seen that Yunnan has a larger sugarcane planting scale and higher raw material output, and can provide more sufficient raw materials for the sugar industry. Final answer: The sugarcane planting area is larger, the output is higher, and the supply of sugar-making raw materials is more sufficient."
+  },
+  {
+    "batch_id": "open_aa519a008104afdee66ce488",
+    "reasoning_chain_model": "In the figure, the mountaintop at label A is relatively flat and steep on all sides, and it is adjacent to valleys cut by flowing water, indicating that after the rock strata in this area were uplifted by crustal movement, the surrounding relatively soft rock strata were eroded and denuded by flowing water, while the rock strata at label A, which are relatively hard and have strong resistance to erosion, remained and formed the mountain peak. Final answer: After crustal uplift, differential erosion by flowing water caused the rock strata with stronger resistance to erosion to remain and form a mountain peak."
+  },
+  {
+    "batch_id": "open_44e98d432d3b5c8bd2b29c03",
+    "reasoning_chain_model": "In the figure, Beirut is located on the Mediterranean coast, and its annual precipitation is significantly greater than that of Ankara on the inland plateau; this precipitation difference is mainly affected by natural factors such as land-sea location, topography, and atmospheric circulation, while the climatic characteristics at the regional scale shown in the figure are not formed by human activities. Final answer: human activities"
+  },
+  {
+    "batch_id": "open_d3891ea04d2409750c4110eb",
+    "reasoning_chain_model": "In the figure, the isochrones increase from 1 to 7 according to the confluence time to the basin outlet, and the spacing between the two isochrones 3 and 4 is the smallest; the flow-time difference between adjacent isochrones is the same, and the smaller the spacing, the shorter the distance water flows in the same amount of time, the slower the flow velocity, and therefore the smaller the terrain slope, so the terrain there is the flattest. Final answer: between the two isochrones 3 and 4"
+  },
+  {
+    "batch_id": "open_124933e45d33af077dd2b560",
+    "reasoning_chain_model": "The drum in the figure is approximately a vertically placed cylinder, and the front viewing direction indicated by the arrow faces the side of the drum; when a cylinder is orthographically projected from the side, the width is the diameter of the base and the height is the height of the cylinder, so the shape seen is a rectangle. Final answer: rectangle"
+  },
+  {
+    "batch_id": "open_b884350d413a30450a365c6d",
+    "reasoning_chain_model": "In the figure, coil M is located on the left side of metal ring N. After S is closed toward a, power supply E1 makes the current in M increase from zero, and the magnetic flux passing through N increases accordingly. According to Faraday's law ε=-dΦ/dt and Lenz's law, the magnetic field formed by the induced current generated in N must oppose the increase of the magnetic flux in M, so the adjacent parts of N and M have the same magnetic pole and repel each other; N is on the right side of M, so the direction away from M is to the right. Final answer: move to the right."
+  },
+  {
+    "batch_id": "open_a9fdbc2598caaee69c9b6090",
+    "reasoning_chain_model": "In figure A, the length of the bright line of the car lights is about 3 times the marked length L, and L=3 m; the exposure time given in figure B is 1/2 s. The distance traveled by the car during the exposure is about s=3L=9 m, so the average speed is v=s/t=9÷0.5=18 m/s, which converts to about 65 km/h. Final answer: about 18 m/s (about 65 km/h)"
+  }
+]

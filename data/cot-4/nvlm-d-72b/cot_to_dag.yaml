@@ -10,8 +10,8 @@ model:
   # 中转站的 OpenAI 兼容基础地址；通常不是敏感信息。
   api_base: https://www.codex2api.com/v1
   api_key_env: CODEX_2_API_API_KEY
-  timeout_s: 90
-  max_concurrency: 50
+  timeout_s: 45
+  max_concurrency: 200
   completion_kwargs:
     temperature: 0.1
   min_request_interval_s: 0.0
