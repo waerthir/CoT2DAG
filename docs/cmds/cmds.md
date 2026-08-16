@@ -805,31 +805,216 @@ python -m src.tasks.dag_evaluation.cli export `
 
 
 
-跑已有的cot 2 dag
+跑已有的cot 3 dag
 
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\minicpm-v-4.5\cot_to_dag.yaml
+
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\nvlm-d-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\qwen2.5-VL-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-14b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-2b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-5-8b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\llava-v1.6-34b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\metis-rise-72b\cot_to_dag.yaml
 
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\minicpm-v-4.5\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli run --config data\cot-3\nvlm-d-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\qwen2.5-VL-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-14b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-2b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-5-8b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\llava-v1.6-34b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli run --config data\cot-3\metis-rise-72b\cot_to_dag.yaml
 
-python -m src.tasks.cot_to_dag.cli export --config data\cot-3\minicpm-v-4.5\cot_to_dag.yaml
+
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\nvlm-d-72b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli export --config data\cot-3\qwen2.5-VL-72b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-14b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-2b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-5-8b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\llava-v1.6-34b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\metis-rise-72b\cot_to_dag.yaml
+
+
+
+
+
+
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\qwen2.5-VL-72b\dag.json `
+  data\dag-reasoning-eval-1\qwen2.5-VL-72b\qwen2.5-vl-72b-process1_translated.json `
+  data\dag-reasoning-eval-1\qwen2.5-VL-72b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\minicpm-v-4.5\dag.json `
+  data\dag-reasoning-eval-1\minicpm-v-4.5\minicpm-v-4.5-process1_translated.json `
+  data\dag-reasoning-eval-1\minicpm-v-4.5\combine.json `
+  --id-mode problem-id
+
+
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\internvl3-14b\dag.json `
+  data\dag-reasoning-eval-1\internvl3-14b\internvl3-14b-process1_translated.json `
+  data\dag-reasoning-eval-1\internvl3-14b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\internvl3-2b\dag.json `
+  data\dag-reasoning-eval-1\internvl3-2b\internvl3-2b-process1_translated.json `
+  data\dag-reasoning-eval-1\internvl3-2b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\internvl3-5-8b\dag.json `
+  data\dag-reasoning-eval-1\internvl3-5-8b\internvl3-5-8b-process1_translated.json `
+  data\dag-reasoning-eval-1\internvl3-5-8b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\llava-v1.6-34b\dag.json `
+  data\dag-reasoning-eval-1\llava-v1.6-34b\llava-v1.6-34b-process1_translated.json `
+  data\dag-reasoning-eval-1\llava-v1.6-34b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\metis-rise-72b\dag.json `
+  data\dag-reasoning-eval-1\metis-rise-72b\metis-rise-72b-process1_translated.json `
+  data\dag-reasoning-eval-1\metis-rise-72b\combine.json `
+  --id-mode problem-id
+
+
+
+
+
+新的命令行，负责dag eval
+
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\gemma-4-31b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\glm-5v-turbo\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\grok-4.5-high\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\qwen3-vl-8b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\internvl3-2b\dag_evaluation.yaml
+
+
+
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\gemma-4-31b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\glm-5v-turbo\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\grok-4.5-high\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\qwen3-vl-8b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\internvl3-2b\dag_evaluation.yaml
+
+
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gemini-3.1-pro\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gemma-4-31b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\glm-4.1v-9b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\glm-5v-turbo\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gpt-5.6-sol-xhigh\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\grok-4.5-high\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3.5-38b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\kimi-2.7-code\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\llava-cot-11b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\minicpm-v-4.5\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\minimax-m3\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\neo1.0-9b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\qwen2.5-VL-72b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\qwen-3.7-plus\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\qwen3-vl-32b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\qwen3-vl-8b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\vl-rethinker-72b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3-2b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\llava-v1.6-34b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\metis-rise-72b\dag_evaluation.yaml
+
+
+
+
+python scripts\extract_problem_id_reasoning_chains.py `
+  data\cot-3\gemma-4-12b-it\gemma-4-12b-it-process1_translated.json `
+  data\cot-3\gemma-4-12b-it\cot.json
+
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\gemma-4-12b-it\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\gemma-4-12b-it\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\gemma-4-12b-it\cot_to_dag.yaml
+
+
+
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\nvlm-d-72b\dag.json `
+  data\dag-reasoning-eval-1\nvlm-d-72b\nvlm-d-72b-process1_translated.json `
+  data\dag-reasoning-eval-1\nvlm-d-72b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\internvl3-14b\dag.json `
+  data\dag-reasoning-eval-1\internvl3-14b\internvl3-14b-process1_translated.json `
+  data\dag-reasoning-eval-1\internvl3-14b\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\internvl3-5-8b\dag.json `
+  data\dag-reasoning-eval-1\internvl3-5-8b\internvl3-5-8b-process1_translated.json `
+  data\dag-reasoning-eval-1\internvl3-5-8b\combine.json `
+  --id-mode problem-id
+
+
+
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\nvlm-d-72b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\internvl3-14b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\internvl3-5-8b\dag_evaluation.yaml
+
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\nvlm-d-72b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\internvl3-14b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\internvl3-5-8b\dag_evaluation.yaml
+
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\nvlm-d-72b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3-14b\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3-5-8b\dag_evaluation.yaml
+
+
+
+
+python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
+
+
+python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
+
+
+
+
+
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\gemma-4-31b-it\combine.json `
+  --source-json data\dag-quality-eval-1\gemma-4-31b-it\gemma-4-31b-it-process1_translated.json `
+  --output-json data\dag-quality-eval-1\gemma-4-31b-it\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\glm-4.1v-9b\combine.json `
+  --source-json data\dag-quality-eval-1\glm-4.1v-9b\glm-4.1v-9b-process1_translated.json `
+  --output-json data\dag-quality-eval-1\glm-4.1v-9b\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\glm-5v-turbo\combine.json `
+  --source-json data\dag-quality-eval-1\glm-5v-turbo\glm-5v-turbo-process1_translated.json `
+  --output-json data\dag-quality-eval-1\glm-5v-turbo\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\combine.json `
+  --source-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\gpt-5.6-sol-xhigh-process1_translated.json `
+  --output-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\internvl3.5-38b\combine.json `
+  --source-json data\dag-quality-eval-1\internvl3.5-38b\internvl3-5-38b-process1_translated.json `
+  --output-json data\dag-quality-eval-1\internvl3.5-38b\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\llava-cot-11b\combine.json `
+  --source-json data\dag-quality-eval-1\llava-cot-11b\llava-cot-11b-process1_translated.json `
+  --output-json data\dag-quality-eval-1\llava-cot-11b\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\metis-rise-72b\combine.json `
+  --source-json data\dag-quality-eval-1\metis-rise-72b\metis-rise-72b-process1_translated.json `
+  --output-json data\dag-quality-eval-1\metis-rise-72b\combine_cot_dag.json
+
+python scripts\build_cot_dag_combine.py `
+  --dag-json data\dag-quality-eval-1\nvlm-d-72b\combine.json `
+  --source-json data\dag-quality-eval-1\nvlm-d-72b\nvlm-d-72b-process1_translated.json `
+  --output-json data\dag-quality-eval-1\nvlm-d-72b\combine_cot_dag.json
+
