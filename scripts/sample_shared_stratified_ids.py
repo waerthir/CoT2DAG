@@ -19,7 +19,6 @@ SUBJECTS = (
 )
 DIFFICULTIES = ("medium", "medium_high", "high")
 STRATA = tuple((subject, difficulty) for subject in SUBJECTS for difficulty in DIFFICULTIES)
-DEFAULT_SAMPLE_SIZE = 400
 DEFAULT_SEED = 20260816
 
 
@@ -49,10 +48,10 @@ def build_parser() -> argparse.ArgumentParser:
         help="抽样结果 JSON 输出路径",
     )
     parser.add_argument(
-        "--sample-size",
+        "--per-stratum-count",
         type=_positive_integer,
-        default=DEFAULT_SAMPLE_SIZE,
-        help=f"总抽样数量，默认 {DEFAULT_SAMPLE_SIZE}",
+        required=True,
+        help="每个学科 × 难度分层希望抽取的数量",
     )
     parser.add_argument(
         "--seed",
@@ -175,41 +174,21 @@ def build_strata(
     return candidates_by_stratum
 
 
-def build_quotas(sample_size: int) -> dict[tuple[str, str], int]:
-    """将总抽样数量尽量均衡地分配至固定的 18 个分层。"""
-
-    base_count, remainder = divmod(sample_size, len(STRATA))
-    return {
-        stratum: base_count + int(index < remainder)
-        for index, stratum in enumerate(STRATA)
-    }
-
-
-def validate_capacity(
+def build_actual_counts(
     candidates_by_stratum: dict[tuple[str, str], list[str]],
-    quotas: dict[tuple[str, str], int],
-) -> None:
-    """确认每个分层都拥有满足其抽样配额的共同样本。"""
+    per_stratum_count: int,
+) -> dict[tuple[str, str], int]:
+    """为每层取请求数量与可用数量的较小值，容量不足时取全部可用样本。"""
 
-    insufficient = [
-        (stratum, len(candidates_by_stratum[stratum]), quotas[stratum])
+    return {
+        stratum: min(per_stratum_count, len(candidates_by_stratum[stratum]))
         for stratum in STRATA
-        if len(candidates_by_stratum[stratum]) < quotas[stratum]
-    ]
-    if not insufficient:
-        return
-
-    details = ["以下分层的共同样本不足所需抽样配额："]
-    details.extend(
-        f"{subject}/{difficulty}：可用 {available} 条，需 {required} 条"
-        for (subject, difficulty), available, required in insufficient
-    )
-    raise SharedSamplingError("\n".join(details))
+    }
 
 
 def sample_ids(
     candidates_by_stratum: dict[tuple[str, str], list[str]],
-    quotas: dict[tuple[str, str], int],
+    actual_counts: dict[tuple[str, str], int],
     seed: int,
 ) -> list[str]:
     """按固定分层顺序及给定随机种子抽取 sample_id。"""
@@ -218,19 +197,46 @@ def sample_ids(
     selected_ids: list[str] = []
     for stratum in STRATA:
         selected_ids.extend(
-            random_generator.sample(candidates_by_stratum[stratum], quotas[stratum])
+            random_generator.sample(candidates_by_stratum[stratum], actual_counts[stratum])
         )
     return selected_ids
 
 
-def write_output(output_path: Path, selected_ids: list[str]) -> None:
+def build_output_records(
+    selected_ids: list[str], shared_metadata: dict[str, tuple[str, str]]
+) -> list[dict[str, str]]:
+    """为抽中题目补充元数据，并按固定分层顺序整理导出记录。"""
+
+    subject_order = {subject: index for index, subject in enumerate(SUBJECTS)}
+    difficulty_order = {
+        difficulty: index for index, difficulty in enumerate(DIFFICULTIES)
+    }
+    ordered_ids = sorted(
+        selected_ids,
+        key=lambda sample_id: (
+            subject_order[shared_metadata[sample_id][0]],
+            difficulty_order[shared_metadata[sample_id][1]],
+            sample_id,
+        ),
+    )
+    return [
+        {
+            "sample_id": sample_id,
+            "subject_dir": shared_metadata[sample_id][0],
+            "difficulty_level": shared_metadata[sample_id][1],
+        }
+        for sample_id in ordered_ids
+    ]
+
+
+def write_output(output_path: Path, output_records: list[dict[str, str]]) -> None:
     """先写入同目录临时文件，再原子替换为正式 JSON 输出文件。"""
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     temporary_path = output_path.with_suffix(f"{output_path.suffix}.tmp")
     try:
         temporary_path.write_text(
-            json.dumps(selected_ids, ensure_ascii=False, indent=2) + "\n",
+            json.dumps(output_records, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
         temporary_path.replace(output_path)
@@ -244,7 +250,8 @@ def print_summary(
     input_counts: list[int],
     shared_metadata: dict[str, tuple[str, str]],
     candidates_by_stratum: dict[tuple[str, str], list[str]],
-    quotas: dict[tuple[str, str], int],
+    per_stratum_count: int,
+    actual_counts: dict[tuple[str, str], int],
     selected_ids: list[str],
     output_path: Path,
 ) -> None:
@@ -260,14 +267,17 @@ def print_summary(
         print(
             f"{subject}/{difficulty}："
             f"可用 {len(candidates_by_stratum[stratum])} 条，"
-            f"抽取 {quotas[stratum]} 条"
+            f"请求 {per_stratum_count} 条，"
+            f"实际抽取 {actual_counts[stratum]} 条"
+            + ("（已取上限）" if actual_counts[stratum] < per_stratum_count else "")
         )
-    print(f"总抽样数：{len(selected_ids)}")
+    print(f"每层请求数：{per_stratum_count}")
+    print(f"实际总抽样数：{len(selected_ids)}")
     print(f"输出文件：{output_path}")
 
 
 def execute(
-    input_paths: list[Path], output_path: Path, sample_size: int, seed: int
+    input_paths: list[Path], output_path: Path, per_stratum_count: int, seed: int
 ) -> int:
     """完成读取、求交、分层、随机抽样、写出与结果提示。"""
 
@@ -279,16 +289,17 @@ def execute(
     ]
     shared_metadata = build_shared_metadata(metadata_indexes)
     candidates_by_stratum = build_strata(shared_metadata)
-    quotas = build_quotas(sample_size)
-    validate_capacity(candidates_by_stratum, quotas)
-    selected_ids = sample_ids(candidates_by_stratum, quotas, seed)
-    write_output(output_path, selected_ids)
+    actual_counts = build_actual_counts(candidates_by_stratum, per_stratum_count)
+    selected_ids = sample_ids(candidates_by_stratum, actual_counts, seed)
+    output_records = build_output_records(selected_ids, shared_metadata)
+    write_output(output_path, output_records)
     print_summary(
         input_paths,
         [len(items) for items in input_items],
         shared_metadata,
         candidates_by_stratum,
-        quotas,
+        per_stratum_count,
+        actual_counts,
         selected_ids,
         output_path,
     )
@@ -300,7 +311,12 @@ def main() -> int:
 
     args = build_parser().parse_args()
     try:
-        return execute(args.input_json, args.output_json, args.sample_size, args.seed)
+        return execute(
+            args.input_json,
+            args.output_json,
+            args.per_stratum_count,
+            args.seed,
+        )
     except SharedSamplingError as exc:
         print(f"错误：{exc}")
         return 2

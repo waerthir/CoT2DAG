@@ -968,7 +968,6 @@ python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1
 
 python -m src.tasks.cot_to_dag.cli retry-failed --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
 python -m src.tasks.cot_to_dag.cli run --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
-python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
 
 
 python -m src.tasks.cot_to_dag.cli export --config data\cot-3\internvl3-5-14b\cot_to_dag.yaml
@@ -1018,3 +1017,99 @@ python scripts\build_cot_dag_combine.py `
   --source-json data\dag-quality-eval-1\nvlm-d-72b\nvlm-d-72b-process1_translated.json `
   --output-json data\dag-quality-eval-1\nvlm-d-72b\combine_cot_dag.json
 
+
+
+
+
+python scripts\sample_shared_stratified_ids.py `
+  --input-json data\dag-quality-eval-1\gemma-4-31b-it\gemma-4-31b-it-process1_translated.json `
+  --input-json data\dag-quality-eval-1\glm-4.1v-9b\glm-4.1v-9b-process1_translated.json `
+  --input-json data\dag-quality-eval-1\glm-5v-turbo\glm-5v-turbo-process1_translated.json `
+  --input-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\gpt-5.6-sol-xhigh-process1_translated.json `
+  --input-json data\dag-quality-eval-1\internvl3.5-38b\internvl3-5-38b-process1_translated.json `
+  --input-json data\dag-quality-eval-1\llava-cot-11b\llava-cot-11b-process1_translated.json `
+  --input-json data\dag-quality-eval-1\metis-rise-72b\metis-rise-72b-process1_translated.json `
+  --input-json data\dag-quality-eval-1\nvlm-d-72b\nvlm-d-72b-process1_translated.json `
+  --output-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_25.json `
+  --per-stratum-count 25 `
+  --seed 20260816
+
+
+
+
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\gemma-4-12b-it\dag.json `
+  data\dag-reasoning-eval-1\gemma-4-12b-it\gemma-4-12b-it-process1_translated.json `
+  data\dag-reasoning-eval-1\gemma-4-12b-it\combine.json `
+  --id-mode problem-id
+
+python scripts\build_dag_combine.py `
+  data\dag-reasoning-eval-1\internvl3-5-14b\dag.json `
+  data\dag-reasoning-eval-1\internvl3-5-14b\internvl3-5-14b-process1_translated.json `
+  data\dag-reasoning-eval-1\internvl3-5-14b\combine.json `
+  --id-mode problem-id
+
+
+
+
+
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
+
+
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
+
+
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
+
+
+
+
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\gemma-4-31b-it\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\gemma-4-31b-it\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\glm-4.1v-9b\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\glm-4.1v-9b\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\glm-5v-turbo\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\glm-5v-turbo\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\internvl3.5-38b\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\internvl3.5-38b\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\llava-cot-11b\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\llava-cot-11b\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\metis-rise-72b\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\metis-rise-72b\combine_cot_dag_400_sample.json
+
+python scripts\filter_source_by_sample_ids.py `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --source-json data\dag-quality-eval-1\nvlm-d-72b\combine_cot_dag.json `
+  --output-json data\dag-quality-eval-1\nvlm-d-72b\combine_cot_dag_400_sample.json
+
+
+
+  
