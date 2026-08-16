@@ -1055,18 +1055,6 @@ python scripts\build_dag_combine.py `
 
 
 
-python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
-python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
-
-
-python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
-python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
-
-
-python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
-python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
-
-
 
 
 
@@ -1112,4 +1100,59 @@ python scripts\filter_source_by_sample_ids.py `
 
 
 
-  
+
+
+
+
+
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
+
+
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
+
+
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\gemma-4-12b-it\dag_evaluation.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1\internvl3-5-14b\dag_evaluation.yaml
+
+
+
+
+
+
+
+
+
+
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.yaml
+
+
+
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.yaml
+
+
+
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.yaml

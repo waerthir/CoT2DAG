@@ -1,0 +1,22 @@
+paths:
+  input_json: data/dag-quality-eval-1/glm-5v-turbo/combine_cot_dag_400_sample.json
+  database: data/dag-quality-eval-1/glm-5v-turbo/dag_quality_evaluation.sqlite3
+  output_json: data/dag-quality-eval-1/glm-5v-turbo/dag_quality_evaluation.json
+  system_prompt: docs/prompt/dag_quality_eval.md
+
+model:
+  litellm_model: openai/gpt-5.4-mini
+  api_base: https://www.codex2api.com/v1
+  api_key_env: CODEX_2_API_API_KEY_4_DAG_QUAL_EVAL
+  timeout_s: 45
+  max_concurrency: 200
+  completion_kwargs:
+    temperature: 0.1
+  min_request_interval_s: 0.0
+  stream: true
+
+retry:
+  max_attempts: 3
+  min_wait_s: 2
+  max_wait_s: 60
+  retry_invalid_output: true

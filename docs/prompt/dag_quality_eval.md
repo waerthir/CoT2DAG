@@ -8,7 +8,6 @@
 
 ```json
 {
-  "batch_id": "<任务标识>",
   "reasoning_chain_model": "<完整原始 CoT>",
   "graph": {
     "graph_logic": {
@@ -20,7 +19,6 @@
 }
 ```
 
-- `batch_id` 是该条记录的任务标识，仅供外部批处理程序关联输入和输出；不参与评分，也不得在本提示词规定的输出 JSON 中回显。
 - `reasoning_chain_model` 是需要被 DAG 结构化表达的完整原始 CoT，也是全部六维评分的主要参照。
 - `graph.graph_logic.conditions` 是 C 层节点：原始前提、文字/图像观察或学科常识；C 节点没有 `parents` 和 `reasoning_logic`。
 - `graph.graph_logic.intermediate_steps` 是 I 层节点：由父节点得到的中间推导；每个节点包含 `id`、`type`、`content`、`parents`、`reasoning_logic`。
