@@ -1126,6 +1126,8 @@ python -m src.tasks.dag_evaluation.cli export --config data\dag-reasoning-eval-1
 
 
 
+
+
 python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.yaml
 python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.yaml
 python -m src.tasks.dag_quality_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.yaml
@@ -1148,6 +1150,10 @@ python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eva
 
 
 
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.yaml
+python -m src.tasks.dag_quality_evaluation.cli run --config data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.yaml
+
+
 python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.yaml
 python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.yaml
 python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.yaml
@@ -1156,3 +1162,162 @@ python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-
 python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation.yaml
 python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation.yaml
 python -m src.tasks.dag_quality_evaluation.cli export --config data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.yaml
+
+
+
+
+
+
+
+
+
+
+
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation_200_best.json `
+  --mode best `
+  --sample-count 200
+
+
+
+
+
+
+
+
+
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\glm-4.1v-9b\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\glm-5v-turbo\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\internvl3.5-38b\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\llava-cot-11b\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\metis-rise-72b\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+python scripts\sample_dag_quality_evaluation.py `
+  --input-json data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation.json `
+  --selection-json data\dag-quality-eval-1\shared_sample_ids_per_stratum_22.json `
+  --output-json data\dag-quality-eval-1\nvlm-d-72b\dag_quality_evaluation_200_random.json `
+  --mode random `
+  --sample-count 200 `
+  --seed 20260816
+
+
+
+
+
+
+
+python scripts\sample_human_agreement_questions.py `
+  --input-json data\dag-quality-eval-1\gemma-4-31b-it\dag_quality_evaluation_200_random.json `
+  --output-json data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  --sample-count 50 `
+  --seed 20260816
+
+
+
+
+
+
+

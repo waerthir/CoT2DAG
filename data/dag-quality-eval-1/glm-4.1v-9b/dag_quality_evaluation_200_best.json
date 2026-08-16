@@ -1,0 +1,1379 @@
+{
+  "parameters": {
+    "input_json": "data\\dag-quality-eval-1\\glm-4.1v-9b\\dag_quality_evaluation.json",
+    "selection_json": "data\\dag-quality-eval-1\\shared_sample_ids_per_stratum_22.json",
+    "mode": "best",
+    "sample_count": 200,
+    "seed": null,
+    "pass_threshold": 6.0
+  },
+  "actual_sample_count": 200,
+  "strata": [
+    {
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "target_count": 12,
+      "available_count": 25,
+      "selected_count": 12
+    },
+    {
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "target_count": 12,
+      "available_count": 25,
+      "selected_count": 12
+    },
+    {
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "target_count": 11,
+      "available_count": 15,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    },
+    {
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "target_count": 11,
+      "available_count": 25,
+      "selected_count": 11
+    }
+  ],
+  "selected_items": [
+    {
+      "batch_id": "math/geometry3k:geometry3k00134:geometry3k__open_bd011e8d1c1c067ea72adabc__392c4c4625e8",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.950000000000001
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00083:mathvision__open_b771b964e80df9db943c0045__4f9b59e8599b",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.876666666666667
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00514:mathvision__open_611ffeedb656a584ea6a9b53__ac984d099804",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.905
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00614:mathvision__open_a4b922fc93878ade87d00ae2__c023107839cb",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.961666666666666
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00800:mathvision__open_d8654e97cb03748cf631b072__84522839e448",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.843333333333334
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01025:mathvision__open_07b7b83a5fd46f82ca752075__1706cd00de60",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.823333333333332
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01468:mathvision__open_61f071a0683f2990920dc6b1__7fb9d2f697c2",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.911666666666667
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01769:mathvision__open_72568cf6bce2fc20b341a4b9__9058708958d5",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.871666666666668
+    },
+    {
+      "batch_id": "math/mm_math:mmmath00417:mm_math__open_96af2f0dd35efc0723d74f31__2bb666c2de6c",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.903333333333334
+    },
+    {
+      "batch_id": "math/mm_math:mmmath00844:mm_math__open_f15ba9e8792291c7e6eb2750__6a1d25d14a8e",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "math/mm_math:mmmath01441:mm_math__open_b725b5f0afcdf8fb1754e9f0__ad122fb8102e",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "math/mm_math:mmmath01586:mm_math__open_a517ab07d35e37633c81c3f0__972b53ffd7c7",
+      "subject_dir": "math",
+      "difficulty_level": "medium",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00297:geometry3k__open_167361479fee693608e21583__e0c68c2dd59e",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.935
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00332:geometry3k__open_d2a123494636b6908e3aa34b__ce0b6f13b692",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.93
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00478:mathvision__open_ff65d5cc1c910039f4668978__56ff7c02e42c",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.841666666666667
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00493:mathvision__open_dc6bd470d0826cc1efa6112b__6e4b375a305b",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.86
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00542:mathvision__open_75deacf9c65a4c557e30f49b__781ec4cad034",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.98
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00710:mathvision__open_1115d08ebb518068d9d3b5b9__5fe51d22e2b5",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.883333333333333
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00784:mathvision__open_85b66c2162ea39689aa75102__08e972d778e8",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.985
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00798:mathvision__open_e0db4e735e38c677b00a819e__ceca3d7c338d",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.888333333333334
+    },
+    {
+      "batch_id": "math/mathvision:mathvision00807:mathvision__open_3ba60df4708956d82d622939__962864be5009",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.908333333333333
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01537:mathvision__open_a51d1b4ed4bf84fe5e08a328__f8e0424007fb",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.906666666666668
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01542:mathvision__open_377473260e2e8677e9262b40__7a661c983366",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.971666666666666
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01852:mathvision__open_4f599977d5ee304c437e37f3__59459601256e",
+      "subject_dir": "math",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00194:geometry3k__open_7bf059bbd582589dd6189140__ef437fbc92f3",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00196:geometry3k__open_6fb4f80694721facd1dea132__d6c5b3ee670a",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00257:geometry3k__open_9fa6d957d5f7c6e14f8e7c04__2d0364bea9f0",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00266:geometry3k__open_1761b6dd67ea19894bc3017f__1af04f787c4a",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.923333333333334
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00273:geometry3k__open_5d09112f44b3194fa3435cde__347865d8302b",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.913333333333332
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00465:geometry3k__open_37dd56c753e48b568556bd44__d85773fbe275",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.979999999999999
+    },
+    {
+      "batch_id": "math/geometry3k:geometry3k00742:geometry3k__open_61100c38836661c4b5aacb7a__b86a03afd266",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.958333333333334
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01180:mathvision__open_1fa699819d4e598948bcc9b6__dc4643d3c0ea",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "math/mathvision:mathvision01713:mathvision__open_ab422ed3a6961c40a3a84032__50027f4370bd",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.91
+    },
+    {
+      "batch_id": "math/mm_math:mmmath00050:mm_math__open_1f323cb1b91d486610863289__e86e7cc132a6",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.97
+    },
+    {
+      "batch_id": "math/mm_math:mmmath00590:mm_math__open_78587cd5da3d3523970448f4__a7befd5d3229",
+      "subject_dir": "math",
+      "difficulty_level": "high",
+      "selection_score": 9.923333333333334
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00007:open_6faf3b0d9dbb409cb5828a02",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00403:open_5559a5058da11a73b30363b3",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.948333333333332
+    },
+    {
+      "batch_id": "physics/physreason:physreason00072:physreason__open_93c635f69a8834f4ffd323ae__d1b1d9a0d6eb",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.941666666666668
+    },
+    {
+      "batch_id": "physics/physreason:physreason00084:open_be530a64857e65f3797a5e85",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "physics/physreason:physreason00144:open_0de5297941409cfead94589b",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.916666666666666
+    },
+    {
+      "batch_id": "physics/physreason:physreason00278:open_ea23451577f47a3236c998cf",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.96
+    },
+    {
+      "batch_id": "physics/physreason:physreason00287:physreason__open_8889ec6534baec41c6ae5352__9cbc0d7d8fd9",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "physics/physreason:physreason00305:open_26ed2d6d79f60fb581491277",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "physics/physreason:physreason00487:open_1e1f05b9958c7bf80cbbcace",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.98
+    },
+    {
+      "batch_id": "physics/physreason:physreason00552:open_cd2fa803a09f9ea4d40b18d6",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.983333333333333
+    },
+    {
+      "batch_id": "physics/physreason:physreason00621:open_7d3df9e161b8d463ce7d255b",
+      "subject_dir": "physics",
+      "difficulty_level": "medium",
+      "selection_score": 9.781666666666666
+    },
+    {
+      "batch_id": "physics/emma_physics:emmaphysics00195:emma_physics__open_2940e61a1c532082f264c577__498851ad3b47",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.721666666666666
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00030:open_5a67123355a4031c6c6f8b22",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.82
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00086:open_fc549b9a1a1215ecba276f13",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.866666666666667
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00431__variant2_open_e552f199b0c2892aa5d5b1d0:multi_physics__open_e552f199b0c2892aa5d5b1d0__4d1e456edc50",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.903333333333334
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00485__variant2_open_ae55bddbf6258c49d1df8f9e:multi_physics__open_ae55bddbf6258c49d1df8f9e__c3bde05e3a96",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.638333333333334
+    },
+    {
+      "batch_id": "physics/physreason:physreason00222:physreason__open_448a4c142e4405734ecad2d4__8a97377f1aec",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.928333333333333
+    },
+    {
+      "batch_id": "physics/physreason:physreason00497:open_f90559a38b75e65af68007a9",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.991666666666667
+    },
+    {
+      "batch_id": "physics/physreason:physreason00666:open_113a051e31b30c3a84fcde41",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.695
+    },
+    {
+      "batch_id": "physics/physreason:physreason00719:open_e3615ff6daae2d748344546a",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.92
+    },
+    {
+      "batch_id": "physics/physreason:physreason00818:open_390867904287c4ccc58c2a34",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.976666666666667
+    },
+    {
+      "batch_id": "physics/physreason:physreason00895:open_38f4db2d1c93e1c9c6e7a5f9",
+      "subject_dir": "physics",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.94
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00148:open_54cb2a52919e44d3c453d898",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.938333333333333
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00164__variant2_open_b662db5f92ebde098414adb3:multi_physics__open_b662db5f92ebde098414adb3__db0d2f45c775",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.978333333333333
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00332:open_03834dec0d157f974f705076",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.676666666666668
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00394__variant2_open_a93a2386064f57c1b9037cfb:multi_physics__open_a93a2386064f57c1b9037cfb__d28ab3d47595",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.909999999999998
+    },
+    {
+      "batch_id": "physics/multi_physics:multiphysics00423__variant2_open_8e774a5026c14e049ec399b0:multi_physics__open_8e774a5026c14e049ec399b0__29a7fbe08d45",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.921666666666667
+    },
+    {
+      "batch_id": "physics/physreason:physreason00225:physreason__open_05a485d33e6d25c34fa6e0f8__7db919aef370",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.986666666666666
+    },
+    {
+      "batch_id": "physics/physreason:physreason00250:open_3799a94d26a4fce66aaffe00",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.98
+    },
+    {
+      "batch_id": "physics/physreason:physreason00345:open_b0b11d77570b2c4972cffcf1",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.828333333333333
+    },
+    {
+      "batch_id": "physics/physreason:physreason00483:open_488ae0a2b336c5e9d09ceed0",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.991666666666667
+    },
+    {
+      "batch_id": "physics/physreason:physreason00598:open_25ed1f13a67ff3520fb2e1e4",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.931666666666667
+    },
+    {
+      "batch_id": "physics/physreason:physreason00887:open_1aa9d766652f6cfab013a1e7",
+      "subject_dir": "physics",
+      "difficulty_level": "high",
+      "selection_score": 9.836666666666668
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00621:eee_bench__open_7ed36690d5fd97581431f3e5__f58be8ef64a8",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.883333333333333
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00789:eee_bench__open_d00cfa8a5801e4d2ea3292f6__ffb70d7c9a3a",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00828:eee_bench__open_c38830116473745fe84ad3e0__918640a589e3",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00856:eee_bench__open_3aec500dfed7ac0e000b16e8__78316b682202",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00910:eee_bench__open_b84164c5072deee1129a9849__5058baba68f5",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.818333333333333
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01309:eee_bench__open_4b300ae824dacf72d9af0a85__fbbdb1fca16e",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.856666666666667
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01490:eee_bench__open_55a7c01d404dc1fbbcdb8604__5cecfa3807ee",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.985
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01492:eee_bench__open_533a42732ddf934708e8a3d5__4b4f425ab06b",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.818333333333333
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01510:eee_bench__open_64948f0ad42c8a6cb021807a__55408f9efa02",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01659:eee_bench__open_cfadb3e08a59b44ff41ab2ce__881f13eba785",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.831666666666667
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01694:eee_bench__open_0f361fedffc7cdd7184bf491__5f3c887599a8",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium",
+      "selection_score": 9.916666666666666
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00646:eee_bench__open_1435f6a40259dead7dc3c5f7__fe6ed6ddffaa",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.945
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00882:eee_bench__open_75ec94298f61cee9bf1ad377__57736dc8fbb5",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.895000000000001
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00970:eee_bench__open_6226f6e092309118b5a751bb__8abd882d5a6d",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.896666666666667
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01079:eee_bench__open_62691fca85ee74d35f2e7273__31dff478d1a9",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01481:eee_bench__open_4047e88851626a848e2205c4__760c39d44209",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01612:eee_bench__open_9e7ebed005d58d88560a6d90__214b465ed53c",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.938333333333334
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01711:eee_bench__open_5a03e8dcf619f2f539c499c8__471467e3c6fb",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.825
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01724:eee_bench__open_db5160eb8a4f882e8f1154fb__f2b5621ad2c6",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.975
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01831:eee_bench__open_14d79ac3c763a2d0f9e72798__5e51a83d2ab9",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.875
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01863:eee_bench__open_c9bada89b4ffc6cae6b53727__39e074bdfe2a",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.845
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01876:eee_bench__open_9b48b21c7d79a29da5c2d2c9__002efcea5e93",
+      "subject_dir": "circuit",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.863333333333333
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00005:open_cd3f40ed7dd5536db7bab34f",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.986666666666666
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00423:eee_bench__open_dfbaacd59f7f3114906152bd__e2f0cb15bd5a",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.905
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00605:eee_bench__open_e4ea2f13ab7fed8d901346f2__f8b7df37f0e1",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.898333333333333
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench00780:eee_bench__open_2b97d135d1b75462f012bf50__bef387cdf859",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.909999999999998
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01011:eee_bench__open_7659e717d4106922026e1c80__7dadaaa8362d",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.836666666666668
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01122:eee_bench__open_6b84f5c7103beb8dd460839a__fb2cec5c08ad",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01347:eee_bench__open_4e81c648a60e9a22c892c130__54541de04373",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.83
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01539:eee_bench__open_57b86ce7fb3dd6a50a7b440e__048489918345",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.986666666666666
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01567:eee_bench__open_232d9e329cfb76de8b7e0f82__be08aabdd11f",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 9.763333333333334
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01686:eee_bench__open_05be227e1bc94f752c060b9e__4aacba77d798",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "circuit/eee_bench:eeebench01732:eee_bench__open_dd4d6347724be7a041b76e01__f70b94babb70",
+      "subject_dir": "circuit",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00273:emma_chemistry__open_039bcf16d65ce18c797d9e91__e8db0c1634bd",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.9
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00306:emma_chemistry__open_2978036d98480548fec65fe9__01e7a7f6c42d",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.953333333333335
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00387:emma_chemistry__open_552be6b3a14845d6b9c4de91__41590a8c795e",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.908333333333333
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00390:emma_chemistry__open_d41aecfbd37c49ca32b55ec8__77e94bdca434",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00434:emma_chemistry__open_433b3793d9560cf63b8266c5__e1dcabc6f08b",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00457:emma_chemistry__open_e2fc5f5ddad68d175f2d6d73__2d35aacd44d7",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.99
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00718:emma_chemistry__open_fcdc4e80ed9376e2bb65217d__7bcd3b18bac1",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.921666666666667
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00746:emma_chemistry__open_674b10b069392102b54b299c__85ece5eae334",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.94
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00813:emma_chemistry__open_c4290ff0dc82749b19e4e2e9__8e2eb8a53854",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 9.868333333333334
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00827:emma_chemistry__open_a7a7d5dd2d88212967100551__5c91c0558268",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/sciverse_chemistry:sciversechemistry00111:sciverse_chemistry__open_3bc5e06ce2052ae30213e15b__374bb6e464e8",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00123:emma_chemistry__open_a34caca3cf8b154535881104__3653528c2a49",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00163:emma_chemistry__open_41c4678833bb63fd6478d239__6474046c4fbc",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.685
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00195:emma_chemistry__open_773c74a226a5991d35c9a9a3__5b260fb6452e",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.878333333333332
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00267:emma_chemistry__open_ae176d5a27e8dd2cef8b776b__42a0b606a994",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.915000000000001
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00444:emma_chemistry__open_8ad6d632cf5f8b5c6948a249__afb3f3022021",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.971666666666666
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00467:emma_chemistry__open_75a073ee63b3de7824f2833f__9ea060e9e9ad",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.83
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00540:emma_chemistry__open_d0bf737baf39ffe03286c32b__18573f65224a",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00699:emma_chemistry__open_f688deaa5a945ce08802fb37__8e49777eb908",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.958333333333334
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00852:emma_chemistry__open_3af0444a64ccae63351977cd__15af9c226ef0",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.965
+    },
+    {
+      "batch_id": "chemistry/scemqa_chemistry:scemqachemistry00105:scemqa_chemistry__open_1ed0a0c3a9714e45a66642d7__f36222d5969a",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/sciverse_chemistry:sciversechemistry00083:sciverse_chemistry__open_a02851e441362672cb820388__9c2595f09007",
+      "subject_dir": "chemistry",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.808333333333334
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00127:emma_chemistry__open_d1fd808d8687260186a643bd__54264eecca93",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.97
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00150:emma_chemistry__open_2faa65773a06ccb64940e472__a7745cdd5f15",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00216:emma_chemistry__open_b3c560991e82c5acb3130e2e__e43e91750dd5",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.915000000000001
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00283:emma_chemistry__open_a5e358e6336094e54e089a8d__d50a220c7a81",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.825000000000001
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00339:emma_chemistry__open_ad63747c25c27db0464f5cfc__1d5a4d242fda",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.96
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00427:emma_chemistry__open_8d7aa048ae438a94128c36e8__97a7df95160e",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00441:emma_chemistry__open_db2f161f307caad1ce2cb781__d198be24dd2c",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00591:emma_chemistry__open_bb165736b7a9cda8b47fb575__1b6b03328828",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "chemistry/emma_chemistry:emmachemistry00771:emma_chemistry__open_1147ae94ad322ead3ac16627__334ca0872fc5",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.856666666666667
+    },
+    {
+      "batch_id": "chemistry/sciverse_chemistry:sciversechemistry00139:sciverse_chemistry__open_da8486eac9fc07d2c6939e4a__b2d203d302a0",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.81
+    },
+    {
+      "batch_id": "chemistry/sciverse_chemistry:sciversechemistry00204:sciverse_chemistry__open_4ac1da780e94af690f9af9b1__d8b06eeb8de3",
+      "subject_dir": "chemistry",
+      "difficulty_level": "high",
+      "selection_score": 9.896666666666667
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00068:geosqa__open_f771b5f74c7ad610cfe72bdb__d540d1bebaa7",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.813333333333333
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00207:geosqa__open_275f425e8be8912a663f82bb__9b38409ad098",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.711666666666666
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00432:geosqa__open_fe0ee78c933eee840becaa5f__603f4bc75e33",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.738333333333333
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00439:geosqa__open_73d0029768223c8f3a45b9dc__ba04f2655acb",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.888333333333334
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01046__variant2_open_6244604033c2665004a420f0:geosqa__open_6244604033c2665004a420f0__e93a966f6bbb",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.825000000000001
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01166:geosqa__open_7e373241c95307e486b444cd__7fab1174a1f2",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.848333333333333
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01224:geosqa__open_9e6eb352f4979f9500602fff__a4b21e24c9da",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.955
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01287:geosqa__open_ba433800a2a12be1e2f50cbe__52794fc51c40",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.826666666666666
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01413:geosqa__open_1b6c98e2b4147de1c10093e6__c3e19b8d8be0",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01475:geosqa__open_c7c5b18f303e33d2cc855d9a__9fbdc7cc4f78",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.956666666666665
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01493:geosqa__open_096d9f9049898ba79fdb68f0__4ca47752e49c",
+      "subject_dir": "geography",
+      "difficulty_level": "medium",
+      "selection_score": 9.950000000000001
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00094__variant2_open_650bc8972f3d80ff52d72a58:geosqa__open_650bc8972f3d80ff52d72a58__a622c67ef763",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.833333333333334
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00287__variant2_open_fe62c0af4a72806787169077:geosqa__open_fe62c0af4a72806787169077__ff7381101f68",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.751666666666667
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00468:geosqa__open_bc14523c9ae5708c261d9063__3313d1c2dce9",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.938333333333333
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00610:geosqa__open_35a5534c73ec5c522ee2ae29__1829edee8404",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.725
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00769__variant2_open_c43b84307ce05f08a5903924:geosqa__open_c43b84307ce05f08a5903924__4b44c360e61f",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.935
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00831:geosqa__open_167e644899c37b01a554d3ca__438ed0d3cddc",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.951666666666666
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00985:geosqa__open_1ebf1716349c099997cd8cc2__3e8453b5cba0",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.886666666666667
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01094:geosqa__open_ae7a10ba985d3fa71780ebd1__ba6f5c959bd7",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.816666666666666
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01239__variant3_open_143e93f6f01b05fdd2239a55:geosqa__open_143e93f6f01b05fdd2239a55__be812e9654df",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.93
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01557__variant2_open_0def4f930088cfd8a488db47:geosqa__open_0def4f930088cfd8a488db47__60931bc6e87a",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.91
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01632:geosqa__open_6257f9fcbe2bbaa68a716871__aacdfc0b843a",
+      "subject_dir": "geography",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.778333333333334
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00339:geosqa__open_b7b9e170779ac87d3b3d6d2f__80268cdc2f65",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.723333333333334
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00467:geosqa__open_7e78f4d1df4785b18e9ab379__b6917c7f32ed",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.706666666666665
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00481:geosqa__open_c442a3c17231f8a666ede84b__3c128f63dd76",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.733333333333333
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00592:geosqa__open_93d50c865ccadaa3812dcaab__344ed891746d",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.796666666666667
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00717:geosqa__open_c7db6fc6cefc7398e07c5265__74d1f964f984",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.75
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00789__variant2_open_f613c7541bc20c448e88f9de:geosqa__open_f613c7541bc20c448e88f9de__a30c34862bf2",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.991666666666667
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00793__variant2_open_91fee2cbaa9699d9efa2da6b:geosqa__open_91fee2cbaa9699d9efa2da6b__411ae943c59c",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.846666666666666
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00795:geosqa__open_0739f6b35a2e58ba54b276d3__db660890537a",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.711666666666666
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00953:geosqa__open_c1a897be70eb9cd34e89af2c__638842b1ea50",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.99
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa00999:geosqa__open_16572623e13310b0ffd470e9__51dfe03725fd",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.926666666666668
+    },
+    {
+      "batch_id": "geography/geosqa:geosqa01283:geosqa__open_c5951eaffc7a4dd8476b5604__c4ff6b43e5eb",
+      "subject_dir": "geography",
+      "difficulty_level": "high",
+      "selection_score": 9.891666666666667
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00435:open_7f98f2f4e6bf9cfb2bde0bd4",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.96
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00454:open_24a6c1c20fa56b8e6721603a",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00456:open_3a4c632b581f3ac88d252ae5",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.973333333333334
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00471:open_b93ae8b70455a0330d20f95b",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.933333333333334
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00714:open_db82ac0e86f51a4991429a0a",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.915
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00853:open_33887d512c0bf7038e1ace0e",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.96
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00867:open_15c0f7c450b9b20b96ad84b0",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.94
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00944:open_59d62747f86d9cdacab9e3db",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01063:open_86c692226bb1a5972d7942a5",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.926666666666668
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01217:open_489d06b3d04571665d872e69",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.945
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01225:open_ff94d8433592ce8c9c1799fc",
+      "subject_dir": "biology",
+      "difficulty_level": "medium",
+      "selection_score": 9.98
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00277:open_31e2e2debe01e4908fdecb7d",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.933333333333334
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00596:open_c0bc2ae2a203f3f8f7c6b594",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.833333333333334
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00830:open_a3675af1903527bbd8698b41",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.871666666666668
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00882:open_d765327eab5d3b9a72d8f7f3",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.908333333333333
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01112:open_0984265f8cf9a5d11f08a3db",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01148:open_0f33535a97d3f5068b0760d2",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.781666666666666
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01156:open_4ffaf2952d405a4d205eb92e",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "biology/biology_supplement:biology_supplement00109:prob_biology_supplement_00109",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.831666666666667
+    },
+    {
+      "batch_id": "biology/biology_supplement:biology_supplement00118:prob_biology_supplement_00118",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.958333333333334
+    },
+    {
+      "batch_id": "biology/scemqa_biology:scemqabiology00007:scemqa_biology__open_f76a9403176697e63d429905__083c51927bfd",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.97
+    },
+    {
+      "batch_id": "biology/sciverse_biology:sciversebiology00072:sciverse_biology__open_89968530c0aef1aabb4c1ed5__3a75a095f043",
+      "subject_dir": "biology",
+      "difficulty_level": "medium_high",
+      "selection_score": 9.983333333333333
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00242:open_51ed205d88ba5c53883a3f8b",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00323:open_8c7e42783ef71aae9072517a",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.94
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology00536:open_76bd50b513c4b8116012f792",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.966666666666667
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01031:open_4a39f9991cc558a8f2beef97",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.961666666666666
+    },
+    {
+      "batch_id": "biology/ai2d_biology:ai2d_biology01242:open_499b32483e84e22dbe96aa56",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.866666666666667
+    },
+    {
+      "batch_id": "biology/biology_supplement:biology_supplement00101:prob_biology_supplement_00101",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.96
+    },
+    {
+      "batch_id": "biology/scemqa_biology:scemqabiology00058:scemqa_biology__open_64d318cb2d71378afb721356__993563db0f8b",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.916666666666666
+    },
+    {
+      "batch_id": "biology/sciverse_biology:sciversebiology00003:sciverse_biology__open_17b402eef3d0673e37cd388e__359e8ce2798a",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.854999999999999
+    },
+    {
+      "batch_id": "biology/sciverse_biology:sciversebiology00074:sciverse_biology__open_19455e97490652a4255cd979__15aa42c56c8e",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.950000000000001
+    },
+    {
+      "batch_id": "biology/sciverse_biology:sciversebiology00197:sciverse_biology__open_b20334cb5af05f9142c71f72__9f12c7310306",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 10.0
+    },
+    {
+      "batch_id": "biology/sciverse_biology:sciversebiology00204:sciverse_biology__open_48230ff7cc99e7074e63caff__e2bdab29b401",
+      "subject_dir": "biology",
+      "difficulty_level": "high",
+      "selection_score": 9.848333333333333
+    }
+  ],
+  "statistics": {
+    "Information_Fidelity": {
+      "mean": 9.937684729064037,
+      "passed_count": 2842,
+      "total_count": 2842,
+      "pass_rate": 1.0
+    },
+    "Claim_Atomicity": {
+      "mean": 9.858866995073893,
+      "passed_count": 2842,
+      "total_count": 2842,
+      "pass_rate": 1.0
+    },
+    "Node_Type_Correctness": {
+      "mean": 9.997888810696692,
+      "passed_count": 2842,
+      "total_count": 2842,
+      "pass_rate": 1.0
+    },
+    "Dependency_Completeness": {
+      "mean": 9.860880398671096,
+      "passed_count": 1204,
+      "total_count": 1204,
+      "pass_rate": 1.0
+    },
+    "Dependency_Correctness": {
+      "mean": 9.865697674418604,
+      "passed_count": 1204,
+      "total_count": 1204,
+      "pass_rate": 1.0
+    },
+    "Information_Coverage": {
+      "mean": 9.957,
+      "passed_count": 200,
+      "total_count": 200,
+      "pass_rate": 1.0
+    }
+  }
+}

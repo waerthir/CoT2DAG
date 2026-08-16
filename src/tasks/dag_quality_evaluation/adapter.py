@@ -10,9 +10,11 @@ from typing import Any, Literal
 from pydantic import TypeAdapter, ValidationError
 
 from .schemas import (
+    ConditionNodeEvaluation,
     DAGQualityEvaluationInput,
     DAGQualityEvaluationOutput,
     QualityNodeEvaluation,
+    ReasoningNodeEvaluation,
 )
 
 NodeLayer = Literal["C", "I", "O"]
@@ -109,7 +111,7 @@ class DAGQualityEvaluationTaskAdapter:
         for node_output, (_, layer) in zip(
             output.node_evaluations, expected_nodes, strict=True
         ):
-            _validate_node_metric_boundary(node_output, layer)
+            _validate_node_layer(node_output, layer)
         return output
 
     def export_record(
@@ -124,8 +126,7 @@ class DAGQualityEvaluationTaskAdapter:
         dependency_nodes = [
             item
             for item in output.node_evaluations
-            if item.Dependency_Completeness is not None
-            and item.Dependency_Correctness is not None
+            if isinstance(item, ReasoningNodeEvaluation)
         ]
         if not dependency_nodes:
             raise DAGQualityEvaluationInputError(
@@ -198,38 +199,24 @@ def _expected_nodes(graph: dict[str, Any], batch_id: str) -> list[tuple[str, Nod
     return expected_nodes
 
 
-def _validate_node_metric_boundary(
+def _validate_node_layer(
     node_output: QualityNodeEvaluation, layer: NodeLayer
 ) -> None:
-    """检查 C 节点不含依赖评分，I/O 节点必须完整提供依赖评分。"""
+    """按输入 DAG 层级确认节点使用了对应的严格评分 Schema。"""
 
-    dependency_fields = {"Dependency_Completeness", "Dependency_Correctness"}
-    supplied_dependency_fields = dependency_fields & node_output.model_fields_set
     if layer == "C":
-        if supplied_dependency_fields or (
-            node_output.Dependency_Completeness is not None
-            or node_output.Dependency_Correctness is not None
-        ):
+        if not isinstance(node_output, ConditionNodeEvaluation):
             raise DAGQualityEvaluationInputError(
-                f"C 节点 {node_output.node_id} 不得包含 Dependency 评分。"
+                f"C 节点 {node_output.node_id} 必须使用 C 节点评分结构。"
             )
         return
-    if supplied_dependency_fields != dependency_fields:
+    if not isinstance(node_output, ReasoningNodeEvaluation):
         raise DAGQualityEvaluationInputError(
-            f"{layer} 节点 {node_output.node_id} 必须包含两项 Dependency 评分。"
-        )
-    if (
-        node_output.Dependency_Completeness is None
-        or node_output.Dependency_Correctness is None
-    ):
-        raise DAGQualityEvaluationInputError(
-            f"{layer} 节点 {node_output.node_id} 的 Dependency 评分不能为 null。"
+            f"{layer} 节点 {node_output.node_id} 必须使用 I/O 节点评分结构。"
         )
 
 
-def _mean_score(
-    node_evaluations: list[QualityNodeEvaluation], field_name: str
-) -> float:
+def _mean_score(node_evaluations: list[QualityNodeEvaluation], field_name: str) -> float:
     """计算指定质量分数的算术平均值，并保留两位小数。"""
 
     values = [getattr(item, field_name) for item in node_evaluations]

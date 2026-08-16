@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any
+from typing import Annotated, Any, TypeAlias
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -17,17 +17,31 @@ class DAGQualityEvaluationInput(BaseModel):
     graph: dict[str, Any]
 
 
-class QualityNodeEvaluation(BaseModel):
-    """模型对一个 DAG 节点给出的质量评分。"""
+class ConditionNodeEvaluation(BaseModel):
+    """模型对 C 层条件节点给出的质量评分。"""
 
     model_config = ConfigDict(extra="forbid", allow_inf_nan=False)
 
-    node_id: str = Field(min_length=1)
+    node_id: Annotated[str, Field(min_length=3, pattern=r"^C_.+")]
     Information_Fidelity: float = Field(ge=0, le=10)
     Claim_Atomicity: float = Field(ge=0, le=10)
     Node_Type_Correctness: float = Field(ge=0, le=10)
-    Dependency_Completeness: float | None = Field(default=None, ge=0, le=10)
-    Dependency_Correctness: float | None = Field(default=None, ge=0, le=10)
+
+
+class ReasoningNodeEvaluation(BaseModel):
+    """模型对 I/O 层推理节点给出的质量评分。"""
+
+    model_config = ConfigDict(extra="forbid", allow_inf_nan=False)
+
+    node_id: Annotated[str, Field(min_length=1, pattern=r"^(?:I_.+|O(?:_.+)?)$")]
+    Information_Fidelity: float = Field(ge=0, le=10)
+    Claim_Atomicity: float = Field(ge=0, le=10)
+    Node_Type_Correctness: float = Field(ge=0, le=10)
+    Dependency_Completeness: float = Field(ge=0, le=10)
+    Dependency_Correctness: float = Field(ge=0, le=10)
+
+
+QualityNodeEvaluation: TypeAlias = ConditionNodeEvaluation | ReasoningNodeEvaluation
 
 
 class DAGQualityEvaluationOutput(BaseModel):
