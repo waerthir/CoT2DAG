@@ -144,7 +144,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "C_2",
@@ -152,7 +152,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "C_3",
@@ -216,7 +216,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "I_5",
@@ -301,7 +301,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "C_8",
@@ -373,7 +373,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "I_9",
@@ -588,7 +588,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "I_1",
@@ -878,7 +878,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "I_3",
@@ -976,7 +976,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "C_3",
@@ -1133,7 +1133,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "C_11",
@@ -1697,7 +1697,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "I_10",
@@ -1713,7 +1713,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "I_12",
@@ -1931,7 +1931,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "O",
@@ -2093,7 +2093,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "C_6",
@@ -2250,7 +2250,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "I_4",
@@ -2497,7 +2497,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "I_2",
@@ -2574,7 +2574,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "I_1",
@@ -2627,7 +2627,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "C_3",
@@ -2680,7 +2680,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "C_4",
@@ -2813,7 +2813,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "O",
@@ -3134,7 +3134,7 @@
           "annotator_b_is_correct": true,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "O",
@@ -3607,7 +3607,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         }
       ]
     },
@@ -3620,7 +3620,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "C_2",
@@ -4211,7 +4211,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": true,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": true
         },
         {
           "node_id": "C_3",
@@ -4243,7 +4243,7 @@
           "annotator_b_is_correct": false,
           "machine_is_correct": false,
           "requires_third_annotator": true,
-          "third_annotator_is_correct": null
+          "third_annotator_is_correct": false
         },
         {
           "node_id": "I_3",
