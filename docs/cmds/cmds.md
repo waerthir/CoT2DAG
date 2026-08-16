@@ -1321,3 +1321,203 @@ python scripts\sample_human_agreement_questions.py `
 
 
 
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\gemma-4-31b-it\combine.json `
+  data\dag-quality-eval-1\gemma-4-31b-it\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\glm-4.1v-9b\combine.json `
+  data\dag-quality-eval-1\glm-4.1v-9b\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\glm-5v-turbo\combine.json `
+  data\dag-quality-eval-1\glm-5v-turbo\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\gpt-5.6-sol-xhigh\combine.json `
+  data\dag-quality-eval-1\gpt-5.6-sol-xhigh\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\internvl3.5-38b\combine.json `
+  data\dag-quality-eval-1\internvl3.5-38b\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\llava-cot-11b\combine.json `
+  data\dag-quality-eval-1\llava-cot-11b\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\metis-rise-72b\combine.json `
+  data\dag-quality-eval-1\metis-rise-72b\combine_50_sample.json
+
+python scripts\filter_combine_by_sample_list.py `
+  data\dag-quality-eval-1\shared_human_agreement_50_random.json `
+  data\dag-quality-eval-1\nvlm-d-72b\combine.json `
+  data\dag-quality-eval-1\nvlm-d-72b\combine_50_sample.json
+
+
+
+
+
+
+
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_gemini.yaml
+
+
+
+
+
+
+
+
+
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_gemini.yaml
+
+
+
+
+
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli retry-failed --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli run --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+
+
+
+
+
+
+
+
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_grok.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_grok.yaml
+
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_gemini.yaml
+python -m src.tasks.dag_evaluation.cli export --config data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_gemini.yaml
+
+
+
+
+
+
+
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation.json `
+  data\dag-quality-eval-1\gemma-4-31b-it\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation.json `
+  data\dag-quality-eval-1\glm-4.1v-9b\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation.json `
+  data\dag-quality-eval-1\glm-5v-turbo\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation.json `
+  data\dag-quality-eval-1\gpt-5.6-sol-xhigh\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation.json `
+  data\dag-quality-eval-1\internvl3.5-38b\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\llava-cot-11b\dag_evaluation.json `
+  data\dag-quality-eval-1\llava-cot-11b\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\metis-rise-72b\dag_evaluation.json `
+  data\dag-quality-eval-1\metis-rise-72b\dag_evaluation_50_sample_human.json
+
+python scripts\merge_claim_judgments.py `
+  data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_50_sample_gemini.json `
+  data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_50_sample_grok.json `
+  data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation.json `
+  data\dag-quality-eval-1\nvlm-d-72b\dag_evaluation_50_sample_human.json
+
+
+
+  

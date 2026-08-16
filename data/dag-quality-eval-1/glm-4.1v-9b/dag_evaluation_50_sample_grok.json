@@ -1,0 +1,3556 @@
+[
+  {
+    "batch_id": "math/mathvision:mathvision00614:mathvision__open_a4b922fc93878ade87d00ae2__c023107839cb",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mathvision:mathvision01489:mathvision__open_1accaf1420ee0efc409bbefd__7adb6ceebbbe",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mm_math:mmmath00417:mm_math__open_96af2f0dd35efc0723d74f31__2bb666c2de6c",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mm_math:mmmath01359:mm_math__open_8f6a225d2fdcbb3336052a5e__5337aa31c5d6",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mm_math:mmmath03257:open_c97312618c830673eecf1c4b",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_15",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_16",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_17",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_18",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_13",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mathvision:mathvision00478:mathvision__open_ff65d5cc1c910039f4668978__56ff7c02e42c",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mathvision:mathvision00710:mathvision__open_1115d08ebb518068d9d3b5b9__5fe51d22e2b5",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "math/geometry3k:geometry3k00426:geometry3k__open_144727762d4bc678fccdd83b__d0205871369c",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "math/mm_math:mmmath00590:mm_math__open_78587cd5da3d3523970448f4__a7befd5d3229",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_13",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/multi_physics:multiphysics00007:open_6faf3b0d9dbb409cb5828a02",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/multi_physics:multiphysics00343__variant2_open_a7201f7d2859daf03f138495:multi_physics__open_a7201f7d2859daf03f138495__a3529960bf06",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/physreason:physreason00246:physreason__open_ac354794aae2630f6b4925ce__c8f6b34c1f4f",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/physreason:physreason00893:open_29bc6bd1f8a719de681ebfd8",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/multi_physics:multiphysics00485__variant2_open_ae55bddbf6258c49d1df8f9e:multi_physics__open_ae55bddbf6258c49d1df8f9e__c3bde05e3a96",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/physreason:physreason00719:open_e3615ff6daae2d748344546a",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/physreason:physreason00818:open_390867904287c4ccc58c2a34",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "physics/physreason:physreason00895:open_38f4db2d1c93e1c9c6e7a5f9",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench00992:eee_bench__open_0e6a154c59a310ff390f5cc6__9631c7f3e138",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01490:eee_bench__open_55a7c01d404dc1fbbcdb8604__5cecfa3807ee",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_15",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01492:eee_bench__open_533a42732ddf934708e8a3d5__4b4f425ab06b",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench00379:eee_bench__open_b636057088112b000d84efc7__cebacc253d2b",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench00643:eee_bench__open_67ac38c43177fa2bfc16da26__7661612aab39",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01079:eee_bench__open_62691fca85ee74d35f2e7273__31dff478d1a9",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01831:eee_bench__open_14d79ac3c763a2d0f9e72798__5e51a83d2ab9",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01883:eee_bench__open_60b37f8b06b21f515124e6eb__0b532f87f705",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_15",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_16",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_17",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_18",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_19",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_20",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_21",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_22",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01011:eee_bench__open_7659e717d4106922026e1c80__7dadaaa8362d",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01567:eee_bench__open_232d9e329cfb76de8b7e0f82__be08aabdd11f",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "circuit/eee_bench:eeebench01686:eee_bench__open_05be227e1bc94f752c060b9e__4aacba77d798",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_15",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_16",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_12",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "chemistry/emma_chemistry:emmachemistry00273:emma_chemistry__open_039bcf16d65ce18c797d9e91__e8db0c1634bd",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "chemistry/emma_chemistry:emmachemistry00390:emma_chemistry__open_d41aecfbd37c49ca32b55ec8__77e94bdca434",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "chemistry/emma_chemistry:emmachemistry00467:emma_chemistry__open_75a073ee63b3de7824f2833f__9ea060e9e9ad",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "chemistry/emma_chemistry:emmachemistry00475:emma_chemistry__open_c9e3cc4dabe24a7b290b3327__c2b670531bab",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "chemistry/emma_chemistry:emmachemistry00540:emma_chemistry__open_d0bf737baf39ffe03286c32b__18573f65224a",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "chemistry/emma_chemistry:emmachemistry00216:emma_chemistry__open_b3c560991e82c5acb3130e2e__e43e91750dd5",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00459__variant2_open_2b44570bd79d22493aaa4554:geosqa__open_2b44570bd79d22493aaa4554__dce9744457a1",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00475:geosqa__open_e4a3a364da229af6bceb2e34__afa2af4c88c0",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00501:geosqa__open_4959d81cb36b9596b4ea0a07__80c5f89c1147",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00697__variant3_open_b8c09300dc051f1205d46713:geosqa__open_b8c09300dc051f1205d46713__6ce9326635c2",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00942:geosqa__open_07a129feb32fd6cd5b0bef84__be023f68fc58",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00339:geosqa__open_b7b9e170779ac87d3b3d6d2f__80268cdc2f65",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "geography/geosqa:geosqa00804:geosqa__open_10856aa9ef85ade19c0f1e61__1c7d0ab3e7f4",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_13",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_14",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_15",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_16",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_17",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_18",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/ai2d_biology:ai2d_biology00390:open_3fc1c0bcb5967405c022a8e5",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/ai2d_biology:ai2d_biology00635:open_ed8b823ec48cfb1b0f36aaf5",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/biology_supplement:biology_supplement00028:prob_biology_supplement_00028",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/biology_supplement:biology_supplement00109:prob_biology_supplement_00109",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_9",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_10",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_11",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_12",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/scemqa_biology:scemqabiology00007:scemqa_biology__open_f76a9403176697e63d429905__083c51927bfd",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_7",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/ai2d_biology:ai2d_biology00323:open_8c7e42783ef71aae9072517a",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/ai2d_biology:ai2d_biology00536:open_76bd50b513c4b8116012f792",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": false
+      },
+      {
+        "node_id": "O",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/biology_supplement:biology_supplement00101:prob_biology_supplement_00101",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "batch_id": "biology/sciverse_biology:sciversebiology00204:sciverse_biology__open_48230ff7cc99e7074e63caff__e2bdab29b401",
+    "node_evaluations": [
+      {
+        "node_id": "C_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_5",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_6",
+        "is_correct": false
+      },
+      {
+        "node_id": "C_7",
+        "is_correct": true
+      },
+      {
+        "node_id": "C_8",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_1",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_2",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_3",
+        "is_correct": true
+      },
+      {
+        "node_id": "I_4",
+        "is_correct": true
+      },
+      {
+        "node_id": "O",
+        "is_correct": true
+      }
+    ]
+  }
+]
